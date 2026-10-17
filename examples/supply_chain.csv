@@ -1,0 +1,4 @@
+entity,supplier,risk_score,region
+TSMC,ASML,0.92,Asia
+Intel,AppliedMaterials,0.78,Americas
+GlobalFoundries,Canon,0.65,Americas

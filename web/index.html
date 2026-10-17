@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GraphNexus 3D</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0b0b12; color:#e6e6fa; font-family: 'Courier New', monospace; overflow:hidden; }
+  #3d-graph { width:100vw; height:100vh; }
+  #sidebar { position:fixed; top:20px; left:20px; background:#0f0f17; border:1px solid #2a2a40; padding:20px; border-radius:8px; min-width:260px; box-shadow: 0 0 20px rgba(0,255,200,0.15); }
+  #sidebar h2 { font-size:14px; letter-spacing:2px; color:#00ffc8; margin-bottom:14px; text-transform:uppercase; }
+  .metric { display:flex; justify-content:space-between; border-bottom:1px solid #1a1a2a; padding:6px 0; font-size:13px; }
+  .metric span:last-child { color:#00ffc8; }
+  .ctrl { margin-top:10px; }
+  .ctrl label { display:block; font-size:11px; color:#888; margin-bottom:4px; }
+  .ctrl select, .ctrl input[type="range"], .ctrl input[type="text"] { width:100%; background:#0b0b12; color:#e6e6fa; border:1px solid #2a2a40; border-radius:4px; padding:6px; font-family:inherit; }
+  .ctrl button { margin-top:10px; width:100%; padding:8px; background:#00ffc8; color:#0b0b12; border:none; border-radius:4px; font-weight:bold; cursor:pointer; }
+</style>
+<script src="https://unpkg.com/3d-force-graph@1.73.0/dist/3d-force-graph.min.js"></script>
+</head>
+<body>
+<div id="3d-graph"></div>
+<div id="sidebar">
+  <h2>Graph Metrics</h2>
+  <div class="metric"><span>Nodes</span><span id="m-nodes">-</span></div>
+  <div class="metric"><span>Edges</span><span id="m-edges">-</span></div>
+  <div class="metric"><span>Density</span><span id="m-density">-</span></div>
+  <div class="ctrl">
+    <label for="community-filter">Community Filter</label>
+    <select id="community-filter"><option value="all">All</option></select>
+  </div>
+  <div class="ctrl">
+    <label for="weight-slider">Weight Threshold</label>
+    <input type="range" id="weight-slider" min="0" max="5" step="0.1" value="0" />
+  </div>
+  <div class="ctrl">
+    <label for="node-search">Node Search</label>
+    <input type="text" id="node-search" placeholder="Node ID..." />
+  </div>
+  <button id="reset-cam">Reset Camera</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

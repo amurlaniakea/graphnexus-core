@@ -1,0 +1,5 @@
+repo_name,co_contributor,stars,language
+react,facebook,210000,JavaScript
+vue,vuejs,205000,JavaScript
+rust,rust-lang,95000,Rust
+kubernetes,cncf,110000,Go
