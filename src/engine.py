@@ -77,9 +77,10 @@ class UniversalGraphEngine:
                         G[s][t]["weight"] += weight
                     else:
                         G.add_edge(s, t, weight=weight)
-        elif (
-            self.business_rule_col is not None and self.business_rule_col in df.columns
-        ):
+        elif self.business_rule_col is not None and self.business_rule_col in df.columns:
+            # ADVERTENCIA: Complejidad O(n^2) por grupo. Para grupos >1000 nodos,
+            # considerar muestreo o estrategia de conexión alternativa para evitar
+            # explosión de memoria (clique completo dentro de cada comunidad).
             groups = df.groupby(self.business_rule_col)
             for _, group_df in groups:
                 ids = group_df[self.node_col].astype(str).tolist()

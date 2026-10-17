@@ -7,7 +7,7 @@ Topics: `graph`, `network-analysis`, `3d-visualization`, `python`, `pydantic`, `
 ## Quick Start
 
 ```bash
-pip install pandas networkx pydantic pytest
+pip install -r requirements.txt
 git clone <repo>
 python main.py --input data.csv --node-id name --attributes "stars,lang"
 ```
