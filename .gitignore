@@ -1,1 +1,10 @@
+.venv/
+.hermes/
+.gnupg/
+.aws/
+credentials/
+__pycache__/
+*.egg-info/
+dist/
+build/
 .bb-browser/
