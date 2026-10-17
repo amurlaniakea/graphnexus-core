@@ -1,19 +1,38 @@
+# SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copyright (C) 2026 Pedro Sordo Martínez
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public
+# License along with this program. If not, see
+# <https://www.gnu.org/licenses/>.
+
 """GraphNexus engine - local graph abstraction from tabular data."""
 
 from __future__ import annotations
 
 from pathlib import Path
-from typing import List, Optional, Union
 
-import pandas as pd
 import networkx as nx
-from pydantic import BaseModel, Field
+import pandas as pd
 from networkx.algorithms import community
+from pydantic import BaseModel, Field
 
 
 class Node(BaseModel):
     id: str
-    group: Union[str, int]
+    group: str | int
     attributes: dict = Field(default_factory=dict)
 
 
@@ -24,18 +43,18 @@ class Edge(BaseModel):
 
 
 class GraphOutput(BaseModel):
-    nodes: List[Node]
-    edges: List[Edge]
+    nodes: list[Node]
+    edges: list[Edge]
 
 
 class UniversalGraphEngine:
     def __init__(
         self,
-        source_path: Union[str, Path],
+        source_path: str | Path,
         node_col: str,
-        target_col: Optional[str] = None,
-        attr_cols: Optional[List[str]] = None,
-        business_rule_col: Optional[str] = None,
+        target_col: str | None = None,
+        attr_cols: list[str] | None = None,
+        business_rule_col: str | None = None,
     ):
         self.source_path = Path(source_path)
         self.node_col = node_col
