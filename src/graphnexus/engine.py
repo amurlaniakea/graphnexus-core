@@ -121,6 +121,9 @@ class UniversalGraphEngine:
                         else:
                             G.add_edge(center, node, weight=1.0)
 
+        # Degree centrality for web visualization
+        centrality_map = nx.degree_centrality(G)
+
         # Louvain communities
         communities = community.louvain_communities(G, seed=42)
         group_map = {}
@@ -133,7 +136,7 @@ class UniversalGraphEngine:
             Node(
                 id=str(nid),
                 group=group_map.get(str(nid), -1),
-                attributes=nodes.get(str(nid), {}),
+                attributes={**nodes.get(str(nid), {}), "centrality": float(centrality_map.get(str(nid), 0.0))},
             )
             for nid in G.nodes()
         ]
