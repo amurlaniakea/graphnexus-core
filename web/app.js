@@ -19,8 +19,19 @@
   }
   document.getElementById('meta-col-list').innerHTML = colText;
   document.getElementById('meta-col-list').addEventListener('click', (e) => {
-    if (e.target.id === 'show-cols-btn' && cols.length > maxVisible) {
-      document.getElementById('meta-col-list').textContent = cols.join(', ');
+    if (e.target.id === 'show-cols-btn') {
+      const container = document.getElementById('meta-col-list');
+      if (container.dataset.expanded === 'true') {
+        container.innerHTML = visibleCols + ` <button id="show-cols-btn" style="font-size:9px;background:#00ffc8;color:#0b0b12;border:none;padding:2px 4px;border-radius:3px;cursor:pointer;">Ver +${hiddenCount}</button>`;
+        container.dataset.expanded = 'false';
+      } else {
+        container.innerHTML = cols.join(', ') + ` <button id="hide-cols-btn" style="font-size:9px;background:#ff2a6a;color:#fff;border:none;padding:2px 4px;border-radius:3px;cursor:pointer;">Ver -</button>`;
+        container.dataset.expanded = 'true';
+      }
+    } else if (e.target.id === 'hide-cols-btn') {
+      const container = document.getElementById('meta-col-list');
+      container.innerHTML = visibleCols + ` <button id="show-cols-btn" style="font-size:9px;background:#00ffc8;color:#0b0b12;border:none;padding:2px 4px;border-radius:3px;cursor:pointer;">Ver +${hiddenCount}</button>`;
+      container.dataset.expanded = 'false';
     }
   });
   const n = payload.metadata.node_count;
