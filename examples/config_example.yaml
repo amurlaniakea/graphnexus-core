@@ -3,3 +3,4 @@ node_id: repo_name
 target: co_contributor
 attributes: stars,language
 export_format: json
+community_algo: leiden

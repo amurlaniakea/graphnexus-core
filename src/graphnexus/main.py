@@ -27,6 +27,12 @@ def parse_args():
     parser.add_argument("--config", default=None, help="Path to YAML config file")
     parser.add_argument("--export-format", default="json", choices=["json", "gexf", "graphml"], help="Export format")
     parser.add_argument("--theme", default=None, help="Dataset theme/description")
+    parser.add_argument(
+        "--community-algo",
+        choices=["louvain", "leiden"],
+        default="leiden",
+        help="Community detection algorithm (default: leiden)"
+    )
     args = parser.parse_args()
     if args.config:
         with open(args.config) as f:
@@ -59,6 +65,7 @@ def main():
             node_col=args.node_id,
             target_col=args.target,
             attr_cols=attr_cols,
+            community_algo=args.community_algo,
         )
         output = engine.build()
         if args.export_format == "json":

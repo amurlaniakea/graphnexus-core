@@ -5,7 +5,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://img.shields.io/pypi/v/graphnexus-core.svg)](https://pypi.org/project/graphnexus-core/)
 
-Agnostic framework that transforms any tabular dataset (CSV/JSON) into a formal graph structure (Nodes/Edges), ready for network analytics and interactive 3D visualization.
+Agnostic framework that transforms any tabular dataset (CSV/JSON) into a formal graph structure (Nodes/Edges), ready for network analytics and interactive 3D visualization. Uses **Leiden** algorithm by default for community detection (faster and more robust), with backward compatibility for **Louvain** (`--community-algo louvain`).
 
 ## ✨ Features
 

@@ -56,12 +56,14 @@ class UniversalGraphEngine:
         target_col: str | None = None,
         attr_cols: list[str] | None = None,
         business_rule_col: str | None = None,
+        community_algo: str = "leiden",
     ):
         self.source_path = Path(source_path)
         self.node_col = node_col
         self.target_col = target_col
         self.attr_cols = attr_cols or []
         self.business_rule_col = business_rule_col
+        self.community_algo = community_algo
 
     def load_data(self) -> pd.DataFrame:
         path = self.source_path
@@ -124,8 +126,11 @@ class UniversalGraphEngine:
         # Degree centrality for web visualization
         centrality_map = nx.degree_centrality(G)
 
-        # Louvain communities
-        communities = community.louvain_communities(G, seed=42)
+        # Community detection (Leiden or Louvain)
+        if self.community_algo == "leiden":
+            communities = community.leiden_communities(G, seed=42)
+        else:
+            communities = community.louvain_communities(G, seed=42)
         group_map = {}
         for idx, comm in enumerate(communities):
             for nid in comm:

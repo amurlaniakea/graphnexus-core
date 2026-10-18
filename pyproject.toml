@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "graphnexus-core"
-version = "0.2.0"
+version = "0.4.0"
 description = "Agnostic framework transforming tabular datasets into interactive 3D graphs with Louvain community detection."
 readme = "README.md"
 license = "AGPL-3.0-or-later"
@@ -12,7 +12,7 @@ authors = [{name = "Pedro Sordo Martínez", email = "amurlaniakea@gmail.com"}]
 requires-python = ">=3.11"
 dependencies = [
   "pandas>=2.0.0",
-  "networkx>=3.0",
+  "networkx>=3.2",
   "pydantic>=2.0.0",
   "pyyaml>=6.0",
 ]
