@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
+from __future__ import annotations
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #
@@ -20,7 +21,6 @@
 
 """GraphNexus pipeline: export GraphOutput to web-consumable JSON."""
 
-from __future__ import annotations
 
 import json
 from datetime import UTC, datetime

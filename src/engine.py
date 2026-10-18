@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
+from __future__ import annotations
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #
@@ -20,7 +21,7 @@
 
 """GraphNexus engine - local graph abstraction from tabular data."""
 
-from __future__ import annotations
+import logging
 
 from pathlib import Path
 
@@ -100,13 +101,24 @@ class UniversalGraphEngine:
             # ADVERTENCIA: Complejidad O(n^2) por grupo. Para grupos >1000 nodos,
             # considerar muestreo o estrategia de conexión alternativa para evitar
             # explosión de memoria (clique completo dentro de cada comunidad).
+            max_nodes = 100
+            max_edges_per_node = 5
             groups = df.groupby(self.business_rule_col)
             for _, group_df in groups:
                 ids = group_df[self.node_col].astype(str).tolist()
-                for i in range(len(ids)):
+                if len(ids) > max_nodes:
+                    logging.warning(
+                        f"Business rule group exceeds {max_nodes} nodes ({len(ids)}); "
+                        f"limiting edges per node to {max_edges_per_node} to prevent O(n^2) explosion."
+                    )
+                for i in range(min(len(ids), max_nodes)):
+                    connected = 0
                     for j in range(i + 1, len(ids)):
+                        if connected >= max_edges_per_node:
+                            break
                         s, t = ids[i], ids[j]
                         G.add_edge(s, t, weight=1.0)
+                        connected += 1
 
         # Louvain communities
         communities = community.louvain_communities(G, seed=42)
