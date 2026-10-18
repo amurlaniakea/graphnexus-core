@@ -1,29 +1,16 @@
 #!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
-#
 # Copyright (C) 2026 Pedro Sordo Martínez
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public
-# License along with this program. If not, see
-# <https://www.gnu.org/licenses/>.
 
 """GraphNexus CLI entrypoint."""
 
 import argparse
 import sys
 from pathlib import Path
+
+import yaml
+import networkx as nx
 
 from graphnexus.engine import UniversalGraphEngine
 from graphnexus.pipeline import export_graph_to_web
@@ -33,17 +20,29 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="GraphNexus: tabular to interactive 3D graph."
     )
-    parser.add_argument("--input", required=True, help="Path to CSV/JSON dataset")
-    parser.add_argument(
-        "--node-id", required=True, help="Column name for node identity"
-    )
-    parser.add_argument(
-        "--target", default=None, help="Column name for direct connection (optional)"
-    )
-    parser.add_argument(
-        "--attributes", default="", help="Comma-separated metadata columns"
-    )
-    return parser.parse_args()
+    parser.add_argument("--input", default=None, help="Path to CSV/JSON dataset")
+    parser.add_argument("--node-id", default=None, help="Column name for node identity")
+    parser.add_argument("--target", default=None, help="Column name for direct connection (optional)")
+    parser.add_argument("--attributes", default="", help="Comma-separated metadata columns")
+    parser.add_argument("--config", default=None, help="Path to YAML config file")
+    parser.add_argument("--export-format", default="json", choices=["json", "gexf", "graphml"], help="Export format")
+    args = parser.parse_args()
+    if args.config:
+        with open(args.config) as f:
+            cfg = yaml.safe_load(f) or {}
+        if args.input is None:
+            args.input = cfg.get("input")
+        if args.node_id is None:
+            args.node_id = cfg.get("node_id")
+        if args.target is None:
+            args.target = cfg.get("target")
+        if args.attributes == "":
+            args.attributes = cfg.get("attributes", "")
+        if args.export_format == "json" and cfg.get("export_format"):
+            args.export_format = cfg["export_format"]
+    if not args.input or not args.node_id:
+        parser.error("--input and --node-id are required (or set via --config)")
+    return args
 
 
 def main():
@@ -61,7 +60,15 @@ def main():
             attr_cols=attr_cols,
         )
         output = engine.build()
-        file_path = export_graph_to_web(output, output_dir="web/data")
+        if args.export_format == "json":
+            file_path = export_graph_to_web(output, output_dir="web/data")
+        else:
+            G_export = nx.Graph()
+            for n in output.nodes:
+                G_export.add_node(str(n.id), group=str(n.group), **n.attributes)
+            for e in output.edges:
+                G_export.add_edge(str(e.source), str(e.target), weight=e.weight)
+            file_path = engine.export(G_export, "web/data/graph", fmt=args.export_format)
         print(f"Graph exported: {file_path}")
         print(f"Nodes: {len(output.nodes)} | Edges: {len(output.edges)}")
     except Exception as exc:

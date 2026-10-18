@@ -142,3 +142,15 @@ class UniversalGraphEngine:
             for u, v in G.edges()
         ]
         return GraphOutput(nodes=out_nodes, edges=out_edges)
+
+    def export(self, G: nx.Graph, output_path: str, fmt: str = "json") -> str:
+        p = Path(output_path)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        if fmt in ("gexf", "graphml"):
+            out_file = p.with_suffix("." + fmt)
+            if fmt == "gexf":
+                nx.write_gexf(G, str(out_file))
+            else:
+                nx.write_graphml(G, str(out_file))
+            return str(out_file)
+        return str(p)
