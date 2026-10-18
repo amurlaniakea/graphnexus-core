@@ -1,785 +1,7061 @@
 {
   "metadata": {
-    "generated_at": "2026-10-18T12:43:18.970041+00:00",
-    "node_count": 60,
-    "edge_count": 59
+    "generated_at": "2026-10-18T21:32:59.263205+00:00",
+    "node_count": 504,
+    "edge_count": 503
   },
   "nodes": [
     {
-      "id": "Chalarangelo/30-seconds-of-code",
+      "id": "0.00632",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 128844
+        "ZN": 18.0,
+        "MEDV": 24.0,
+        "centrality": 0.9324055666003975
       }
     },
     {
-      "id": "unionlabs/union",
+      "id": "0.02731",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 73824
+        "ZN": 0.0,
+        "MEDV": 21.6,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "withastro/astro",
+      "id": "0.02729",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 62104
+        "ZN": 0.0,
+        "MEDV": 34.7,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "yoavbls/pretty-ts-errors",
+      "id": "0.03237",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 14105
+        "ZN": 0.0,
+        "MEDV": 33.4,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "emdash-cms/emdash",
+      "id": "0.06905",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 12012
+        "ZN": 0.0,
+        "MEDV": 36.2,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "uidotdev/usehooks",
+      "id": "0.02985",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 11503
+        "ZN": 0.0,
+        "MEDV": 28.7,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "withastro/starlight",
+      "id": "0.08829",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 9137
+        "ZN": 12.5,
+        "MEDV": 22.9,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "anse-app/chatgpt-demo",
+      "id": "0.14455",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 7935
+        "ZN": 12.5,
+        "MEDV": 27.1,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "arthelokyo/astrowind",
+      "id": "0.21124",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 5916
+        "ZN": 12.5,
+        "MEDV": 16.5,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "satnaing/astro-paper",
+      "id": "0.17004",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 5000
+        "ZN": 12.5,
+        "MEDV": 18.9,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "saicaca/fuwari",
+      "id": "0.22489",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 4955
+        "ZN": 12.5,
+        "MEDV": 15.0,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "babaohuang/GeminiProChat",
+      "id": "0.11747",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 4882
+        "ZN": 12.5,
+        "MEDV": 18.9,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "appcypher/awesome-wasm-langs",
+      "id": "0.09378",
       "group": 0,
       "attributes": {
-        "group": 0,
-        "stars": 4440
+        "ZN": 12.5,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "hunvreus/pagescms",
+      "id": "0.62976",
       "group": 0,
       "attributes": {
-        "group": 1,
-        "stars": 3947
+        "ZN": 0.0,
+        "MEDV": 20.4,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "django/django",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 89028
-      }
-    },
-    {
-      "id": "makeplane/plane",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 58431
-      }
-    },
-    {
-      "id": "LeCoupa/awesome-cheatsheets",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 46408
-      }
-    },
-    {
-      "id": "paperless-ngx/paperless-ngx",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 44660
-      }
-    },
-    {
-      "id": "getsentry/sentry",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 44629
-      }
-    },
-    {
-      "id": "jumpserver/jumpserver",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 31462
-      }
-    },
-    {
-      "id": "encode/django-rest-framework",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 30148
-      }
-    },
-    {
-      "id": "netbox-community/netbox",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 21404
-      }
-    },
-    {
-      "id": "wagtail/wagtail",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 20465
-      }
-    },
-    {
-      "id": "suitenumerique/docs",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 16755
-      }
-    },
-    {
-      "id": "ansible/awx",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 15537
-      }
-    },
-    {
-      "id": "cookiecutter/cookiecutter-django",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 13601
-      }
-    },
-    {
-      "id": "Miserlou/Zappa",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 11822
-      }
-    },
-    {
-      "id": "wsvincent/awesome-django",
-      "group": 1,
-      "attributes": {
-        "group": 1,
-        "stars": 11221
-      }
-    },
-    {
-      "id": "django-cms/django-cms",
-      "group": 1,
-      "attributes": {
-        "group": 0,
-        "stars": 10667
-      }
-    },
-    {
-      "id": "fastapi/fastapi",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 101892
-      }
-    },
-    {
-      "id": "headroomlabs-ai/headroom",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 67849
-      }
-    },
-    {
-      "id": "fastapi/full-stack-fastapi-template",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 45210
-      }
-    },
-    {
-      "id": "mouredev/Hello-Python",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 37156
-      }
-    },
-    {
-      "id": "jina-ai/serve",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 21860
-      }
-    },
-    {
-      "id": "Zeyi-Lin/HivisionIDPhotos",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 21440
-      }
-    },
-    {
-      "id": "Evil0ctal/Douyin_TikTok_Download_API",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 19695
-      }
-    },
-    {
-      "id": "fastapi/sqlmodel",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 18290
-      }
-    },
-    {
-      "id": "zhanymkanov/fastapi-best-practices",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 17974
-      }
-    },
-    {
-      "id": "MODSetter/SurfSense",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 16029
-      }
-    },
-    {
-      "id": "DataTalksClub/machine-learning-zoomcamp",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 14037
-      }
-    },
-    {
-      "id": "JoeanAmier/XHS-Downloader",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 12499
-      }
-    },
-    {
-      "id": "tadata-org/fastapi_mcp",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 11987
-      }
-    },
-    {
-      "id": "coleifer/peewee",
-      "group": 2,
-      "attributes": {
-        "group": 0,
-        "stars": 11986
-      }
-    },
-    {
-      "id": "mjhea0/awesome-fastapi",
-      "group": 2,
-      "attributes": {
-        "group": 1,
-        "stars": 11630
-      }
-    },
-    {
-      "id": "zeromicro/go-zero",
-      "group": 3,
-      "attributes": {
-        "group": 0,
-        "stars": 33281
-      }
-    },
-    {
-      "id": "labstack/echo",
-      "group": 3,
-      "attributes": {
-        "group": 1,
-        "stars": 32667
-      }
-    },
-    {
-      "id": "kataras/iris",
-      "group": 3,
-      "attributes": {
-        "group": 0,
-        "stars": 25558
-      }
-    },
-    {
-      "id": "gofr-dev/gofr",
-      "group": 3,
-      "attributes": {
-        "group": 1,
-        "stars": 20967
-      }
-    },
-    {
-      "id": "revel/revel",
-      "group": 3,
-      "attributes": {
-        "group": 0,
-        "stars": 13219
-      }
-    },
-    {
-      "id": "gobuffalo/buffalo",
-      "group": 3,
-      "attributes": {
-        "group": 1,
-        "stars": 8413
-      }
-    },
-    {
-      "id": "Astro",
+      "id": "0.63796",
       "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 18.2,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "Django",
+      "id": "0.62739",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.05393",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.7842",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.80271",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.7258",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.25179",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.85204",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.23247",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.98843",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.75026",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.84054",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.67191",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.95577",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.77299",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.00245",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.13081",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.35472",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.38799",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.15172",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.61282",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06417",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09744",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08014",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17505",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02763",
+      "group": 0,
+      "attributes": {
+        "ZN": 75.0,
+        "MEDV": 30.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03359",
+      "group": 0,
+      "attributes": {
+        "ZN": 75.0,
+        "MEDV": 34.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12744",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 26.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1415",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.15936",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12269",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17142",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.18836",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.22927",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.25387",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.21977",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08873",
+      "group": 0,
+      "attributes": {
+        "ZN": 21.0,
+        "MEDV": 19.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04337",
+      "group": 0,
+      "attributes": {
+        "ZN": 21.0,
+        "MEDV": 20.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0536",
+      "group": 0,
+      "attributes": {
+        "ZN": 21.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04981",
+      "group": 0,
+      "attributes": {
+        "ZN": 21.0,
+        "MEDV": 23.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0136",
+      "group": 0,
+      "attributes": {
+        "ZN": 75.0,
+        "MEDV": 18.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01311",
+      "group": 0,
+      "attributes": {
+        "ZN": 90.0,
+        "MEDV": 35.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02055",
+      "group": 0,
+      "attributes": {
+        "ZN": 85.0,
+        "MEDV": 24.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01432",
+      "group": 0,
+      "attributes": {
+        "ZN": 100.0,
+        "MEDV": 31.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.15445",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 23.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10328",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 19.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.14932",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 18.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17171",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 16.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11027",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 22.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1265",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01951",
+      "group": 0,
+      "attributes": {
+        "ZN": 17.5,
+        "MEDV": 33.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03584",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 23.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04379",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 19.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05789",
+      "group": 0,
+      "attributes": {
+        "ZN": 12.5,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13554",
+      "group": 0,
+      "attributes": {
+        "ZN": 12.5,
+        "MEDV": 17.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12816",
+      "group": 0,
+      "attributes": {
+        "ZN": 12.5,
+        "MEDV": 20.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08826",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.15876",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09164",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.19539",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07896",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09512",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10153",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08707",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05646",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08387",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04113",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 28.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04462",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 23.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03659",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 24.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03551",
+      "group": 0,
+      "attributes": {
+        "ZN": 25.0,
+        "MEDV": 22.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05059",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05735",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 26.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05188",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07151",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0566",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05302",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 28.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04684",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03932",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04203",
+      "group": 0,
+      "attributes": {
+        "ZN": 28.0,
+        "MEDV": 22.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02875",
+      "group": 0,
+      "attributes": {
+        "ZN": 28.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04294",
+      "group": 0,
+      "attributes": {
+        "ZN": 28.0,
+        "MEDV": 20.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12204",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 28.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11504",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12083",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 38.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08187",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 43.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0686",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 33.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.14866",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11432",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 26.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.22876",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.21161",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1396",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13262",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1712",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13117",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12802",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.26363",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10793",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10084",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12329",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.22212",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.14231",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17134",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13158",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.15098",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13058",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.14476",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06899",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07165",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09299",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.15038",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09849",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.16902",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.38735",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.25915",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.32543",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.88125",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.34006",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.19294",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.59005",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.32982",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.97617",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.55778",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.32264",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.35233",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.2498",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.54452",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.2909",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.62864",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.32105",
       "group": 1,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 13.4,
+        "centrality": 0.06759443339960237
       }
     },
     {
-      "id": "FastAPI",
-      "group": 2,
+      "id": "4.0974",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 15.6,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "Go Web",
-      "group": 3,
+      "id": "2.77974",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 11.8,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "Laravel",
-      "group": 3,
+      "id": "2.37934",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 13.8,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "Next.js",
-      "group": 3,
+      "id": "2.15505",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 15.6,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "React",
-      "group": 3,
+      "id": "2.36862",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 14.6,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "Rust Web",
-      "group": 3,
+      "id": "2.33099",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 17.8,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "SvelteKit",
-      "group": 3,
+      "id": "2.73397",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 15.4,
+        "centrality": 0.0019880715705765406
       }
     },
     {
-      "id": "Vue",
-      "group": 3,
+      "id": "1.6566",
+      "group": 0,
       "attributes": {
-        "group": 2,
-        "stars": 0
+        "ZN": 0.0,
+        "MEDV": 21.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.49632",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.12658",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.14918",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.41385",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.53501",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.44668",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.22358",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 41.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.34284",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.42502",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.27346",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.46336",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.83377",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.51902",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.24236",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.924",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.01019",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.80028",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.3004",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.44953",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "1.20742",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.3139",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13914",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09178",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08447",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06664",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 29.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07022",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05425",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06642",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 29.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0578",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 37.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06588",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 39.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06888",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 36.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09103",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 37.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10008",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 32.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08308",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 26.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06047",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 29.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05602",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07875",
+      "group": 0,
+      "attributes": {
+        "ZN": 45.0,
+        "MEDV": 32.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12579",
+      "group": 0,
+      "attributes": {
+        "ZN": 45.0,
+        "MEDV": 29.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0837",
+      "group": 0,
+      "attributes": {
+        "ZN": 45.0,
+        "MEDV": 34.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09068",
+      "group": 0,
+      "attributes": {
+        "ZN": 45.0,
+        "MEDV": 37.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06911",
+      "group": 0,
+      "attributes": {
+        "ZN": 45.0,
+        "MEDV": 30.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08664",
+      "group": 0,
+      "attributes": {
+        "ZN": 45.0,
+        "MEDV": 36.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02187",
+      "group": 0,
+      "attributes": {
+        "ZN": 60.0,
+        "MEDV": 31.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01439",
+      "group": 0,
+      "attributes": {
+        "ZN": 60.0,
+        "MEDV": 29.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01381",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04011",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 33.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04666",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 30.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03768",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 34.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0315",
+      "group": 0,
+      "attributes": {
+        "ZN": 95.0,
+        "MEDV": 34.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01778",
+      "group": 0,
+      "attributes": {
+        "ZN": 95.0,
+        "MEDV": 32.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03445",
+      "group": 0,
+      "attributes": {
+        "ZN": 82.5,
+        "MEDV": 24.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02177",
+      "group": 0,
+      "attributes": {
+        "ZN": 82.5,
+        "MEDV": 42.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0351",
+      "group": 0,
+      "attributes": {
+        "ZN": 95.0,
+        "MEDV": 48.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02009",
+      "group": 0,
+      "attributes": {
+        "ZN": 95.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13642",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.22969",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.25199",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.13587",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.43571",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17446",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.37578",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.21719",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.14052",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 28.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.28955",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.19802",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0456",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07013",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 28.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11069",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11425",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.35809",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 26.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.40771",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.62356",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.6147",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 30.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.31533",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 44.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.52693",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.38214",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 37.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.41238",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 31.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.29819",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 46.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.44178",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 31.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.537",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.46296",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 31.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.57529",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 41.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.33147",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 48.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.44791",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 29.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.33045",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.52058",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.51183",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 31.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08244",
+      "group": 0,
+      "attributes": {
+        "ZN": 30.0,
+        "MEDV": 23.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09252",
+      "group": 0,
+      "attributes": {
+        "ZN": 30.0,
+        "MEDV": 23.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11329",
+      "group": 0,
+      "attributes": {
+        "ZN": 30.0,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10612",
+      "group": 0,
+      "attributes": {
+        "ZN": 30.0,
+        "MEDV": 20.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1029",
+      "group": 0,
+      "attributes": {
+        "ZN": 30.0,
+        "MEDV": 22.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12757",
+      "group": 0,
+      "attributes": {
+        "ZN": 30.0,
+        "MEDV": 23.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.20608",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 17.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.19133",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 18.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.33983",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 24.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.19657",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 20.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.16439",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 24.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.19073",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 26.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1403",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 24.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.21409",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 24.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08221",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 29.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.36894",
+      "group": 0,
+      "attributes": {
+        "ZN": 22.0,
+        "MEDV": 42.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04819",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 21.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03548",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 20.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01538",
+      "group": 0,
+      "attributes": {
+        "ZN": 90.0,
+        "MEDV": 44.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.61154",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.66351",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 36.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.65665",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 30.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.54011",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 33.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.53412",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 43.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.52014",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 48.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.82526",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 31.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.55007",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 36.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.76162",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 22.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.7857",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 30.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.57834",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.5405",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 43.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09065",
+      "group": 1,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 20.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.29916",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 21.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.16211",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 25.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1146",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 24.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.22188",
+      "group": 1,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 35.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05644",
+      "group": 1,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 32.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09604",
+      "group": 0,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 32.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10469",
+      "group": 1,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 33.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06127",
+      "group": 1,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 33.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07978",
+      "group": 0,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 29.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.21038",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 35.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03578",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 45.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03705",
+      "group": 0,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 35.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06129",
+      "group": 1,
+      "attributes": {
+        "ZN": 20.0,
+        "MEDV": 46.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01501",
+      "group": 1,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 24.5,
+        "centrality": 0.003976143141153081
+      }
+    },
+    {
+      "id": "0.00906",
+      "group": 0,
+      "attributes": {
+        "ZN": 90.0,
+        "MEDV": 32.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01096",
+      "group": 0,
+      "attributes": {
+        "ZN": 55.0,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01965",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 20.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03871",
+      "group": 0,
+      "attributes": {
+        "ZN": 52.5,
+        "MEDV": 23.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0459",
+      "group": 0,
+      "attributes": {
+        "ZN": 52.5,
+        "MEDV": 22.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04297",
+      "group": 0,
+      "attributes": {
+        "ZN": 52.5,
+        "MEDV": 24.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03502",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 28.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07886",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 37.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03615",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 27.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08265",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.08199",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.12932",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 28.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05372",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.14103",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06466",
+      "group": 0,
+      "attributes": {
+        "ZN": 70.0,
+        "MEDV": 22.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05561",
+      "group": 0,
+      "attributes": {
+        "ZN": 70.0,
+        "MEDV": 29.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04417",
+      "group": 0,
+      "attributes": {
+        "ZN": 70.0,
+        "MEDV": 24.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03537",
+      "group": 0,
+      "attributes": {
+        "ZN": 34.0,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.09266",
+      "group": 0,
+      "attributes": {
+        "ZN": 34.0,
+        "MEDV": 26.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1",
+      "group": 0,
+      "attributes": {
+        "ZN": 34.0,
+        "MEDV": 33.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05515",
+      "group": 0,
+      "attributes": {
+        "ZN": 33.0,
+        "MEDV": 36.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05479",
+      "group": 0,
+      "attributes": {
+        "ZN": 33.0,
+        "MEDV": 28.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07503",
+      "group": 0,
+      "attributes": {
+        "ZN": 33.0,
+        "MEDV": 33.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04932",
+      "group": 0,
+      "attributes": {
+        "ZN": 33.0,
+        "MEDV": 28.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.49298",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.3494",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.63548",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.79041",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.26169",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.26938",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.3692",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.25356",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.31827",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.24522",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.40202",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.47547",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.1676",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.18159",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.35114",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.28392",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.34109",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.19186",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.30347",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.24103",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06617",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06724",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04544",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05023",
+      "group": 0,
+      "attributes": {
+        "ZN": 35.0,
+        "MEDV": 17.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03466",
+      "group": 0,
+      "attributes": {
+        "ZN": 35.0,
+        "MEDV": 19.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05083",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03738",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03961",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03427",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03041",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03306",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.05497",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06151",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01301",
+      "group": 0,
+      "attributes": {
+        "ZN": 35.0,
+        "MEDV": 32.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02498",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02543",
+      "group": 0,
+      "attributes": {
+        "ZN": 55.0,
+        "MEDV": 23.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03049",
+      "group": 0,
+      "attributes": {
+        "ZN": 55.0,
+        "MEDV": 31.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.03113",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06162",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0187",
+      "group": 0,
+      "attributes": {
+        "ZN": 85.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.02899",
+      "group": 0,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 26.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06211",
+      "group": 0,
+      "attributes": {
+        "ZN": 40.0,
+        "MEDV": 22.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.0795",
+      "group": 0,
+      "attributes": {
+        "ZN": 60.0,
+        "MEDV": 24.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.07244",
+      "group": 0,
+      "attributes": {
+        "ZN": 60.0,
+        "MEDV": 18.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.01709",
+      "group": 0,
+      "attributes": {
+        "ZN": 90.0,
+        "MEDV": 30.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04301",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 18.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10659",
+      "group": 0,
+      "attributes": {
+        "ZN": 80.0,
+        "MEDV": 20.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.98296",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.8497",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.20177",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.26131",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.54192",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.83684",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.67822",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.22239",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.47428",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.55587",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.69695",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "13.5222",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.89822",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.66998",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.53876",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.2323",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.26725",
+      "group": 1,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 50.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "11.1081",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "18.4982",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "19.6091",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "15.288",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.82349",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "23.6482",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "17.8667",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "88.9762",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "15.8744",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.18702",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.99248",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "20.0849",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "16.8118",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "24.3938",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "22.5971",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "14.3337",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.15174",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.96215",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.29305",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "11.5779",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 9.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.64476",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "13.3598",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.71675",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.87205",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.67202",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "38.3518",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 5.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.91655",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 6.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "25.0461",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 5.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "14.2362",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.59571",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "24.8017",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "41.5292",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "67.9208",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 5.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "20.7162",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "11.9511",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.40389",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "14.4383",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 27.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "51.1358",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "14.0507",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "18.811",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "28.6558",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "45.7461",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "18.0846",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "10.8342",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "25.9406",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "73.5341",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "11.8123",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "11.0874",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.02259",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "12.0482",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.05042",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.79212",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "15.8603",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "12.2472",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "37.6619",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.36711",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.33889",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 9.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.49213",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "10.0623",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.44405",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.58107",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "13.9134",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "11.1604",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "14.4208",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 9.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "15.1772",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "13.6781",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.39063",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "22.0511",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.72418",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.66637",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.96654",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "12.8023",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 10.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "10.6718",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.28807",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.92485",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.32909",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.52601",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.71772",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.44114",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.09017",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.24809",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "9.51363",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.75237",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.66883",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.20058",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.75223",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.80117",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.81213",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.69311",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.65492",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.82115",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "7.83932",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.1636",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.77498",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.42228",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "15.5757",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "13.0751",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.34879",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.03841",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.56868",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.64689",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 29.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "8.05579",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "6.39312",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.87141",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "15.0234",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 12.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "10.233",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 14.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.82401",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.70818",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.73116",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 25.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.81838",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "2.37857",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "3.67367",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "5.69175",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "4.83567",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.15086",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 15.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.18337",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 7.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.20746",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 8.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10574",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 13.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.11132",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17331",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.27957",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 24.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17899",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.1,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.2896",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 19.7,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.26838",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 18.3,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.23912",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 21.2,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.17783",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 17.5,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.22438",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 16.8,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06263",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.4,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04527",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 20.6,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.06076",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 23.9,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.10959",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 22.0,
+        "centrality": 0.0019880715705765406
+      }
+    },
+    {
+      "id": "0.04741",
+      "group": 0,
+      "attributes": {
+        "ZN": 0.0,
+        "MEDV": 11.9,
+        "centrality": 0.0019880715705765406
       }
     }
   ],
   "links": [
     {
-      "source": "Chalarangelo/30-seconds-of-code",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.02731",
       "weight": 1.0
     },
     {
-      "source": "unionlabs/union",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.02729",
       "weight": 1.0
     },
     {
-      "source": "withastro/astro",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.03237",
       "weight": 1.0
     },
     {
-      "source": "yoavbls/pretty-ts-errors",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.06905",
       "weight": 1.0
     },
     {
-      "source": "emdash-cms/emdash",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.02985",
       "weight": 1.0
     },
     {
-      "source": "uidotdev/usehooks",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.08829",
       "weight": 1.0
     },
     {
-      "source": "withastro/starlight",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.14455",
       "weight": 1.0
     },
     {
-      "source": "anse-app/chatgpt-demo",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.21124",
       "weight": 1.0
     },
     {
-      "source": "arthelokyo/astrowind",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.17004",
       "weight": 1.0
     },
     {
-      "source": "satnaing/astro-paper",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.22489",
       "weight": 1.0
     },
     {
-      "source": "saicaca/fuwari",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.11747",
       "weight": 1.0
     },
     {
-      "source": "babaohuang/GeminiProChat",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.09378",
       "weight": 1.0
     },
     {
-      "source": "appcypher/awesome-wasm-langs",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.62976",
       "weight": 1.0
     },
     {
-      "source": "hunvreus/pagescms",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "0.63796",
       "weight": 1.0
     },
     {
-      "source": "django/django",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.62739",
       "weight": 1.0
     },
     {
-      "source": "makeplane/plane",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "1.05393",
       "weight": 1.0
     },
     {
-      "source": "LeCoupa/awesome-cheatsheets",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.7842",
       "weight": 1.0
     },
     {
-      "source": "paperless-ngx/paperless-ngx",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.80271",
       "weight": 1.0
     },
     {
-      "source": "getsentry/sentry",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.7258",
       "weight": 1.0
     },
     {
-      "source": "jumpserver/jumpserver",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "1.25179",
       "weight": 1.0
     },
     {
-      "source": "encode/django-rest-framework",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.85204",
       "weight": 1.0
     },
     {
-      "source": "netbox-community/netbox",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "1.23247",
       "weight": 1.0
     },
     {
-      "source": "wagtail/wagtail",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.98843",
       "weight": 1.0
     },
     {
-      "source": "suitenumerique/docs",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.75026",
       "weight": 1.0
     },
     {
-      "source": "ansible/awx",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.84054",
       "weight": 1.0
     },
     {
-      "source": "cookiecutter/cookiecutter-django",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.67191",
       "weight": 1.0
     },
     {
-      "source": "Miserlou/Zappa",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.95577",
       "weight": 1.0
     },
     {
-      "source": "wsvincent/awesome-django",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "0.77299",
       "weight": 1.0
     },
     {
-      "source": "django-cms/django-cms",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "1.00245",
       "weight": 1.0
     },
     {
-      "source": "fastapi/fastapi",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "1.13081",
       "weight": 1.0
     },
     {
-      "source": "headroomlabs-ai/headroom",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "1.35472",
       "weight": 1.0
     },
     {
-      "source": "fastapi/full-stack-fastapi-template",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "1.38799",
       "weight": 1.0
     },
     {
-      "source": "mouredev/Hello-Python",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "1.15172",
       "weight": 1.0
     },
     {
-      "source": "jina-ai/serve",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "1.61282",
       "weight": 1.0
     },
     {
-      "source": "Zeyi-Lin/HivisionIDPhotos",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.06417",
       "weight": 1.0
     },
     {
-      "source": "Evil0ctal/Douyin_TikTok_Download_API",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.09744",
       "weight": 1.0
     },
     {
-      "source": "fastapi/sqlmodel",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.08014",
       "weight": 1.0
     },
     {
-      "source": "zhanymkanov/fastapi-best-practices",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.17505",
       "weight": 1.0
     },
     {
-      "source": "MODSetter/SurfSense",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.02763",
       "weight": 1.0
     },
     {
-      "source": "DataTalksClub/machine-learning-zoomcamp",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.03359",
       "weight": 1.0
     },
     {
-      "source": "JoeanAmier/XHS-Downloader",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.12744",
       "weight": 1.0
     },
     {
-      "source": "tadata-org/fastapi_mcp",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.1415",
       "weight": 1.0
     },
     {
-      "source": "coleifer/peewee",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.15936",
       "weight": 1.0
     },
     {
-      "source": "mjhea0/awesome-fastapi",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "0.12269",
       "weight": 1.0
     },
     {
-      "source": "zeromicro/go-zero",
-      "target": "Go Web",
+      "source": "0.00632",
+      "target": "0.17142",
       "weight": 1.0
     },
     {
-      "source": "labstack/echo",
-      "target": "Go Web",
+      "source": "0.00632",
+      "target": "0.18836",
       "weight": 1.0
     },
     {
-      "source": "kataras/iris",
-      "target": "Go Web",
+      "source": "0.00632",
+      "target": "0.22927",
       "weight": 1.0
     },
     {
-      "source": "gofr-dev/gofr",
-      "target": "Go Web",
+      "source": "0.00632",
+      "target": "0.25387",
       "weight": 1.0
     },
     {
-      "source": "revel/revel",
-      "target": "Go Web",
+      "source": "0.00632",
+      "target": "0.21977",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Go Web",
+      "source": "0.00632",
+      "target": "0.08873",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04337",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0536",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04981",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0136",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01311",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02055",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01432",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.15445",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10328",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.14932",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.17171",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.11027",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1265",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01951",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03584",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04379",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05789",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13554",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12816",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08826",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.15876",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09164",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.19539",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07896",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09512",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10153",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08707",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05646",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08387",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04113",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04462",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03659",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03551",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05059",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05735",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05188",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07151",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0566",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05302",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04684",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03932",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04203",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02875",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04294",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12204",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.11504",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12083",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08187",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0686",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.14866",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.11432",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.22876",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.21161",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1396",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13262",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1712",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13117",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12802",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.26363",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10793",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10084",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12329",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.22212",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.14231",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.17134",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13158",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.15098",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13058",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.14476",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06899",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07165",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09299",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.15038",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09849",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.16902",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.38735",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.25915",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.32543",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.88125",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.34006",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.19294",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.59005",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.32982",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.97617",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.55778",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.32264",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.35233",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.2498",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.54452",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.2909",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.62864",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.0974",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.77974",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.37934",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.15505",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.36862",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.33099",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.73397",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.6566",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.49632",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.14918",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.44668",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.22358",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.34284",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.42502",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.46336",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.24236",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.924",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.01019",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.80028",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.3004",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.44953",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "1.20742",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.3139",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13914",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09178",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08447",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06664",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07022",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05425",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06642",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0578",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06588",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06888",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09103",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10008",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08308",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06047",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05602",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07875",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12579",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0837",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09068",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06911",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08664",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02187",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01439",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01381",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04011",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04666",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03768",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0315",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01778",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03445",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02177",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0351",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02009",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.13642",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.22969",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.25199",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.14052",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.28955",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.19802",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07013",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.6147",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.31533",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.52693",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.38214",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.41238",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.29819",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.44178",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.537",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.46296",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.57529",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.33147",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.33045",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.51183",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08244",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09252",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.11329",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10612",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1029",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12757",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.20608",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.19133",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.33983",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.19657",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.16439",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.19073",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1403",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.21409",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08221",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.36894",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04819",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03548",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01538",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.61154",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.66351",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.65665",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.54011",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.53412",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.52014",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.82526",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.55007",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.76162",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.7857",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.57834",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.5405",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.29916",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.16211",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1146",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09604",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07978",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.21038",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03578",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03705",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.00906",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01096",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01965",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03871",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0459",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04297",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03502",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07886",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03615",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08265",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.08199",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.12932",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05372",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.14103",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06466",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05561",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04417",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03537",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.09266",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05515",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05479",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07503",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04932",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.49298",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.3494",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.63548",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.79041",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.26169",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.26938",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.3692",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.25356",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.31827",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.24522",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.40202",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.47547",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.1676",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.18159",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.35114",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.28392",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.34109",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.19186",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.30347",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.24103",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06617",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06724",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04544",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05023",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03466",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05083",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03738",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03961",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03427",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03041",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03306",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.05497",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06151",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01301",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02498",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02543",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03049",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.03113",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06162",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0187",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01501",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.02899",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06211",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.0795",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.07244",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.01709",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04301",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10659",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.26131",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.54192",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.83684",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.67822",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.55587",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.69695",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "13.5222",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.89822",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.2323",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "11.1081",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "18.4982",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "19.6091",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "15.288",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.82349",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "23.6482",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "17.8667",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "88.9762",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "15.8744",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.18702",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.99248",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "20.0849",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "16.8118",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "24.3938",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "22.5971",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "14.3337",
       "weight": 2.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Astro",
+      "source": "0.00632",
+      "target": "8.15174",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Django",
+      "source": "0.00632",
+      "target": "6.96215",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "FastAPI",
+      "source": "0.00632",
+      "target": "5.29305",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Laravel",
+      "source": "0.00632",
+      "target": "11.5779",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Next.js",
+      "source": "0.00632",
+      "target": "8.64476",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "React",
+      "source": "0.00632",
+      "target": "13.3598",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Rust Web",
+      "source": "0.00632",
+      "target": "8.71675",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "SvelteKit",
+      "source": "0.00632",
+      "target": "5.87205",
       "weight": 1.0
     },
     {
-      "source": "gobuffalo/buffalo",
-      "target": "Vue",
+      "source": "0.00632",
+      "target": "7.67202",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "38.3518",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.91655",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "25.0461",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "14.2362",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.59571",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "24.8017",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "41.5292",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "67.9208",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "20.7162",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "11.9511",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.40389",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "14.4383",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "51.1358",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "14.0507",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "18.811",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "28.6558",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "45.7461",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "18.0846",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "10.8342",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "25.9406",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "73.5341",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "11.8123",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "11.0874",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.02259",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "12.0482",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.05042",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "8.79212",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "15.8603",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "12.2472",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "37.6619",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.36711",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.33889",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "8.49213",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "10.0623",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "6.44405",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.58107",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "13.9134",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "11.1604",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "14.4208",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "15.1772",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "13.6781",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.39063",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "22.0511",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.72418",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.66637",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.96654",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "12.8023",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "10.6718",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "6.28807",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.92485",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.32909",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.52601",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "6.71772",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.44114",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.09017",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "8.24809",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "9.51363",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.75237",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.66883",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "8.20058",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.75223",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "6.80117",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.81213",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.69311",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "6.65492",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.82115",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "7.83932",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.1636",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.77498",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.42228",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "15.5757",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "13.0751",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.34879",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.03841",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.56868",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.64689",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "8.05579",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "6.39312",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.87141",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "15.0234",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "10.233",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.82401",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.70818",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.73116",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.81838",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "2.37857",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "3.67367",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "5.69175",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "4.83567",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.15086",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.18337",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.20746",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10574",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.11132",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.17331",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.27957",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.17899",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.2896",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.26838",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.23912",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.17783",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.22438",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06263",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04527",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.06076",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.10959",
+      "weight": 1.0
+    },
+    {
+      "source": "0.00632",
+      "target": "0.04741",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "1.12658",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "1.41385",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "3.53501",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "1.27346",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "1.83377",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "1.51902",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.13587",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.43571",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.17446",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.37578",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.21719",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.0456",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.11069",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.11425",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.35809",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.40771",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.62356",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.44791",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.52058",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.09065",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.22188",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.05644",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.10469",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.06127",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.06129",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "0.01501",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "8.98296",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "3.8497",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "5.20177",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "4.22239",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "3.47428",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "5.66998",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "6.53876",
+      "weight": 1.0
+    },
+    {
+      "source": "3.32105",
+      "target": "8.26725",
       "weight": 1.0
     }
   ]

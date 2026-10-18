@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "graphnexus-core"
-version = "0.1.1"
+version = "0.2.0"
 description = "Agnostic framework transforming tabular datasets into interactive 3D graphs with Louvain community detection."
 readme = "README.md"
 license = "AGPL-3.0-or-later"

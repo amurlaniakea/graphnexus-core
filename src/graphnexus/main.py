@@ -26,6 +26,7 @@ def parse_args():
     parser.add_argument("--attributes", default="", help="Comma-separated metadata columns")
     parser.add_argument("--config", default=None, help="Path to YAML config file")
     parser.add_argument("--export-format", default="json", choices=["json", "gexf", "graphml"], help="Export format")
+    parser.add_argument("--theme", default=None, help="Dataset theme/description")
     args = parser.parse_args()
     if args.config:
         with open(args.config) as f:
@@ -61,7 +62,7 @@ def main():
         )
         output = engine.build()
         if args.export_format == "json":
-            file_path = export_graph_to_web(output, output_dir="web/data")
+            file_path = export_graph_to_web(output, output_dir="web/data", theme=args.theme, source_path=args.input)
         else:
             G_export = nx.Graph()
             for n in output.nodes:

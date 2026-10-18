@@ -5,6 +5,11 @@
 
   document.getElementById('m-nodes').textContent = payload.metadata.node_count;
   document.getElementById('m-edges').textContent = payload.metadata.edge_count;
+  document.getElementById('meta-file').textContent = payload.metadata.filename || '-';
+  document.getElementById('meta-theme').textContent = payload.metadata.theme || 'Desconocido';
+  document.getElementById('meta-rows').textContent = payload.metadata.total_rows != null ? payload.metadata.total_rows : '-';
+  document.getElementById('meta-cols').textContent = payload.metadata.total_columns != null ? payload.metadata.total_columns : '-';
+  document.getElementById('meta-col-list').textContent = payload.metadata.columns ? payload.metadata.columns.join(', ') : '-';
   const n = payload.metadata.node_count;
   const e = payload.metadata.edge_count;
   document.getElementById('m-density').textContent = (e / (n*(n-1))).toFixed(4);
