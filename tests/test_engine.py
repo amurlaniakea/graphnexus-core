@@ -21,7 +21,7 @@
 from __future__ import annotations
 import pandas as pd
 
-from src.engine import Edge, GraphOutput, Node, UniversalGraphEngine
+from graphnexus.engine import Edge, GraphOutput, Node, UniversalGraphEngine
 
 
 def test_engine_louvain_communities(tmp_path):
