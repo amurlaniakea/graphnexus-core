@@ -1,0 +1,10 @@
+task_id,overlay,requirements,reason
+fastapi_14962,json-responses,ujson==5.11.0; orjson==3.11.3,Missing declared optional response test dependencies
+fastapi_14964,json-responses,ujson==5.11.0; orjson==3.11.3,Missing declared optional response test dependencies
+rich_3064,pygments-2.15.1,Pygments==2.15.1,Snapshot poetry.lock Pygments version
+rich_3130,pygments-2.15.1,Pygments==2.15.1,Snapshot poetry.lock Pygments version
+rich_3296,pygments-2.16.1,Pygments==2.16.1,Snapshot poetry.lock Pygments version
+rich_3469,pygments-2.17.2,Pygments==2.17.2,Snapshot poetry.lock Pygments version
+rich_3782,pygments-2.19.1,Pygments==2.19.1,Snapshot poetry.lock Pygments version
+rich_4070,pygments-2.19.2,Pygments==2.19.2,Snapshot poetry.lock Pygments version
+rich_4079,pygments-2.19.2,Pygments==2.19.2,Snapshot poetry.lock Pygments version

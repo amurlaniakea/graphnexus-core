@@ -1,45 +1,786 @@
 {
   "metadata": {
-    "generated_at": "2026-10-17T22:58:33.147427+00:00",
-    "node_count": 5,
-    "edge_count": 0
+    "generated_at": "2026-10-18T12:43:18.970041+00:00",
+    "node_count": 60,
+    "edge_count": 59
   },
   "nodes": [
     {
-      "id": "A",
+      "id": "Chalarangelo/30-seconds-of-code",
       "group": 0,
       "attributes": {
-        "label": "alpha"
+        "group": 0,
+        "stars": 128844
       }
     },
     {
-      "id": "B",
+      "id": "unionlabs/union",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 73824
+      }
+    },
+    {
+      "id": "withastro/astro",
+      "group": 0,
+      "attributes": {
+        "group": 0,
+        "stars": 62104
+      }
+    },
+    {
+      "id": "yoavbls/pretty-ts-errors",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 14105
+      }
+    },
+    {
+      "id": "emdash-cms/emdash",
+      "group": 0,
+      "attributes": {
+        "group": 0,
+        "stars": 12012
+      }
+    },
+    {
+      "id": "uidotdev/usehooks",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 11503
+      }
+    },
+    {
+      "id": "withastro/starlight",
+      "group": 0,
+      "attributes": {
+        "group": 0,
+        "stars": 9137
+      }
+    },
+    {
+      "id": "anse-app/chatgpt-demo",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 7935
+      }
+    },
+    {
+      "id": "arthelokyo/astrowind",
+      "group": 0,
+      "attributes": {
+        "group": 0,
+        "stars": 5916
+      }
+    },
+    {
+      "id": "satnaing/astro-paper",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 5000
+      }
+    },
+    {
+      "id": "saicaca/fuwari",
+      "group": 0,
+      "attributes": {
+        "group": 0,
+        "stars": 4955
+      }
+    },
+    {
+      "id": "babaohuang/GeminiProChat",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 4882
+      }
+    },
+    {
+      "id": "appcypher/awesome-wasm-langs",
+      "group": 0,
+      "attributes": {
+        "group": 0,
+        "stars": 4440
+      }
+    },
+    {
+      "id": "hunvreus/pagescms",
+      "group": 0,
+      "attributes": {
+        "group": 1,
+        "stars": 3947
+      }
+    },
+    {
+      "id": "django/django",
       "group": 1,
       "attributes": {
-        "label": "beta"
+        "group": 0,
+        "stars": 89028
       }
     },
     {
-      "id": "C",
+      "id": "makeplane/plane",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 58431
+      }
+    },
+    {
+      "id": "LeCoupa/awesome-cheatsheets",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 46408
+      }
+    },
+    {
+      "id": "paperless-ngx/paperless-ngx",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 44660
+      }
+    },
+    {
+      "id": "getsentry/sentry",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 44629
+      }
+    },
+    {
+      "id": "jumpserver/jumpserver",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 31462
+      }
+    },
+    {
+      "id": "encode/django-rest-framework",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 30148
+      }
+    },
+    {
+      "id": "netbox-community/netbox",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 21404
+      }
+    },
+    {
+      "id": "wagtail/wagtail",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 20465
+      }
+    },
+    {
+      "id": "suitenumerique/docs",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 16755
+      }
+    },
+    {
+      "id": "ansible/awx",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 15537
+      }
+    },
+    {
+      "id": "cookiecutter/cookiecutter-django",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 13601
+      }
+    },
+    {
+      "id": "Miserlou/Zappa",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 11822
+      }
+    },
+    {
+      "id": "wsvincent/awesome-django",
+      "group": 1,
+      "attributes": {
+        "group": 1,
+        "stars": 11221
+      }
+    },
+    {
+      "id": "django-cms/django-cms",
+      "group": 1,
+      "attributes": {
+        "group": 0,
+        "stars": 10667
+      }
+    },
+    {
+      "id": "fastapi/fastapi",
       "group": 2,
       "attributes": {
-        "label": "gamma"
+        "group": 1,
+        "stars": 101892
       }
     },
     {
-      "id": "D",
+      "id": "headroomlabs-ai/headroom",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 67849
+      }
+    },
+    {
+      "id": "fastapi/full-stack-fastapi-template",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 45210
+      }
+    },
+    {
+      "id": "mouredev/Hello-Python",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 37156
+      }
+    },
+    {
+      "id": "jina-ai/serve",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 21860
+      }
+    },
+    {
+      "id": "Zeyi-Lin/HivisionIDPhotos",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 21440
+      }
+    },
+    {
+      "id": "Evil0ctal/Douyin_TikTok_Download_API",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 19695
+      }
+    },
+    {
+      "id": "fastapi/sqlmodel",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 18290
+      }
+    },
+    {
+      "id": "zhanymkanov/fastapi-best-practices",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 17974
+      }
+    },
+    {
+      "id": "MODSetter/SurfSense",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 16029
+      }
+    },
+    {
+      "id": "DataTalksClub/machine-learning-zoomcamp",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 14037
+      }
+    },
+    {
+      "id": "JoeanAmier/XHS-Downloader",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 12499
+      }
+    },
+    {
+      "id": "tadata-org/fastapi_mcp",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 11987
+      }
+    },
+    {
+      "id": "coleifer/peewee",
+      "group": 2,
+      "attributes": {
+        "group": 0,
+        "stars": 11986
+      }
+    },
+    {
+      "id": "mjhea0/awesome-fastapi",
+      "group": 2,
+      "attributes": {
+        "group": 1,
+        "stars": 11630
+      }
+    },
+    {
+      "id": "zeromicro/go-zero",
       "group": 3,
       "attributes": {
-        "label": "delta"
+        "group": 0,
+        "stars": 33281
       }
     },
     {
-      "id": "E",
-      "group": 4,
+      "id": "labstack/echo",
+      "group": 3,
       "attributes": {
-        "label": "epsilon"
+        "group": 1,
+        "stars": 32667
+      }
+    },
+    {
+      "id": "kataras/iris",
+      "group": 3,
+      "attributes": {
+        "group": 0,
+        "stars": 25558
+      }
+    },
+    {
+      "id": "gofr-dev/gofr",
+      "group": 3,
+      "attributes": {
+        "group": 1,
+        "stars": 20967
+      }
+    },
+    {
+      "id": "revel/revel",
+      "group": 3,
+      "attributes": {
+        "group": 0,
+        "stars": 13219
+      }
+    },
+    {
+      "id": "gobuffalo/buffalo",
+      "group": 3,
+      "attributes": {
+        "group": 1,
+        "stars": 8413
+      }
+    },
+    {
+      "id": "Astro",
+      "group": 0,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "Django",
+      "group": 1,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "FastAPI",
+      "group": 2,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "Go Web",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "Laravel",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "Next.js",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "React",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "Rust Web",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "SvelteKit",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
+      }
+    },
+    {
+      "id": "Vue",
+      "group": 3,
+      "attributes": {
+        "group": 2,
+        "stars": 0
       }
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "Chalarangelo/30-seconds-of-code",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "unionlabs/union",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "withastro/astro",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "yoavbls/pretty-ts-errors",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "emdash-cms/emdash",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "uidotdev/usehooks",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "withastro/starlight",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "anse-app/chatgpt-demo",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "arthelokyo/astrowind",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "satnaing/astro-paper",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "saicaca/fuwari",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "babaohuang/GeminiProChat",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "appcypher/awesome-wasm-langs",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "hunvreus/pagescms",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "django/django",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "makeplane/plane",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "LeCoupa/awesome-cheatsheets",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "paperless-ngx/paperless-ngx",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "getsentry/sentry",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "jumpserver/jumpserver",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "encode/django-rest-framework",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "netbox-community/netbox",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "wagtail/wagtail",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "suitenumerique/docs",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "ansible/awx",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "cookiecutter/cookiecutter-django",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "Miserlou/Zappa",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "wsvincent/awesome-django",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "django-cms/django-cms",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "fastapi/fastapi",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "headroomlabs-ai/headroom",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "fastapi/full-stack-fastapi-template",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "mouredev/Hello-Python",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "jina-ai/serve",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "Zeyi-Lin/HivisionIDPhotos",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "Evil0ctal/Douyin_TikTok_Download_API",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "fastapi/sqlmodel",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "zhanymkanov/fastapi-best-practices",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "MODSetter/SurfSense",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "DataTalksClub/machine-learning-zoomcamp",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "JoeanAmier/XHS-Downloader",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "tadata-org/fastapi_mcp",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "coleifer/peewee",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "mjhea0/awesome-fastapi",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "zeromicro/go-zero",
+      "target": "Go Web",
+      "weight": 1.0
+    },
+    {
+      "source": "labstack/echo",
+      "target": "Go Web",
+      "weight": 1.0
+    },
+    {
+      "source": "kataras/iris",
+      "target": "Go Web",
+      "weight": 1.0
+    },
+    {
+      "source": "gofr-dev/gofr",
+      "target": "Go Web",
+      "weight": 1.0
+    },
+    {
+      "source": "revel/revel",
+      "target": "Go Web",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Go Web",
+      "weight": 2.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Astro",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Django",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "FastAPI",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Laravel",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Next.js",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "React",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Rust Web",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "SvelteKit",
+      "weight": 1.0
+    },
+    {
+      "source": "gobuffalo/buffalo",
+      "target": "Vue",
+      "weight": 1.0
+    }
+  ]
 }

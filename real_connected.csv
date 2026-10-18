@@ -1,0 +1,5 @@
+repo,group,stars,connected_to
+fastapi/fastapi,0,210000,psf/requests
+psf/requests,0,205000,encode/httpx
+encode/httpx,1,95000,Textualize/rich
+Textualize/rich,1,110000,fastapi/fastapi

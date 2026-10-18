@@ -25,8 +25,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from src.engine import UniversalGraphEngine
-from src.pipeline import export_graph_to_web
+from graphnexus.engine import UniversalGraphEngine
+from graphnexus.pipeline import export_graph_to_web
 
 
 def parse_args():

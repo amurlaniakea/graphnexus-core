@@ -111,14 +111,15 @@ class UniversalGraphEngine:
                         f"Business rule group exceeds {max_nodes} nodes ({len(ids)}); "
                         f"limiting edges per node to {max_edges_per_node} to prevent O(n^2) explosion."
                     )
-                for i in range(min(len(ids), max_nodes)):
-                    connected = 0
-                    for j in range(i + 1, len(ids)):
-                        if connected >= max_edges_per_node:
-                            break
-                        s, t = ids[i], ids[j]
-                        G.add_edge(s, t, weight=1.0)
-                        connected += 1
+                # MITIGACIÓN O(N²): Topología en estrella (no clique completo)
+                # Reduce complejidad a O(N) y evita explosión con grupos grandes.
+                if len(ids) > 1:
+                    center = ids[0]
+                    for node in ids[1:]:
+                        if G.has_edge(center, node):
+                            G[center][node]["weight"] += 1.0
+                        else:
+                            G.add_edge(center, node, weight=1.0)
 
         # Louvain communities
         communities = community.louvain_communities(G, seed=42)

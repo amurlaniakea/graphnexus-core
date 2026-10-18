@@ -1,0 +1,61 @@
+repo,group,stars,connected_to
+Chalarangelo/30-seconds-of-code,0,128844,Astro
+unionlabs/union,1,73824,Astro
+withastro/astro,0,62104,Astro
+yoavbls/pretty-ts-errors,1,14105,Astro
+emdash-cms/emdash,0,12012,Astro
+uidotdev/usehooks,1,11503,Astro
+withastro/starlight,0,9137,Astro
+anse-app/chatgpt-demo,1,7935,Astro
+arthelokyo/astrowind,0,5916,Astro
+satnaing/astro-paper,1,5000,Astro
+saicaca/fuwari,0,4955,Astro
+babaohuang/GeminiProChat,1,4882,Astro
+appcypher/awesome-wasm-langs,0,4440,Astro
+hunvreus/pagescms,1,3947,Astro
+django/django,0,89028,Django
+makeplane/plane,1,58431,Django
+LeCoupa/awesome-cheatsheets,0,46408,Django
+paperless-ngx/paperless-ngx,1,44660,Django
+getsentry/sentry,0,44629,Django
+jumpserver/jumpserver,1,31462,Django
+encode/django-rest-framework,0,30148,Django
+netbox-community/netbox,1,21404,Django
+wagtail/wagtail,0,20465,Django
+suitenumerique/docs,1,16755,Django
+ansible/awx,0,15537,Django
+cookiecutter/cookiecutter-django,1,13601,Django
+Miserlou/Zappa,0,11822,Django
+wsvincent/awesome-django,1,11221,Django
+django-cms/django-cms,0,10667,Django
+fastapi/fastapi,1,101892,FastAPI
+headroomlabs-ai/headroom,0,67849,FastAPI
+fastapi/full-stack-fastapi-template,1,45210,FastAPI
+mouredev/Hello-Python,0,37156,FastAPI
+jina-ai/serve,1,21860,FastAPI
+Zeyi-Lin/HivisionIDPhotos,0,21440,FastAPI
+Evil0ctal/Douyin_TikTok_Download_API,1,19695,FastAPI
+fastapi/sqlmodel,0,18290,FastAPI
+zhanymkanov/fastapi-best-practices,1,17974,FastAPI
+MODSetter/SurfSense,0,16029,FastAPI
+DataTalksClub/machine-learning-zoomcamp,1,14037,FastAPI
+JoeanAmier/XHS-Downloader,0,12499,FastAPI
+tadata-org/fastapi_mcp,1,11987,FastAPI
+coleifer/peewee,0,11986,FastAPI
+mjhea0/awesome-fastapi,1,11630,FastAPI
+zeromicro/go-zero,0,33281,Go Web
+labstack/echo,1,32667,Go Web
+kataras/iris,0,25558,Go Web
+gofr-dev/gofr,1,20967,Go Web
+revel/revel,0,13219,Go Web
+gobuffalo/buffalo,1,8413,Go Web
+Astro,2,0,gobuffalo/buffalo
+Django,2,0,gobuffalo/buffalo
+FastAPI,2,0,gobuffalo/buffalo
+Go Web,2,0,gobuffalo/buffalo
+Laravel,2,0,gobuffalo/buffalo
+Next.js,2,0,gobuffalo/buffalo
+React,2,0,gobuffalo/buffalo
+Rust Web,2,0,gobuffalo/buffalo
+SvelteKit,2,0,gobuffalo/buffalo
+Vue,2,0,gobuffalo/buffalo

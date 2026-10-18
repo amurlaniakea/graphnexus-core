@@ -1,0 +1,693 @@
+config,split,task_id,repo,resolved,agent_seconds,tool_calls,llm_calls,patch_bytes,reported_error,outcome_class,seed
+Two-reviewer voting pipeline,development,fastapi_11355,fastapi/fastapi,0,230.00889657996595,99,101,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_13207,fastapi/fastapi,0,245.7835196433589,44,48,1289,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_13713,fastapi/fastapi,0,313.54937265161425,59,65,3242,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_12942,fastapi/fastapi,0,319.7235949607566,99,101,1411,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_13920,fastapi/fastapi,0,341.7342690648511,100,150,0,1,turn_budget,42
+Two-reviewer voting pipeline,development,fastapi_13537,fastapi/fastapi,0,363.7979550836608,15,52,1098,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_11194,fastapi/fastapi,0,363.7799726501107,97,106,1751,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_13786,fastapi/fastapi,0,363.8499123314396,25,25,6729,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14262,fastapi/fastapi,0,75.24632595293224,10,14,0,1,missing_submit_patch,42
+Two-reviewer voting pipeline,development,fastapi_14303,fastapi/fastapi,1,95.62716295663267,8,11,1833,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14297,fastapi/fastapi,1,100.84221917390823,7,9,1225,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14301,fastapi/fastapi,1,160.2540649678558,18,21,2771,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14258,fastapi/fastapi,0,226.96335076726973,15,19,508,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14099,fastapi/fastapi,0,354.7015766091645,87,88,0,1,other_reported_error,42
+Two-reviewer voting pipeline,development,fastapi_14266,fastapi/fastapi,0,363.97879597265273,61,61,1297,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14246,fastapi/fastapi,0,363.7998175015673,46,50,2051,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14361,fastapi/fastapi,1,206.5458322307095,21,24,512,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14349,fastapi/fastapi,0,317.5430786162615,51,55,1810,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14306,fastapi/fastapi,0,363.8603871157393,68,68,4446,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14372,fastapi/fastapi,1,90.01786436792463,12,15,1385,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14360,fastapi/fastapi,0,363.75900218170136,6,37,1920,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14463,fastapi/fastapi,1,90.76151649467648,17,20,745,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14371,fastapi/fastapi,0,345.8597448384389,66,150,0,1,turn_budget,42
+Two-reviewer voting pipeline,development,fastapi_14430,fastapi/fastapi,0,340.5110127078369,96,98,1990,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14419,fastapi/fastapi,0,363.75299119297415,58,58,2733,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14448,fastapi/fastapi,0,363.76657348684967,40,43,1722,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14479,fastapi/fastapi,0,190.4010732481256,98,100,1198,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14482,fastapi/fastapi,0,192.19987392053008,99,101,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_14455,fastapi/fastapi,0,363.87396932952106,33,48,2752,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14458,fastapi/fastapi,1,356.58305617421865,27,150,5730,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14459,fastapi/fastapi,0,363.8805969273672,91,91,701,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14485,fastapi/fastapi,0,132.13623871468008,98,100,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_14492,fastapi/fastapi,0,82.00889815017581,18,21,944,1,test_patch_apply_error,42
+Two-reviewer voting pipeline,development,fastapi_14786,fastapi/fastapi,1,86.77047410234809,10,12,404,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14583,fastapi/fastapi,0,115.52314602211118,37,39,673,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14791,fastapi/fastapi,0,34.91433367040008,4,6,501,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14794,fastapi/fastapi,1,150.6217636577785,18,24,791,0,resolved,42
+Two-reviewer voting pipeline,development,fastapi_14487,fastapi/fastapi,0,291.4982634941116,99,101,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_14609,fastapi/fastapi,0,303.3436761023477,94,96,2082,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14616,fastapi/fastapi,0,364.023007501848,91,91,1094,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14512,fastapi/fastapi,0,363.89486822579056,50,50,3040,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14605,fastapi/fastapi,0,363.9288622401655,44,69,1931,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14964,fastapi/fastapi,0,107.26115029677749,18,21,2513,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_14873,fastapi/fastapi,0,364.2781749861315,43,46,1316,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14953,fastapi/fastapi,0,364.1412374181673,66,66,16794,1,test_patch_apply_error,42
+Two-reviewer voting pipeline,development,fastapi_14962,fastapi/fastapi,0,364.06878859736025,99,145,0,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_14978,fastapi/fastapi,0,330.3711596066132,98,150,0,1,turn_budget,42
+Two-reviewer voting pipeline,development,fastapi_15023,fastapi/fastapi,0,275.5116160716861,66,69,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_14986,fastapi/fastapi,0,298.73936540447176,51,54,3791,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_15030,fastapi/fastapi,0,364.22923005279154,99,117,0,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_15280,fastapi/fastapi,0,358.7405503410846,98,100,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_15588,fastapi/fastapi,0,300.54615358728915,25,150,1071,1,turn_budget,42
+Two-reviewer voting pipeline,development,fastapi_15589,fastapi/fastapi,0,364.5828332342208,55,55,2935,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_15661,fastapi/fastapi,0,260.8055457212031,90,92,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,fastapi_15763,fastapi/fastapi,0,263.0436414545402,99,101,1731,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_15785,fastapi/fastapi,0,269.8406832292676,96,150,1561,1,turn_budget,42
+Two-reviewer voting pipeline,development,fastapi_9425,fastapi/fastapi,0,104.92740781139582,27,29,1170,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,fastapi_5077,fastapi/fastapi,0,190.2417005719617,25,29,6150,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,requests_7205,psf/requests,1,84.76500881742686,14,16,968,0,resolved,42
+Two-reviewer voting pipeline,development,requests_7309,psf/requests,1,100.30092430487277,10,13,692,0,resolved,42
+Two-reviewer voting pipeline,development,requests_7315,psf/requests,0,95.05881142616272,18,21,1021,1,test_patch_apply_error,42
+Two-reviewer voting pipeline,development,fastapi_15800,fastapi/fastapi,0,338.00844961591065,98,100,0,0,empty_patch_without_error,42
+Two-reviewer voting pipeline,development,httpx_3672,encode/httpx,1,362.1725601982325,93,93,1985,0,resolved,42
+Two-reviewer voting pipeline,development,requests_6644,psf/requests,0,362.4363613361493,22,57,942,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_5624,fastapi/fastapi,0,363.83741721510887,76,76,3361,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_9555,fastapi/fastapi,0,363.7805422293022,36,36,4088,1,session_timeout,42
+Two-reviewer voting pipeline,development,fastapi_9753,fastapi/fastapi,0,363.79965994507074,63,63,5499,1,session_timeout,42
+Two-reviewer voting pipeline,development,requests_7427,psf/requests,0,70.36164555232972,13,16,1864,0,unresolved_nonempty_patch,42
+Two-reviewer voting pipeline,development,requests_7505,psf/requests,1,61.503554289229214,12,15,1701,0,resolved,42
+Two-reviewer voting pipeline,development,requests_7328,psf/requests,0,111.58138297311962,17,20,3147,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_13207,fastapi/fastapi,0,76.57134291529655,15,17,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_13786,fastapi/fastapi,0,104.55487004481256,23,25,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_13537,fastapi/fastapi,1,179.40059252548963,31,37,2153,0,resolved,42
+Six-minute budget schedule,development,fastapi_11355,fastapi/fastapi,0,217.6919132610783,100,103,0,1,tool_budget,42
+Six-minute budget schedule,development,fastapi_13920,fastapi/fastapi,0,234.5149524314329,97,102,1440,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_12942,fastapi/fastapi,0,246.1240923209116,100,108,0,0,empty_patch_without_error,42
+Six-minute budget schedule,development,fastapi_11194,fastapi/fastapi,0,363.746992200613,24,117,1047,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_13713,fastapi/fastapi,0,363.728029425256,97,219,858,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14303,fastapi/fastapi,0,91.53446411993356,18,20,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14246,fastapi/fastapi,0,116.90138334222138,24,26,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14297,fastapi/fastapi,1,184.3878285428509,20,26,960,0,resolved,42
+Six-minute budget schedule,development,fastapi_14262,fastapi/fastapi,0,285.21412912290543,66,79,1970,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14301,fastapi/fastapi,1,329.3700688490644,100,106,618,0,resolved,42
+Six-minute budget schedule,development,fastapi_14099,fastapi/fastapi,0,331.97312360443175,96,101,0,0,empty_patch_without_error,42
+Six-minute budget schedule,development,fastapi_14266,fastapi/fastapi,0,363.88044289592654,70,90,1871,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14258,fastapi/fastapi,0,365.20572556275874,26,29,1384,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14349,fastapi/fastapi,0,330.9460307415575,59,63,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14306,fastapi/fastapi,0,363.8661147812381,85,91,1697,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14361,fastapi/fastapi,1,171.85987620893866,20,26,1575,0,resolved,42
+Six-minute budget schedule,development,fastapi_14372,fastapi/fastapi,1,140.98638389538974,30,36,1215,0,resolved,42
+Six-minute budget schedule,development,fastapi_14371,fastapi/fastapi,0,157.71920948009938,63,65,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14360,fastapi/fastapi,1,363.9027963578701,43,56,2850,0,resolved,42
+Six-minute budget schedule,development,fastapi_14463,fastapi/fastapi,1,71.42874017544091,12,18,745,0,resolved,42
+Six-minute budget schedule,development,fastapi_14458,fastapi/fastapi,1,122.01663135923444,14,20,1272,0,resolved,42
+Six-minute budget schedule,development,fastapi_14430,fastapi/fastapi,1,273.6573776062578,52,58,2207,0,resolved,42
+Six-minute budget schedule,development,fastapi_14479,fastapi/fastapi,0,110.96922623552382,11,19,1752,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14419,fastapi/fastapi,0,363.8422264214605,69,71,0,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14448,fastapi/fastapi,0,304.6207948233932,97,102,3832,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14485,fastapi/fastapi,0,192.3615449257195,100,106,0,0,empty_patch_without_error,42
+Six-minute budget schedule,development,fastapi_14459,fastapi/fastapi,1,332.82734495494515,64,72,2091,0,resolved,42
+Six-minute budget schedule,development,fastapi_14455,fastapi/fastapi,0,363.8487045336514,77,82,7348,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14482,fastapi/fastapi,0,266.77354071941227,57,59,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14487,fastapi/fastapi,0,108.40694672428071,20,26,1135,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14492,fastapi/fastapi,0,117.25247878953816,17,24,2700,1,test_patch_apply_error,42
+Six-minute budget schedule,development,fastapi_14786,fastapi/fastapi,1,129.60944229364395,15,21,404,0,resolved,42
+Six-minute budget schedule,development,fastapi_14512,fastapi/fastapi,0,199.82356139551848,69,71,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14791,fastapi/fastapi,0,75.90310164634138,7,13,772,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14605,fastapi/fastapi,0,207.8500706879422,41,48,8768,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14873,fastapi/fastapi,0,83.39513570349663,25,27,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14794,fastapi/fastapi,1,114.88932546041906,20,27,1940,0,resolved,42
+Six-minute budget schedule,development,fastapi_14986,fastapi/fastapi,0,52.27996154222637,16,18,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14964,fastapi/fastapi,0,107.99186635576189,16,23,1630,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14609,fastapi/fastapi,0,364.0010546967387,13,17,37549,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14616,fastapi/fastapi,0,364.0453285733238,97,109,913,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14583,fastapi/fastapi,0,363.9400001652539,31,167,79,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_14953,fastapi/fastapi,0,250.9653749363497,51,56,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_14962,fastapi/fastapi,0,310.030357465148,100,106,0,0,empty_patch_without_error,42
+Six-minute budget schedule,development,fastapi_15589,fastapi/fastapi,0,171.57353556156158,62,64,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_15588,fastapi/fastapi,0,187.3392739314586,26,33,1069,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_14978,fastapi/fastapi,0,364.06276580505073,58,115,0,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_15785,fastapi/fastapi,0,104.7100390540436,49,51,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_15023,fastapi/fastapi,0,364.1235772902146,17,114,0,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_15030,fastapi/fastapi,0,364.0814488930628,28,208,2396,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_15661,fastapi/fastapi,0,246.2030266104266,94,100,1238,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_15280,fastapi/fastapi,0,364.2427649730817,40,43,904,1,session_timeout,42
+Six-minute budget schedule,development,fastapi_15763,fastapi/fastapi,0,364.4414724921808,28,122,1605,1,session_timeout,42
+Six-minute budget schedule,development,httpx_3672,encode/httpx,0,82.03880302421749,18,20,0,1,context_overflow,42
+Six-minute budget schedule,development,fastapi_9555,fastapi/fastapi,1,219.85997929703444,27,33,3538,0,resolved,42
+Six-minute budget schedule,development,fastapi_5624,fastapi/fastapi,0,226.63695846218616,87,89,0,1,context_overflow,42
+Six-minute budget schedule,development,requests_6644,psf/requests,1,226.029351266101,46,52,1277,0,resolved,42
+Six-minute budget schedule,development,requests_7205,psf/requests,1,160.5757400682196,29,35,2097,0,resolved,42
+Six-minute budget schedule,development,fastapi_15800,fastapi/fastapi,0,255.98712786007675,98,103,813,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_5077,fastapi/fastapi,1,260.70199871249497,36,42,2536,0,resolved,42
+Six-minute budget schedule,development,fastapi_9753,fastapi/fastapi,0,324.5145045053214,90,99,3820,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,requests_7315,psf/requests,0,111.30815356131644,30,36,2154,1,test_patch_apply_error,42
+Six-minute budget schedule,development,requests_7505,psf/requests,0,49.63851979933679,12,18,1049,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,fastapi_9425,fastapi/fastapi,0,355.36112426314503,97,102,1202,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,development,requests_7427,psf/requests,1,113.9549752138555,30,36,2206,0,resolved,42
+Six-minute budget schedule,development,requests_7309,psf/requests,1,158.14864498376846,27,34,1372,0,resolved,42
+Six-minute budget schedule,development,requests_7328,psf/requests,0,354.15980895143,40,298,3121,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3006,Textualize/rich,1,114.46566567383708,24,30,1343,0,resolved,42
+Six-minute budget schedule,held_out,rich_3064,Textualize/rich,0,192.24971059616652,90,92,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_3052,Textualize/rich,0,195.72089659702036,23,29,5405,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_2725,Textualize/rich,0,247.220295692794,69,75,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_3043,Textualize/rich,0,287.6373556787148,69,71,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_3063,Textualize/rich,0,344.5751817431301,98,103,1607,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3061,Textualize/rich,0,350.5981317833066,97,104,2137,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_2943,Textualize/rich,0,362.9503324935213,9,195,712,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3296,Textualize/rich,1,109.76586047653107,27,33,1131,0,resolved,42
+Six-minute budget schedule,held_out,rich_3468,Textualize/rich,0,118.11074523534626,26,32,2532,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3067,Textualize/rich,0,209.2756443778053,100,103,0,1,tool_budget,42
+Six-minute budget schedule,held_out,rich_3454,Textualize/rich,1,212.83539452031252,92,96,1760,0,resolved,42
+Six-minute budget schedule,held_out,rich_3105,Textualize/rich,0,263.74161158129573,94,99,0,0,empty_patch_without_error,42
+Six-minute budget schedule,held_out,rich_3180,Textualize/rich,0,318.0032694078982,99,104,1975,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3469,Textualize/rich,0,213.1042006742209,98,103,865,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3278,Textualize/rich,0,362.8857031436637,76,78,0,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3130,Textualize/rich,0,362.837836490944,15,48,1015,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3470,Textualize/rich,0,240.06331227347252,99,104,1128,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3675,Textualize/rich,0,78.98409069050103,12,18,1616,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3471,Textualize/rich,0,269.6047465698793,94,100,0,0,empty_patch_without_error,42
+Six-minute budget schedule,held_out,rich_3535,Textualize/rich,0,120.15676501207054,28,34,1309,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3782,Textualize/rich,0,72.28275107499212,16,18,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_3777,Textualize/rich,0,86.50710152555257,21,23,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_3676,Textualize/rich,0,203.0802135132253,75,77,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_3472,Textualize/rich,0,362.9092247541994,91,98,1640,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3718,Textualize/rich,1,132.9118330758065,18,24,2164,0,resolved,42
+Six-minute budget schedule,held_out,rich_3518,Textualize/rich,1,274.1569245494902,97,102,1568,0,resolved,42
+Six-minute budget schedule,held_out,rich_3506,Textualize/rich,0,362.80177508480847,13,60,1191,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3882,Textualize/rich,0,64.4308725995943,8,15,1261,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3905,Textualize/rich,1,63.70484266523272,20,26,627,0,resolved,42
+Six-minute budget schedule,held_out,rich_3894,Textualize/rich,1,66.8580966508016,20,26,1537,0,resolved,42
+Six-minute budget schedule,held_out,rich_3521,Textualize/rich,0,362.88731079921126,26,29,2777,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3944,Textualize/rich,0,199.67053786013275,22,28,5064,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3942,Textualize/rich,0,270.16308843996376,60,76,0,0,empty_patch_without_error,42
+Six-minute budget schedule,held_out,rich_3938,Textualize/rich,0,276.377975454554,94,99,767,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_3953,Textualize/rich,0,362.8771058823913,93,96,0,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_4070,Textualize/rich,0,362.9487903295085,40,44,2769,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3935,Textualize/rich,0,362.8574611209333,31,33,16080,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3930,Textualize/rich,0,362.90777829196304,97,112,763,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_3934,Textualize/rich,0,362.8298759600148,13,54,445,1,session_timeout,42
+Six-minute budget schedule,held_out,rich_4076,Textualize/rich,0,174.78038620296866,57,59,0,1,context_overflow,42
+Six-minute budget schedule,held_out,rich_4075,Textualize/rich,0,248.6247124755755,99,104,1453,0,unresolved_nonempty_patch,42
+Six-minute budget schedule,held_out,rich_4077,Textualize/rich,0,191.7501287953928,95,101,0,0,empty_patch_without_error,42
+Six-minute budget schedule,held_out,rich_4079,Textualize/rich,0,145.50753171462566,96,101,524,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_13207,fastapi/fastapi,0,74.5978549523279,15,16,0,1,context_overflow,42
+Source-first localization,development,fastapi_11355,fastapi/fastapi,0,238.34552661329508,100,102,0,1,tool_budget,42
+Source-first localization,development,fastapi_13920,fastapi/fastapi,0,243.62074296735227,100,105,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_12942,fastapi/fastapi,0,291.2605695342645,100,107,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_11194,fastapi/fastapi,1,309.3984538484365,97,102,1792,0,resolved,42
+Source-first localization,development,fastapi_13713,fastapi/fastapi,0,363.8002494070679,100,109,2538,1,session_timeout,42
+Source-first localization,development,fastapi_13537,fastapi/fastapi,0,363.8796505359933,19,81,1387,1,session_timeout,42
+Source-first localization,development,fastapi_13786,fastapi/fastapi,0,363.9357454162091,44,48,5021,1,session_timeout,42
+Source-first localization,development,fastapi_14303,fastapi/fastapi,1,96.41635853610931,12,17,745,0,resolved,42
+Source-first localization,development,fastapi_14246,fastapi/fastapi,0,242.47191875055432,67,68,0,1,context_overflow,42
+Source-first localization,development,fastapi_14301,fastapi/fastapi,1,258.5251865545288,94,98,618,0,resolved,42
+Source-first localization,development,fastapi_14099,fastapi/fastapi,0,269.7912281239405,94,98,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_14262,fastapi/fastapi,0,271.87113162502646,97,102,832,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14349,fastapi/fastapi,0,56.96696399711072,17,18,0,1,context_overflow,42
+Source-first localization,development,fastapi_14266,fastapi/fastapi,0,363.7980608455837,90,96,2849,1,session_timeout,42
+Source-first localization,development,fastapi_14297,fastapi/fastapi,0,363.822572411038,23,37,1995,1,session_timeout,42
+Source-first localization,development,fastapi_14258,fastapi/fastapi,0,364.0301811564714,8,9,729,1,session_timeout,42
+Source-first localization,development,fastapi_14372,fastapi/fastapi,1,130.77656472474337,23,28,1670,0,resolved,42
+Source-first localization,development,fastapi_14306,fastapi/fastapi,0,363.8019360024482,76,80,4158,1,session_timeout,42
+Source-first localization,development,fastapi_14360,fastapi/fastapi,1,213.39236772898585,30,34,2504,0,resolved,42
+Source-first localization,development,fastapi_14419,fastapi/fastapi,0,132.74118540249765,47,48,0,1,context_overflow,42
+Source-first localization,development,fastapi_14455,fastapi/fastapi,0,86.32789339218289,27,28,0,1,context_overflow,42
+Source-first localization,development,fastapi_14371,fastapi/fastapi,0,272.9203391680494,97,101,6735,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14479,fastapi/fastapi,0,62.069909535348415,18,19,0,1,context_overflow,42
+Source-first localization,development,fastapi_14430,fastapi/fastapi,1,268.05194416921586,39,43,774,0,resolved,42
+Source-first localization,development,fastapi_14361,fastapi/fastapi,0,363.88700999785215,14,43,1044,1,session_timeout,42
+Source-first localization,development,fastapi_14482,fastapi/fastapi,0,150.20209612790495,69,70,0,1,context_overflow,42
+Source-first localization,development,fastapi_14448,fastapi/fastapi,0,356.70659304223955,65,69,4814,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14485,fastapi/fastapi,0,190.16980439517647,100,105,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_14458,fastapi/fastapi,1,363.861338079907,22,148,1272,0,resolved,42
+Source-first localization,development,fastapi_14459,fastapi/fastapi,0,364.0260331025347,87,92,1342,1,session_timeout,42
+Source-first localization,development,fastapi_14463,fastapi/fastapi,0,363.9972774321213,17,136,1528,1,session_timeout,42
+Source-first localization,development,fastapi_14492,fastapi/fastapi,0,103.40613251551986,20,25,2700,1,test_patch_apply_error,42
+Source-first localization,development,fastapi_14786,fastapi/fastapi,1,114.10640013590456,12,17,404,0,resolved,42
+Source-first localization,development,fastapi_14791,fastapi/fastapi,0,57.28399317897856,7,11,770,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14487,fastapi/fastapi,0,232.94371462333947,94,98,974,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14794,fastapi/fastapi,1,111.15068225283176,18,23,3152,0,resolved,42
+Source-first localization,development,fastapi_14616,fastapi/fastapi,1,292.4491757210344,99,103,1480,0,resolved,42
+Source-first localization,development,fastapi_14609,fastapi/fastapi,0,364.0552844386548,60,174,44090,1,session_timeout,42
+Source-first localization,development,fastapi_14512,fastapi/fastapi,0,363.99282641801983,64,67,1982,1,session_timeout,42
+Source-first localization,development,fastapi_14605,fastapi/fastapi,0,364.0347993671894,45,91,2220,1,session_timeout,42
+Source-first localization,development,fastapi_14583,fastapi/fastapi,0,363.9984723739326,29,176,683,1,session_timeout,42
+Source-first localization,development,fastapi_14986,fastapi/fastapi,0,70.32498584967107,17,18,0,1,context_overflow,42
+Source-first localization,development,fastapi_15023,fastapi/fastapi,0,96.858540892601,20,25,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_14873,fastapi/fastapi,1,364.10044120717794,93,95,3163,0,resolved,42
+Source-first localization,development,fastapi_15030,fastapi/fastapi,0,183.6447911588475,26,29,2209,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14953,fastapi/fastapi,0,364.0446201488376,90,93,16352,1,test_patch_apply_error,42
+Source-first localization,development,fastapi_14962,fastapi/fastapi,0,361.93567456211895,99,105,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_15588,fastapi/fastapi,0,151.93313681706786,23,28,2524,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_14964,fastapi/fastapi,0,364.02707407064736,13,26,1846,1,session_timeout,42
+Source-first localization,development,fastapi_15661,fastapi/fastapi,0,108.29438883904368,22,27,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_14978,fastapi/fastapi,0,364.1033810116351,61,63,2367,1,session_timeout,42
+Source-first localization,development,fastapi_15763,fastapi/fastapi,0,156.99220700003207,86,87,0,1,context_overflow,42
+Source-first localization,development,fastapi_15280,fastapi/fastapi,0,364.2732599088922,91,95,574,1,session_timeout,42
+Source-first localization,development,fastapi_15785,fastapi/fastapi,0,232.5340145491064,100,104,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_15589,fastapi/fastapi,0,364.3863826515153,26,53,6198,1,session_timeout,42
+Source-first localization,development,httpx_3672,encode/httpx,0,100.10459045879544,13,19,0,1,missing_submit_patch,42
+Source-first localization,development,requests_6644,psf/requests,1,169.5445066401735,33,38,1597,0,resolved,42
+Source-first localization,development,fastapi_15800,fastapi/fastapi,0,217.29075233638287,97,101,0,0,empty_patch_without_error,42
+Source-first localization,development,fastapi_9425,fastapi/fastapi,0,270.42311540432274,97,102,1171,0,unresolved_nonempty_patch,42
+Source-first localization,development,fastapi_9555,fastapi/fastapi,1,324.9799861581996,97,102,3368,0,resolved,42
+Source-first localization,development,fastapi_9753,fastapi/fastapi,0,363.8387810355053,90,91,0,1,session_timeout,42
+Source-first localization,development,fastapi_5624,fastapi/fastapi,0,363.81978161260486,54,56,2908,1,session_timeout,42
+Source-first localization,development,fastapi_5077,fastapi/fastapi,0,363.79671468865126,36,38,2147,1,session_timeout,42
+Source-first localization,development,requests_7315,psf/requests,0,184.7652595443651,46,51,3326,1,test_patch_apply_error,42
+Source-first localization,development,requests_7427,psf/requests,1,80.61042901780456,13,17,716,0,resolved,42
+Source-first localization,development,requests_7205,psf/requests,0,362.4415812473744,90,91,0,1,session_timeout,42
+Source-first localization,development,requests_7309,psf/requests,1,362.3376685511321,28,269,692,0,resolved,42
+Source-first localization,development,requests_7505,psf/requests,0,256.45100156776607,99,103,472,0,unresolved_nonempty_patch,42
+Source-first localization,development,requests_7328,psf/requests,0,362.5050621945411,90,119,2143,1,session_timeout,42
+Optional analyzer,development,fastapi_11355,fastapi/fastapi,0,240.09202578291297,99,101,0,0,empty_patch_without_error,42
+Optional analyzer,development,fastapi_12942,fastapi/fastapi,0,363.7757504582405,100,118,0,1,session_timeout,42
+Optional analyzer,development,fastapi_13920,fastapi/fastapi,0,363.9443769752979,95,255,0,1,session_timeout,42
+Optional analyzer,development,fastapi_13713,fastapi/fastapi,0,363.7597239660099,98,115,2703,1,session_timeout,42
+Optional analyzer,development,fastapi_11194,fastapi/fastapi,0,363.7365345945582,36,48,3279,1,session_timeout,42
+Optional analyzer,development,fastapi_13207,fastapi/fastapi,0,363.965817661956,65,65,5885,1,session_timeout,42
+Optional analyzer,development,fastapi_13786,fastapi/fastapi,0,363.909282839857,66,66,3152,1,session_timeout,42
+Optional analyzer,development,fastapi_13537,fastapi/fastapi,1,363.86154453549534,57,57,2319,0,resolved,42
+Optional analyzer,development,fastapi_14303,fastapi/fastapi,1,85.18742887116969,10,12,1794,0,resolved,42
+Optional analyzer,development,fastapi_14297,fastapi/fastapi,1,90.04962501395494,8,11,1199,0,resolved,42
+Optional analyzer,development,fastapi_14262,fastapi/fastapi,0,363.9900889424607,46,86,0,1,session_timeout,42
+Optional analyzer,development,fastapi_14266,fastapi/fastapi,0,363.92770445533097,80,80,1798,1,session_timeout,42
+Optional analyzer,development,fastapi_14246,fastapi/fastapi,0,363.8333149952814,76,76,1457,1,session_timeout,42
+Optional analyzer,development,fastapi_14301,fastapi/fastapi,1,363.8663740279153,44,212,618,0,resolved,42
+Optional analyzer,development,fastapi_14099,fastapi/fastapi,0,363.8241456430405,71,71,1294,1,session_timeout,42
+Optional analyzer,development,fastapi_14258,fastapi/fastapi,0,364.219386940822,19,69,1077,1,session_timeout,42
+Optional analyzer,development,fastapi_14372,fastapi/fastapi,1,84.7358291791752,14,17,1197,0,resolved,42
+Optional analyzer,development,fastapi_14306,fastapi/fastapi,0,363.849167839624,95,114,5475,1,session_timeout,42
+Optional analyzer,development,fastapi_14349,fastapi/fastapi,0,363.9416471719742,16,63,1144,1,session_timeout,42
+Optional analyzer,development,fastapi_14361,fastapi/fastapi,1,95.84633858129382,11,14,2370,0,resolved,42
+Optional analyzer,development,fastapi_14458,fastapi/fastapi,1,176.95598238520324,14,17,4775,0,resolved,42
+Optional analyzer,development,fastapi_14419,fastapi/fastapi,0,311.1997813358903,40,44,4314,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_14371,fastapi/fastapi,0,363.84813063498586,95,95,0,1,session_timeout,42
+Optional analyzer,development,fastapi_14360,fastapi/fastapi,0,363.78336199373007,15,64,2202,1,session_timeout,42
+Optional analyzer,development,fastapi_14430,fastapi/fastapi,0,363.7798013193533,26,32,4534,1,session_timeout,42
+Optional analyzer,development,fastapi_14479,fastapi/fastapi,0,62.742596592754126,8,11,1636,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_14463,fastapi/fastapi,1,96.61273122299464,17,20,745,0,resolved,42
+Optional analyzer,development,fastapi_14482,fastapi/fastapi,0,72.76282318495214,25,27,955,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_14455,fastapi/fastapi,0,363.867178904824,55,146,1312,1,session_timeout,42
+Optional analyzer,development,fastapi_14448,fastapi/fastapi,0,363.8830923615024,46,48,2913,1,session_timeout,42
+Optional analyzer,development,fastapi_14459,fastapi/fastapi,0,363.80091051757336,58,58,2558,1,session_timeout,42
+Optional analyzer,development,fastapi_14485,fastapi/fastapi,0,130.20396974030882,99,101,0,0,empty_patch_without_error,42
+Optional analyzer,development,fastapi_14492,fastapi/fastapi,1,64.58902832865715,11,14,391,0,resolved,42
+Optional analyzer,development,fastapi_14487,fastapi/fastapi,0,81.05670756753534,15,18,1133,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_14786,fastapi/fastapi,1,117.51791758835316,14,16,404,0,resolved,42
+Optional analyzer,development,fastapi_14791,fastapi/fastapi,1,61.3317060219124,5,8,483,0,resolved,42
+Optional analyzer,development,fastapi_14873,fastapi/fastapi,0,72.96179000660777,11,15,660,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_14794,fastapi/fastapi,1,147.07379794679582,19,23,1809,0,resolved,42
+Optional analyzer,development,fastapi_14512,fastapi/fastapi,0,363.89274967461824,66,66,2519,1,session_timeout,42
+Optional analyzer,development,fastapi_14616,fastapi/fastapi,0,364.0690883072093,61,64,953,1,session_timeout,42
+Optional analyzer,development,fastapi_14605,fastapi/fastapi,1,363.89551212638617,62,80,8191,0,resolved,42
+Optional analyzer,development,fastapi_14583,fastapi/fastapi,0,363.8573484476656,30,82,870,1,session_timeout,42
+Optional analyzer,development,fastapi_14609,fastapi/fastapi,0,363.9055762318894,92,96,812,1,session_timeout,42
+Optional analyzer,development,fastapi_14953,fastapi/fastapi,0,364.1980141261593,59,59,16789,1,test_patch_apply_error,42
+Optional analyzer,development,fastapi_14962,fastapi/fastapi,0,364.0370459547266,79,79,0,1,session_timeout,42
+Optional analyzer,development,fastapi_14964,fastapi/fastapi,0,364.0456560216844,11,19,1834,1,session_timeout,42
+Optional analyzer,development,fastapi_15023,fastapi/fastapi,0,364.2112552961335,97,97,0,1,session_timeout,42
+Optional analyzer,development,fastapi_14986,fastapi/fastapi,0,364.239942451939,28,53,1246,1,session_timeout,42
+Optional analyzer,development,fastapi_14978,fastapi/fastapi,0,364.1840271707624,34,44,2063,1,session_timeout,42
+Optional analyzer,development,fastapi_15030,fastapi/fastapi,0,364.2210802119225,66,66,597,1,session_timeout,42
+Optional analyzer,development,fastapi_15280,fastapi/fastapi,0,364.2855236167088,38,38,348,1,session_timeout,42
+Optional analyzer,development,fastapi_15661,fastapi/fastapi,0,176.67067164275795,90,92,0,0,empty_patch_without_error,42
+Optional analyzer,development,fastapi_15588,fastapi/fastapi,0,364.3773360112682,28,271,2373,1,session_timeout,42
+Optional analyzer,development,fastapi_15589,fastapi/fastapi,0,364.2978921085596,99,209,1967,1,session_timeout,42
+Optional analyzer,development,fastapi_15785,fastapi/fastapi,0,364.40286557003856,100,457,0,1,session_timeout,42
+Optional analyzer,development,fastapi_15763,fastapi/fastapi,0,364.5028927065432,54,130,820,1,session_timeout,42
+Optional analyzer,development,requests_6644,psf/requests,1,120.95283509418368,20,22,376,0,resolved,42
+Optional analyzer,development,httpx_3672,encode/httpx,0,145.86263098940253,18,20,3983,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_5624,fastapi/fastapi,0,182.3434915523976,32,36,1339,0,unresolved_nonempty_patch,42
+Optional analyzer,development,fastapi_9425,fastapi/fastapi,0,182.66676490195096,99,101,0,0,empty_patch_without_error,42
+Optional analyzer,development,fastapi_9555,fastapi/fastapi,1,187.0238661346957,27,30,1688,0,resolved,42
+Optional analyzer,development,requests_7309,psf/requests,1,80.65755229536444,11,14,692,0,resolved,42
+Optional analyzer,development,requests_7427,psf/requests,0,89.46374752372503,13,16,2110,0,unresolved_nonempty_patch,42
+Optional analyzer,development,requests_7315,psf/requests,1,94.90225853119044,11,13,522,0,resolved,42
+Optional analyzer,development,fastapi_15800,fastapi/fastapi,0,365.0173286348581,97,231,0,1,session_timeout,42
+Optional analyzer,development,fastapi_5077,fastapi/fastapi,0,364.10716684442014,25,72,1763,1,session_timeout,42
+Optional analyzer,development,fastapi_9753,fastapi/fastapi,0,364.3298287075013,33,43,6532,1,session_timeout,42
+Optional analyzer,development,requests_7205,psf/requests,1,362.39478261582553,97,193,4582,0,resolved,42
+Optional analyzer,development,requests_7328,psf/requests,0,362.4464429086074,34,100,2351,1,session_timeout,42
+Optional analyzer,development,requests_7505,psf/requests,0,362.452778512612,100,342,2164,1,session_timeout,42
+Six-minute reference,development,fastapi_13207,fastapi/fastapi,0,81.21069627255201,16,17,0,1,context_overflow,42
+Six-minute reference,development,fastapi_13786,fastapi/fastapi,0,97.79570702277124,19,20,0,1,context_overflow,42
+Six-minute reference,development,fastapi_11194,fastapi/fastapi,0,204.34189771208912,79,80,0,1,context_overflow,42
+Six-minute reference,development,fastapi_11355,fastapi/fastapi,0,223.5295360302553,100,102,0,1,tool_budget,42
+Six-minute reference,development,fastapi_12942,fastapi/fastapi,0,262.7123759081587,100,106,0,0,empty_patch_without_error,42
+Six-minute reference,development,fastapi_13920,fastapi/fastapi,0,272.6666479706764,94,98,3622,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_13713,fastapi/fastapi,0,363.86637796647847,100,229,0,1,session_timeout,42
+Six-minute reference,development,fastapi_13537,fastapi/fastapi,0,363.93845179490745,21,106,925,1,session_timeout,42
+Six-minute reference,development,fastapi_14303,fastapi/fastapi,0,104.66384398657829,21,22,0,1,context_overflow,42
+Six-minute reference,development,fastapi_14266,fastapi/fastapi,0,181.11538063455373,59,60,0,1,context_overflow,42
+Six-minute reference,development,fastapi_14297,fastapi/fastapi,1,241.92923131398857,21,25,1237,0,resolved,42
+Six-minute reference,development,fastapi_14262,fastapi/fastapi,0,266.98560415022075,98,102,0,0,empty_patch_without_error,42
+Six-minute reference,development,fastapi_14099,fastapi/fastapi,0,276.61945437826216,94,98,0,0,empty_patch_without_error,42
+Six-minute reference,development,fastapi_14349,fastapi/fastapi,0,146.82955468911678,63,64,0,1,context_overflow,42
+Six-minute reference,development,fastapi_14301,fastapi/fastapi,1,363.95926332101226,44,46,2598,0,resolved,42
+Six-minute reference,development,fastapi_14246,fastapi/fastapi,0,363.93087466526777,74,77,4058,1,session_timeout,42
+Six-minute reference,development,fastapi_14258,fastapi/fastapi,0,364.8575708679855,13,14,730,1,session_timeout,42
+Six-minute reference,development,fastapi_14306,fastapi/fastapi,0,255.51894601993263,44,50,3650,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14361,fastapi/fastapi,1,173.34691384993494,25,30,1865,0,resolved,42
+Six-minute reference,development,fastapi_14372,fastapi/fastapi,1,119.4955017035827,24,29,1366,0,resolved,42
+Six-minute reference,development,fastapi_14371,fastapi/fastapi,0,252.6703638415784,96,100,6735,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14455,fastapi/fastapi,0,205.6437712032348,48,53,2271,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14360,fastapi/fastapi,1,363.8569528842345,93,178,2302,0,resolved,42
+Six-minute reference,development,fastapi_14448,fastapi/fastapi,0,311.4641463458538,96,100,4564,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14458,fastapi/fastapi,1,255.3022481845692,16,21,4274,0,resolved,42
+Six-minute reference,development,fastapi_14479,fastapi/fastapi,0,122.72720017749816,14,20,524,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14482,fastapi/fastapi,0,96.83470234181732,30,31,0,1,context_overflow,42
+Six-minute reference,development,fastapi_14419,fastapi/fastapi,0,363.71878817118704,91,93,0,1,session_timeout,42
+Six-minute reference,development,fastapi_14430,fastapi/fastapi,0,363.9828066723421,94,98,879,1,session_timeout,42
+Six-minute reference,development,fastapi_14459,fastapi/fastapi,1,363.7643480328843,61,201,1293,0,resolved,42
+Six-minute reference,development,fastapi_14485,fastapi/fastapi,0,146.45299906935543,100,105,0,0,empty_patch_without_error,42
+Six-minute reference,development,fastapi_14463,fastapi/fastapi,0,364.04372258950025,94,179,3182,1,session_timeout,42
+Six-minute reference,development,fastapi_14492,fastapi/fastapi,0,97.0995790520683,18,22,944,1,test_patch_apply_error,42
+Six-minute reference,development,fastapi_14786,fastapi/fastapi,1,126.01042181625962,15,20,404,0,resolved,42
+Six-minute reference,development,fastapi_14791,fastapi/fastapi,0,57.46375939901918,7,11,770,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14512,fastapi/fastapi,0,179.86248168721795,72,73,0,1,context_overflow,42
+Six-minute reference,development,fastapi_14605,fastapi/fastapi,0,194.1178861008957,48,61,6096,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14794,fastapi/fastapi,1,100.07398927398026,17,21,552,0,resolved,42
+Six-minute reference,development,fastapi_14616,fastapi/fastapi,0,329.4290985278785,100,104,1776,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14487,fastapi/fastapi,0,364.02720773778856,93,103,0,1,session_timeout,42
+Six-minute reference,development,fastapi_14609,fastapi/fastapi,0,364.0124886063859,75,137,47527,1,session_timeout,42
+Six-minute reference,development,fastapi_14583,fastapi/fastapi,0,364.0501731997356,42,77,1787,1,session_timeout,42
+Six-minute reference,development,fastapi_14986,fastapi/fastapi,0,61.92331490851939,16,17,0,1,context_overflow,42
+Six-minute reference,development,fastapi_14873,fastapi/fastapi,1,363.943759502843,26,219,2733,0,resolved,42
+Six-minute reference,development,fastapi_14953,fastapi/fastapi,0,364.12246984243393,91,94,2525,1,session_timeout,42
+Six-minute reference,development,fastapi_15030,fastapi/fastapi,0,175.58887536078691,24,29,1851,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14962,fastapi/fastapi,0,364.19228316191584,90,92,0,1,session_timeout,42
+Six-minute reference,development,fastapi_14978,fastapi/fastapi,0,245.07570212427527,34,40,3632,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_14964,fastapi/fastapi,0,364.1281458577141,16,90,1137,1,session_timeout,42
+Six-minute reference,development,fastapi_15588,fastapi/fastapi,0,134.9494182029739,21,25,901,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_15785,fastapi/fastapi,0,104.28968781698497,49,50,0,1,context_overflow,42
+Six-minute reference,development,fastapi_15023,fastapi/fastapi,0,364.1952407900244,35,67,0,1,session_timeout,42
+Six-minute reference,development,fastapi_15280,fastapi/fastapi,0,364.4320462616161,52,54,577,1,session_timeout,42
+Six-minute reference,development,fastapi_15763,fastapi/fastapi,0,295.3148463126272,100,118,2090,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_15661,fastapi/fastapi,0,364.37108580674976,94,169,0,1,session_timeout,42
+Six-minute reference,development,fastapi_15589,fastapi/fastapi,0,364.4798052748665,46,77,2899,1,session_timeout,42
+Six-minute reference,development,httpx_3672,encode/httpx,0,85.62102521397173,18,19,0,1,context_overflow,42
+Six-minute reference,development,fastapi_9425,fastapi/fastapi,0,173.96337776444852,39,43,620,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_9555,fastapi/fastapi,1,178.5659394916147,26,30,1688,0,resolved,42
+Six-minute reference,development,requests_7205,psf/requests,1,106.89913749042898,14,19,503,0,resolved,42
+Six-minute reference,development,fastapi_5077,fastapi/fastapi,1,224.74007004871964,20,24,3109,0,resolved,42
+Six-minute reference,development,requests_6644,psf/requests,0,239.43195840436965,97,101,1438,0,unresolved_nonempty_patch,42
+Six-minute reference,development,fastapi_15800,fastapi/fastapi,0,261.4451694479212,99,103,544,0,unresolved_nonempty_patch,42
+Six-minute reference,development,requests_7309,psf/requests,1,93.62859333399685,12,18,692,0,resolved,42
+Six-minute reference,development,requests_7315,psf/requests,0,93.67299438640477,25,29,1021,1,test_patch_apply_error,42
+Six-minute reference,development,requests_7427,psf/requests,1,79.89359147939831,13,17,716,0,resolved,42
+Six-minute reference,development,fastapi_9753,fastapi/fastapi,0,341.7125013843179,87,88,0,1,context_overflow,42
+Six-minute reference,development,fastapi_5624,fastapi/fastapi,0,363.9399308376014,43,89,2141,1,session_timeout,42
+Six-minute reference,development,requests_7505,psf/requests,0,241.2047014459968,92,99,3582,0,unresolved_nonempty_patch,42
+Six-minute reference,development,requests_7328,psf/requests,0,296.65831210650504,49,128,1285,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_13207,fastapi/fastapi,0,82.61636015120894,16,17,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_13786,fastapi/fastapi,0,97.8905107975006,19,20,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_13537,fastapi/fastapi,1,191.37288681417704,18,23,2779,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_11194,fastapi/fastapi,0,207.57756175193936,79,80,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_11355,fastapi/fastapi,0,229.43233659211543,100,102,0,1,tool_budget,42
+Six-minute reference with 150 turns,development,fastapi_12942,fastapi/fastapi,0,262.2491677207872,100,107,0,0,empty_patch_without_error,42
+Six-minute reference with 150 turns,development,fastapi_13920,fastapi/fastapi,0,268.62929701898247,94,98,3314,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_13713,fastapi/fastapi,0,363.8621218390763,88,149,2486,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14303,fastapi/fastapi,0,109.03189426101744,21,22,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_14246,fastapi/fastapi,0,178.536397440359,58,59,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_14099,fastapi/fastapi,0,285.13160441815853,93,97,0,0,empty_patch_without_error,42
+Six-minute reference with 150 turns,development,fastapi_14262,fastapi/fastapi,0,286.9163674926385,92,96,332,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14297,fastapi/fastapi,1,302.383833010681,17,22,1331,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14301,fastapi/fastapi,1,363.8158895820379,66,70,1742,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14266,fastapi/fastapi,0,363.8140722224489,53,88,1958,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14258,fastapi/fastapi,0,364.61481833364815,13,14,689,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14361,fastapi/fastapi,1,91.92679931223392,15,20,645,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14306,fastapi/fastapi,0,363.80831005517393,87,91,3925,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14371,fastapi/fastapi,0,183.42053368594495,71,72,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_14372,fastapi/fastapi,1,145.64157189801335,25,30,1759,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14349,fastapi/fastapi,0,363.8285636212677,65,83,788,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14430,fastapi/fastapi,1,257.14095997437835,95,99,838,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14463,fastapi/fastapi,1,76.84033018443733,10,15,745,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14360,fastapi/fastapi,1,363.74873442202806,27,64,2307,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14448,fastapi/fastapi,0,264.7369247591123,98,102,2060,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14458,fastapi/fastapi,1,198.6471408875659,12,17,3610,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14419,fastapi/fastapi,0,363.8315300121904,67,70,3286,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14455,fastapi/fastapi,0,272.9113929430023,55,59,3982,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14485,fastapi/fastapi,0,173.18873262684792,100,105,0,0,empty_patch_without_error,42
+Six-minute reference with 150 turns,development,fastapi_14482,fastapi/fastapi,0,216.8042368190363,75,80,2679,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14459,fastapi/fastapi,0,363.8335479246453,69,73,1518,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14479,fastapi/fastapi,0,363.9452983764932,18,59,882,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14492,fastapi/fastapi,0,114.27301709260792,17,22,2700,1,test_patch_apply_error,42
+Six-minute reference with 150 turns,development,fastapi_14583,fastapi/fastapi,0,145.136537223123,28,32,649,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14512,fastapi/fastapi,0,156.49419206287712,54,55,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_14786,fastapi/fastapi,1,157.832189748995,27,31,404,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14609,fastapi/fastapi,0,181.2313367659226,38,41,0,1,other_reported_error,42
+Six-minute reference with 150 turns,development,fastapi_14791,fastapi/fastapi,0,59.44103384297341,7,11,770,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14487,fastapi/fastapi,0,248.4692540774122,96,100,1346,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14794,fastapi/fastapi,1,104.38997148070484,18,22,791,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_14986,fastapi/fastapi,0,70.0077271675691,16,17,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_14605,fastapi/fastapi,0,364.8876724261791,21,67,0,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14616,fastapi/fastapi,0,364.90525060147047,98,105,793,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14964,fastapi/fastapi,0,172.72793880477548,18,23,2925,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14873,fastapi/fastapi,0,364.1852329829708,70,72,1328,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_14953,fastapi/fastapi,0,364.2530900230631,62,65,16830,1,test_patch_apply_error,42
+Six-minute reference with 150 turns,development,fastapi_15023,fastapi/fastapi,0,193.8173641860485,38,43,841,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14962,fastapi/fastapi,0,364.15660287998617,74,79,2104,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_15588,fastapi/fastapi,0,210.60148169193417,28,31,2386,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_14978,fastapi/fastapi,0,364.077677866444,58,62,5558,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_15280,fastapi/fastapi,0,300.57129107043147,99,104,834,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_15030,fastapi/fastapi,0,347.9478779025376,97,150,821,1,turn_budget,42
+Six-minute reference with 150 turns,development,fastapi_15661,fastapi/fastapi,0,228.89817900396883,94,98,533,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,fastapi_15785,fastapi/fastapi,0,252.71512383501977,100,150,1510,1,turn_budget,42
+Six-minute reference with 150 turns,development,fastapi_15589,fastapi/fastapi,0,295.27905674465,51,150,2790,1,turn_budget,42
+Six-minute reference with 150 turns,development,fastapi_15763,fastapi/fastapi,0,364.7903112107888,53,115,899,1,session_timeout,42
+Six-minute reference with 150 turns,development,httpx_3672,encode/httpx,0,82.73072396498173,18,19,0,1,context_overflow,42
+Six-minute reference with 150 turns,development,fastapi_9555,fastapi/fastapi,1,178.5874203024432,28,32,1688,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_15800,fastapi/fastapi,0,235.88437567837536,99,96,574,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,requests_7309,psf/requests,1,108.75982167199254,12,20,1783,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_9425,fastapi/fastapi,0,330.3597480421886,96,109,1171,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,requests_7315,psf/requests,0,93.81306912004948,25,29,1176,1,test_patch_apply_error,42
+Six-minute reference with 150 turns,development,fastapi_9753,fastapi/fastapi,0,363.9083591243252,86,87,0,1,session_timeout,42
+Six-minute reference with 150 turns,development,requests_6644,psf/requests,0,362.5301160896197,97,120,1569,1,session_timeout,42
+Six-minute reference with 150 turns,development,fastapi_5077,fastapi/fastapi,1,363.9368660058826,48,52,2818,0,resolved,42
+Six-minute reference with 150 turns,development,fastapi_5624,fastapi/fastapi,0,363.9010836472735,92,96,2686,1,session_timeout,42
+Six-minute reference with 150 turns,development,requests_7205,psf/requests,1,362.4520118013024,52,54,2097,0,resolved,42
+Six-minute reference with 150 turns,development,requests_7505,psf/requests,0,101.31522349454464,31,36,3582,0,unresolved_nonempty_patch,42
+Six-minute reference with 150 turns,development,requests_7427,psf/requests,1,266.27110504359007,95,150,2237,0,resolved,42
+Six-minute reference with 150 turns,development,requests_7328,psf/requests,0,362.4330228716135,41,43,3285,1,session_timeout,42
+Rozen coder–analyzer reference,development,fastapi_13207,fastapi/fastapi,0,80.97755642980337,16,17,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_13786,fastapi/fastapi,0,97.55598113592714,19,20,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_11194,fastapi/fastapi,0,224.62881216034293,79,80,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_11355,fastapi/fastapi,0,260.4004723103717,99,103,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_13920,fastapi/fastapi,0,290.62745798472315,97,101,900,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_13713,fastapi/fastapi,0,342.29046074301004,98,104,4718,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_13537,fastapi/fastapi,0,558.4103995058686,100,181,2323,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_12942,fastapi/fastapi,0,666.1900540404022,100,271,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_14303,fastapi/fastapi,0,103.4050188343972,21,22,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14297,fastapi/fastapi,1,117.33685909770428,10,15,896,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14349,fastapi/fastapi,0,98.6685766261071,35,36,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14246,fastapi/fastapi,0,252.7518211528659,77,78,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14266,fastapi/fastapi,0,341.0684043299407,100,104,2188,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14361,fastapi/fastapi,1,119.11192331649364,30,35,512,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14099,fastapi/fastapi,0,416.530734189786,99,106,1277,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14301,fastapi/fastapi,1,420.900040216744,99,104,2010,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14306,fastapi/fastapi,0,392.172713550739,98,105,3465,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14372,fastapi/fastapi,1,132.14452310092747,18,23,1842,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14419,fastapi/fastapi,0,118.30904284864664,45,46,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14371,fastapi/fastapi,0,377.019766417332,95,99,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_14448,fastapi/fastapi,0,279.357391490601,97,101,3568,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14430,fastapi/fastapi,0,434.0169855663553,83,90,4216,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14463,fastapi/fastapi,1,65.33586068730801,10,15,745,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14479,fastapi/fastapi,0,74.22270606365055,14,19,524,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14455,fastapi/fastapi,0,476.00825646054,95,100,2379,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14262,fastapi/fastapi,0,1061.9052086230367,100,409,2016,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14482,fastapi/fastapi,0,209.03548930212852,98,102,1520,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14459,fastapi/fastapi,1,359.71883751731366,97,102,2298,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14360,fastapi/fastapi,0,867.7961228685454,100,140,2677,1,tool_budget,42
+Rozen coder–analyzer reference,development,fastapi_14485,fastapi/fastapi,0,164.36552741471678,100,105,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_14458,fastapi/fastapi,1,638.1124581787735,99,122,7576,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14258,fastapi/fastapi,0,1761.1548419836909,56,62,1713,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14492,fastapi/fastapi,0,116.23507935274392,17,22,944,1,test_patch_apply_error,42
+Rozen coder–analyzer reference,development,fastapi_14786,fastapi/fastapi,1,144.74895287305117,15,19,404,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14791,fastapi/fastapi,0,63.568369262851775,7,11,613,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14487,fastapi/fastapi,0,251.66709846258163,87,88,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14873,fastapi/fastapi,0,77.40918849781156,22,23,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14794,fastapi/fastapi,1,130.7697135489434,23,27,791,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_14616,fastapi/fastapi,0,336.763145304285,96,100,791,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14609,fastapi/fastapi,0,388.9939928567037,92,102,39894,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14986,fastapi/fastapi,0,56.9684808542952,16,17,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14964,fastapi/fastapi,0,160.58293577563018,27,31,1780,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14583,fastapi/fastapi,0,457.7841319656,94,112,658,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_14962,fastapi/fastapi,0,255.06050898786637,100,104,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_15023,fastapi/fastapi,0,111.32775630801916,33,38,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_14978,fastapi/fastapi,0,296.01223946735263,98,102,1791,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_15030,fastapi/fastapi,0,188.7355932686478,29,33,2004,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_15589,fastapi/fastapi,0,162.84725163597614,61,62,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14605,fastapi/fastapi,0,834.3547812756151,56,341,79,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_15785,fastapi/fastapi,0,110.30916336271912,49,50,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_15661,fastapi/fastapi,0,251.7044444316998,93,97,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,fastapi_15280,fastapi/fastapi,0,546.4881265973672,100,318,656,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_15588,fastapi/fastapi,0,467.9964123805985,38,241,1022,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,fastapi_15763,fastapi/fastapi,0,383.5761751709506,83,86,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14512,fastapi/fastapi,0,1256.4945187047124,100,660,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_14953,fastapi/fastapi,0,1218.5444151805714,100,631,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,httpx_3672,encode/httpx,0,85.73194156680256,18,19,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,requests_7205,psf/requests,1,97.72007863409816,20,24,503,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_5624,fastapi/fastapi,0,200.4657318117097,44,49,1146,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,development,requests_6644,psf/requests,1,235.9819086957723,98,102,1399,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_15800,fastapi/fastapi,0,244.4692681087181,97,99,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,development,requests_7315,psf/requests,0,118.37875212170184,26,30,1176,1,test_patch_apply_error,42
+Rozen coder–analyzer reference,development,requests_7309,psf/requests,0,142.95569896511734,23,28,1911,1,test_patch_apply_error,42
+Rozen coder–analyzer reference,development,requests_7427,psf/requests,1,114.76987857744098,14,19,897,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_9425,fastapi/fastapi,1,397.6592978602275,55,118,655,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_9753,fastapi/fastapi,0,408.4856514437124,90,91,0,1,context_overflow,42
+Rozen coder–analyzer reference,development,fastapi_9555,fastapi/fastapi,1,515.4972481569275,38,270,1688,0,resolved,42
+Rozen coder–analyzer reference,development,requests_7505,psf/requests,1,148.67598454654217,34,39,2887,0,resolved,42
+Rozen coder–analyzer reference,development,fastapi_5077,fastapi/fastapi,1,633.9358950238675,93,99,3246,0,resolved,42
+Rozen coder–analyzer reference,development,requests_7328,psf/requests,0,474.573687069118,52,59,3553,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3006,Textualize/rich,1,132.57696124445647,26,31,1376,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3043,Textualize/rich,0,172.21651851478964,66,67,0,1,context_overflow,42
+Rozen coder–analyzer reference,held_out,rich_2725,Textualize/rich,0,220.8719454994425,39,44,0,1,context_overflow,42
+Rozen coder–analyzer reference,held_out,rich_3064,Textualize/rich,0,488.9510313095525,100,203,367,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3052,Textualize/rich,0,593.0013372208923,98,137,1495,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3063,Textualize/rich,0,602.587159730494,39,40,0,1,context_overflow,42
+Rozen coder–analyzer reference,held_out,rich_3061,Textualize/rich,0,599.8369135418907,100,340,1504,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_2943,Textualize/rich,0,793.152083620429,100,288,711,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3468,Textualize/rich,0,136.73878130689263,23,29,1457,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3105,Textualize/rich,0,256.41585107240826,94,98,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,held_out,rich_3180,Textualize/rich,0,288.0791975799948,97,101,936,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3296,Textualize/rich,1,375.4848369471729,78,86,2017,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3469,Textualize/rich,0,253.2004612488672,100,104,667,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3454,Textualize/rich,1,407.5483702709898,98,103,1703,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3506,Textualize/rich,1,123.1916347462684,32,37,1253,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3472,Textualize/rich,0,160.8774933097884,90,94,724,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3518,Textualize/rich,1,200.91983343660831,96,100,1430,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3535,Textualize/rich,0,108.43436011299492,25,30,1127,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3278,Textualize/rich,0,689.2968039261177,100,153,0,1,tool_budget,42
+Rozen coder–analyzer reference,held_out,rich_3675,Textualize/rich,0,83.17214691732079,15,19,723,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3777,Textualize/rich,0,73.42470426950604,32,33,0,1,context_overflow,42
+Rozen coder–analyzer reference,held_out,rich_3521,Textualize/rich,1,335.32191908173263,30,34,3362,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3676,Textualize/rich,1,232.1553113125265,43,46,1197,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3782,Textualize/rich,0,179.83464568201452,36,39,0,1,context_overflow,42
+Rozen coder–analyzer reference,held_out,rich_3894,Textualize/rich,1,70.07399081252515,10,15,605,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3471,Textualize/rich,0,735.2433815440163,63,207,394,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3905,Textualize/rich,1,69.0309532918036,20,24,521,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3718,Textualize/rich,0,381.4246734306216,98,103,1398,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3882,Textualize/rich,1,194.3200504872948,99,103,2234,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3470,Textualize/rich,0,868.225431538187,100,137,660,1,tool_budget,42
+Rozen coder–analyzer reference,held_out,rich_3130,Textualize/rich,1,1159.111203172244,97,500,819,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3067,Textualize/rich,1,1230.7661766270176,97,265,1716,0,resolved,42
+Rozen coder–analyzer reference,held_out,rich_3930,Textualize/rich,0,265.0015743365512,94,98,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,held_out,rich_3953,Textualize/rich,0,342.30405094102025,99,103,2184,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3942,Textualize/rich,0,364.03638404700905,71,97,0,0,empty_patch_without_error,42
+Rozen coder–analyzer reference,held_out,rich_3944,Textualize/rich,0,373.4307969361544,59,66,4960,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3934,Textualize/rich,0,440.1158896209672,99,103,858,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_4070,Textualize/rich,0,457.71810883656144,55,71,0,1,context_overflow,42
+Rozen coder–analyzer reference,held_out,rich_4076,Textualize/rich,0,203.34642361290756,96,100,731,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_4075,Textualize/rich,0,319.34926587250084,99,103,813,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_4079,Textualize/rich,0,212.67692023608836,97,101,1389,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_4077,Textualize/rich,0,225.41341551579532,47,52,2295,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3935,Textualize/rich,0,614.6963263982907,97,101,1733,0,unresolved_nonempty_patch,42
+Rozen coder–analyzer reference,held_out,rich_3938,Textualize/rich,0,739.987322206609,100,148,980,1,tool_budget,42
+Four-tool single coder,development,fastapi_13537,fastapi/fastapi,1,139.49823563639077,6,8,826,0,resolved,42
+Four-tool single coder,development,fastapi_12942,fastapi/fastapi,1,166.82679994869977,12,14,561,0,resolved,42
+Four-tool single coder,development,fastapi_13713,fastapi/fastapi,0,176.43693840596825,20,23,0,0,empty_patch_without_error,42
+Four-tool single coder,development,fastapi_11355,fastapi/fastapi,0,189.8515960155055,18,20,1469,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_11194,fastapi/fastapi,1,200.30545642785728,13,15,993,0,resolved,42
+Four-tool single coder,development,fastapi_13207,fastapi/fastapi,1,243.39920460432768,10,12,1280,0,resolved,42
+Four-tool single coder,development,fastapi_13920,fastapi/fastapi,0,277.49988256394863,16,18,3454,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_13786,fastapi/fastapi,0,304.99955379683524,13,13,4644,1,session_timeout,42
+Four-tool single coder,development,fastapi_14258,fastapi/fastapi,0,83.37289268709719,11,13,508,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14303,fastapi/fastapi,1,83.97807404585183,3,5,745,0,resolved,42
+Four-tool single coder,development,fastapi_14301,fastapi/fastapi,1,91.31555384676903,10,12,647,0,resolved,42
+Four-tool single coder,development,fastapi_14297,fastapi/fastapi,1,193.83762124553323,7,9,1440,0,resolved,42
+Four-tool single coder,development,fastapi_14349,fastapi/fastapi,1,166.22879497148097,8,10,1538,0,resolved,42
+Four-tool single coder,development,fastapi_14246,fastapi/fastapi,0,305.1189201027155,20,21,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14099,fastapi/fastapi,0,305.15650106873363,18,18,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14262,fastapi/fastapi,0,305.15513756871223,20,22,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14266,fastapi/fastapi,0,305.2934545725584,20,20,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14361,fastapi/fastapi,1,98.03485781885684,4,6,544,0,resolved,42
+Four-tool single coder,development,fastapi_14306,fastapi/fastapi,0,285.9170771036297,20,60,0,1,turn_budget,42
+Four-tool single coder,development,fastapi_14360,fastapi/fastapi,1,299.5322567149997,12,14,704,0,resolved,42
+Four-tool single coder,development,fastapi_14372,fastapi/fastapi,1,171.7559440759942,13,15,566,0,resolved,42
+Four-tool single coder,development,fastapi_14458,fastapi/fastapi,1,152.757916001603,6,8,1502,0,resolved,42
+Four-tool single coder,development,fastapi_14371,fastapi/fastapi,0,304.1368261612952,8,8,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14479,fastapi/fastapi,0,49.84894635248929,2,4,524,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14430,fastapi/fastapi,0,304.29124640580267,5,5,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14448,fastapi/fastapi,0,304.21936258487403,9,9,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14463,fastapi/fastapi,1,119.98762336559594,10,12,1716,0,resolved,42
+Four-tool single coder,development,fastapi_14455,fastapi/fastapi,0,304.2063016202301,20,22,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14419,fastapi/fastapi,0,304.1753326859325,19,19,905,1,session_timeout,42
+Four-tool single coder,development,fastapi_14482,fastapi/fastapi,0,122.79598420765252,19,21,437,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14459,fastapi/fastapi,1,303.98249982949346,11,11,500,0,resolved,42
+Four-tool single coder,development,fastapi_14485,fastapi/fastapi,0,170.55566945299506,18,20,850,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14786,fastapi/fastapi,1,42.83730443101376,2,4,404,0,resolved,42
+Four-tool single coder,development,fastapi_14492,fastapi/fastapi,1,112.05483881011604,13,15,391,0,resolved,42
+Four-tool single coder,development,fastapi_14791,fastapi/fastapi,0,107.19963394850492,2,4,659,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14605,fastapi/fastapi,0,178.37264634948224,20,23,3431,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14609,fastapi/fastapi,0,247.12856016587463,20,22,6361,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14953,fastapi/fastapi,0,80.10555535182357,7,9,560,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14794,fastapi/fastapi,1,159.15971990209073,8,10,791,0,resolved,42
+Four-tool single coder,development,fastapi_14487,fastapi/fastapi,0,283.83914391696453,20,28,0,0,empty_patch_without_error,42
+Four-tool single coder,development,fastapi_14583,fastapi/fastapi,0,303.9412985080853,12,12,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14512,fastapi/fastapi,0,303.83891891129315,20,21,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14616,fastapi/fastapi,1,303.9790463084355,20,21,1071,0,resolved,42
+Four-tool single coder,development,fastapi_14873,fastapi/fastapi,1,304.0375843103975,17,17,1679,0,resolved,42
+Four-tool single coder,development,fastapi_14964,fastapi/fastapi,0,205.6005966085941,14,16,1980,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_14962,fastapi/fastapi,0,304.0513650365174,20,21,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_14978,fastapi/fastapi,0,304.09712536167353,14,15,2636,1,session_timeout,42
+Four-tool single coder,development,fastapi_14986,fastapi/fastapi,0,304.06859685946256,13,13,1955,1,session_timeout,42
+Four-tool single coder,development,fastapi_15023,fastapi/fastapi,0,304.24313047435135,14,14,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_15280,fastapi/fastapi,0,304.22024765238166,10,10,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_15030,fastapi/fastapi,0,304.2369744377211,6,12,1047,1,session_timeout,42
+Four-tool single coder,development,fastapi_15588,fastapi/fastapi,0,304.3510223561898,17,17,1031,1,session_timeout,42
+Four-tool single coder,development,fastapi_15589,fastapi/fastapi,0,304.39656654465944,13,13,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_15785,fastapi/fastapi,0,209.00486682727933,20,22,1325,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_15661,fastapi/fastapi,0,269.4536151327193,17,19,1981,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_15763,fastapi/fastapi,0,252.49098433274776,20,22,1231,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_9555,fastapi/fastapi,1,119.05855102930218,5,7,1688,0,resolved,42
+Four-tool single coder,development,fastapi_15800,fastapi/fastapi,0,171.19648119900376,20,23,0,0,empty_patch_without_error,42
+Four-tool single coder,development,requests_6644,psf/requests,1,211.5794667014852,13,15,499,0,resolved,42
+Four-tool single coder,development,fastapi_9753,fastapi/fastapi,0,236.55233212001625,16,18,1223,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,requests_7309,psf/requests,1,64.61612346302718,3,5,692,0,resolved,42
+Four-tool single coder,development,httpx_3672,encode/httpx,1,249.2715178728104,12,14,2047,0,resolved,42
+Four-tool single coder,development,requests_7315,psf/requests,1,73.5762201352045,8,10,522,0,resolved,42
+Four-tool single coder,development,fastapi_9425,fastapi/fastapi,0,293.3475260026753,18,20,542,0,unresolved_nonempty_patch,42
+Four-tool single coder,development,fastapi_5077,fastapi/fastapi,0,303.80809716973454,6,21,0,1,session_timeout,42
+Four-tool single coder,development,fastapi_5624,fastapi/fastapi,0,303.89265972189605,5,17,0,1,session_timeout,42
+Four-tool single coder,development,requests_7427,psf/requests,1,99.95686834398656,4,6,1407,0,resolved,42
+Four-tool single coder,development,requests_7205,psf/requests,1,227.54607598576692,11,13,691,0,resolved,42
+Four-tool single coder,development,requests_7328,psf/requests,1,148.71959289722145,7,9,536,0,resolved,42
+Four-tool single coder,development,requests_7505,psf/requests,0,187.9347811369225,20,22,1883,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3006,Textualize/rich,1,75.69503043964505,10,12,558,0,resolved,42
+Four-tool single coder,held_out,rich_2725,Textualize/rich,1,80.45628877915442,7,9,609,0,resolved,42
+Four-tool single coder,held_out,rich_2943,Textualize/rich,1,91.8731242697686,9,11,400,0,resolved,42
+Four-tool single coder,held_out,rich_3052,Textualize/rich,0,172.47604694683105,7,9,2959,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3064,Textualize/rich,0,171.8864317201078,9,11,1209,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3043,Textualize/rich,1,174.0928045809269,5,8,449,0,resolved,42
+Four-tool single coder,held_out,rich_3061,Textualize/rich,0,209.9384313337505,20,25,0,0,empty_patch_without_error,42
+Four-tool single coder,held_out,rich_3063,Textualize/rich,0,302.8590762447566,14,14,1245,1,session_timeout,42
+Four-tool single coder,held_out,rich_3067,Textualize/rich,1,56.01744378916919,3,6,655,0,resolved,42
+Four-tool single coder,held_out,rich_3454,Textualize/rich,0,88.5335010709241,6,10,1155,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3296,Textualize/rich,1,97.18675932940096,9,11,504,0,resolved,42
+Four-tool single coder,held_out,rich_3130,Textualize/rich,1,182.2977467076853,14,16,856,0,resolved,42
+Four-tool single coder,held_out,rich_3105,Textualize/rich,0,302.8848716346547,20,21,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3278,Textualize/rich,0,302.9293944668025,15,15,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3180,Textualize/rich,0,302.9350357931107,11,11,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3468,Textualize/rich,0,302.8729375144467,17,17,1376,1,session_timeout,42
+Four-tool single coder,held_out,rich_3470,Textualize/rich,0,240.1663498124108,18,20,482,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3469,Textualize/rich,0,302.9178782273084,16,16,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3471,Textualize/rich,0,284.00570950843394,13,15,691,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3518,Textualize/rich,1,98.15172131918372,11,13,529,0,resolved,42
+Four-tool single coder,held_out,rich_3472,Textualize/rich,0,255.747267450206,20,25,0,0,empty_patch_without_error,42
+Four-tool single coder,held_out,rich_3675,Textualize/rich,0,144.30835119541734,10,12,702,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3718,Textualize/rich,1,124.71100102271885,9,11,767,0,resolved,42
+Four-tool single coder,held_out,rich_3676,Textualize/rich,0,184.38821581285447,14,16,1539,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3521,Textualize/rich,0,302.829095187597,4,4,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3506,Textualize/rich,0,302.8109409734607,7,7,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3535,Textualize/rich,0,302.80041185952723,10,13,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3905,Textualize/rich,1,63.61537225078792,7,9,627,0,resolved,42
+Four-tool single coder,held_out,rich_3777,Textualize/rich,0,237.7682536160573,19,21,1213,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3894,Textualize/rich,1,120.19001080561428,6,8,1115,0,resolved,42
+Four-tool single coder,held_out,rich_3782,Textualize/rich,0,228.1032384475693,18,20,643,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3882,Textualize/rich,0,302.85960364714265,3,34,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3944,Textualize/rich,0,249.97642971761525,16,18,823,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3935,Textualize/rich,0,253.53272121027112,9,11,1022,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3942,Textualize/rich,0,262.94109370559454,19,21,741,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_4070,Textualize/rich,0,272.12266634590924,20,22,3228,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_3934,Textualize/rich,0,303.02071897313,7,7,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3938,Textualize/rich,0,303.02877091336995,20,22,0,1,session_timeout,42
+Four-tool single coder,held_out,rich_3930,Textualize/rich,0,302.9486716222018,10,10,1872,1,session_timeout,42
+Four-tool single coder,held_out,rich_3953,Textualize/rich,0,303.03143112920225,9,9,914,1,session_timeout,42
+Four-tool single coder,held_out,rich_4076,Textualize/rich,0,130.50315947365016,19,21,880,0,unresolved_nonempty_patch,42
+Four-tool single coder,held_out,rich_4077,Textualize/rich,1,130.15982900373638,11,13,396,0,resolved,42
+Four-tool single coder,held_out,rich_4075,Textualize/rich,0,264.11551969219,20,44,0,0,empty_patch_without_error,42
+Four-tool single coder,held_out,rich_4079,Textualize/rich,0,302.9706621868536,20,57,0,1,session_timeout,42

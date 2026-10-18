@@ -1,0 +1,6 @@
+node_id,group,value,target
+A,1,10,B
+B,1,15,C
+C,2,20,A
+D,2,8,E
+E,2,5,D

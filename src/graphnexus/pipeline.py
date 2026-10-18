@@ -26,7 +26,7 @@ import json
 from datetime import UTC, datetime
 from pathlib import Path
 
-from src.engine import GraphOutput
+from graphnexus.engine import GraphOutput
 
 
 def export_graph_to_web(graph_output: GraphOutput, output_dir: str = "web/data") -> str:
