@@ -30,8 +30,8 @@ def parse_args():
     parser.add_argument(
         "--community-algo",
         choices=["louvain", "leiden"],
-        default="leiden",
-        help="Community detection algorithm (default: leiden)"
+        default="louvain",
+        help="Community detection algorithm: louvain (fast, default) or leiden (robust, requires leidenalg)"
     )
     args = parser.parse_args()
     if args.config:
