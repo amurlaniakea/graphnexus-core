@@ -1,5 +1,8 @@
 # GraphNexus 🌌
 
+![CI](https://github.com/amurlaniakea/graphnexus-core/actions/workflows/deploy.yml/badge.svg)
+![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
+
 Agnostic framework transforming any tabular dataset (CSV/JSON) into a formal graph structure (Nodes/Edges) ready for network analytics and interactive 3D visualization.
 
 Topics: `graph`, `network-analysis`, `3d-visualization`, `python`, `pydantic`, `louvain`
