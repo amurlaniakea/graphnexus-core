@@ -9,7 +9,20 @@
   document.getElementById('meta-theme').textContent = payload.metadata.theme || 'Desconocido';
   document.getElementById('meta-rows').textContent = payload.metadata.total_rows != null ? payload.metadata.total_rows : '-';
   document.getElementById('meta-cols').textContent = payload.metadata.total_columns != null ? payload.metadata.total_columns : '-';
-  document.getElementById('meta-col-list').textContent = payload.metadata.columns ? payload.metadata.columns.join(', ') : '-';
+  const cols = payload.metadata.columns || [];
+  const maxVisible = 5;
+  const visibleCols = cols.slice(0, maxVisible).join(', ');
+  const hiddenCount = Math.max(0, cols.length - maxVisible);
+  let colText = visibleCols;
+  if (hiddenCount > 0) {
+    colText = visibleCols + ` <button id="show-cols-btn" style="font-size:9px;background:#00ffc8;color:#0b0b12;border:none;padding:2px 4px;border-radius:3px;cursor:pointer;">Ver +${hiddenCount}</button>`;
+  }
+  document.getElementById('meta-col-list').innerHTML = colText;
+  document.getElementById('meta-col-list').addEventListener('click', (e) => {
+    if (e.target.id === 'show-cols-btn' && cols.length > maxVisible) {
+      document.getElementById('meta-col-list').textContent = cols.join(', ');
+    }
+  });
   const n = payload.metadata.node_count;
   const e = payload.metadata.edge_count;
   document.getElementById('m-density').textContent = (e / (n*(n-1))).toFixed(4);
