@@ -3,6 +3,7 @@
 [![CI](https://github.com/amurlaniakea/graphnexus-core/actions/workflows/deploy.yml/badge.svg)](https://github.com/amurlaniakea/graphnexus-core/actions/workflows/deploy.yml)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://img.shields.io/pypi/v/graphnexus-core.svg)](https://pypi.org/project/graphnexus-core/)
 
 Agnostic framework that transforms any tabular dataset (CSV/JSON) into a formal graph structure (Nodes/Edges), ready for network analytics and interactive 3D visualization.
 
@@ -16,16 +17,28 @@ Agnostic framework that transforms any tabular dataset (CSV/JSON) into a formal 
 
 ## 🚀 Quick Start
 
+### Option 1: Install from PyPI (Recommended)
+
+```bash
+pip install graphnexus-core
+
+# Run the CLI tool directly
+graphnexus --input examples/web_stack.csv --node-id repo_name --target co_contributor --attributes "stars,language"
+
+# Then open `web/index.html` in your browser
+```
+
+### Option 2: Install from Source
+
 ```bash
 git clone https://github.com/amurlaniakea/graphnexus-core.git
 cd graphnexus-core
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python main.py --input examples/web_stack.csv --node-id repo_name --target co_contributor --attributes "stars,language"
-```
+pip install -e .
 
-Then open `web/index.html` in your browser.
+graphnexus --input examples/web_stack.csv --node-id repo_name --target co_contributor --attributes "stars,language"
+```
 
 ## 🌍 Universal Use Cases
 
