@@ -21,11 +21,12 @@
   const graphInstance = ForceGraph3D()
     (document.getElementById('3d-graph'))
     .graphData({ nodes: payload.nodes, links: payload.links })
-    .nodeLabel(node => `${node.id}\nGroup:${node.group}\nCentrality:${node.attributes?.centrality?.toFixed(4) || 0}`)`
+    .nodeLabel(node => node.id)
     .nodeColor(node => ['#00ffc8','#ff2a6a','#ffe600','#6a3cff'][node.group % 4] || '#fff')
-    .nodeVal(node => 3 + (node.attributes?.centrality || 0) * 15)
+    .nodeVal(5)
+    .cooldownTicks(150)
     .linkOpacity(0.3)
-    .linkWidth(link => (link.weight || 1) * 1.5);
+    .linkWidth(link => Math.min(1.5, (link.weight || 1) * 0.5));
 
   let currentThreshold = 0;
   let currentGroup = 'all';
