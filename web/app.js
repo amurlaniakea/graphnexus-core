@@ -49,6 +49,14 @@
       return { ...l, opacity: (gVal === null || (sVal === gVal && tVal === gVal)) ? 1 : 0.05 };
     });
 
+    const visibleNodes = processedNodes.filter(n => n.opacity > 0.5);
+    const visibleLinks = processedLinks.filter(l => l.opacity > 0.5);
+    document.getElementById('m-nodes').textContent = visibleNodes.length;
+    document.getElementById('m-edges').textContent = visibleLinks.length;
+    const vn = visibleNodes.length;
+    const ve = visibleLinks.length;
+    document.getElementById('m-density').textContent = vn > 1 ? (ve / (vn*(vn-1))).toFixed(4) : '0';
+
     graphInstance.graphData({ nodes: processedNodes, links: processedLinks });
   }
 
