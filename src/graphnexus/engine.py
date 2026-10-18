@@ -56,7 +56,7 @@ class UniversalGraphEngine:
         target_col: str | None = None,
         attr_cols: list[str] | None = None,
         business_rule_col: str | None = None,
-        community_algo: str = "leiden",
+        community_algo: str = "louvain",
     ):
         self.source_path = Path(source_path)
         self.node_col = node_col
