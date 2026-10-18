@@ -1,27 +1,48 @@
 # GraphNexus 🌌
 
-![CI](https://github.com/amurlaniakea/graphnexus-core/actions/workflows/deploy.yml/badge.svg)
-![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
+[![CI](https://github.com/amurlaniakea/graphnexus-core/actions/workflows/deploy.yml/badge.svg)](https://github.com/amurlaniakea/graphnexus-core/actions/workflows/deploy.yml)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
-Agnostic framework transforming any tabular dataset (CSV/JSON) into a formal graph structure (Nodes/Edges) ready for network analytics and interactive 3D visualization.
+Agnostic framework that transforms any tabular dataset (CSV/JSON) into a formal graph structure (Nodes/Edges), ready for network analytics and interactive 3D visualization.
 
-Topics: `graph`, `network-analysis`, `3d-visualization`, `python`, `pydantic`, `louvain`
+## ✨ Features
 
-## Quick Start
+- **Agnostic Ingestion**: Accepts any CSV or JSON file. You define the node, target, and attribute columns.
+- **Strict Validation**: Powered by Pydantic to ensure data integrity between Python and the frontend.
+- **Community Detection**: Automatic Louvain clustering to identify hidden groups and ecosystems.
+- **Interactive 3D Visualization**: Zero-config WebGL dashboard (`3d-force-graph`) with real-time filtering.
+- **Local-First & Secure**: No external API calls. All processing happens on your machine.
+
+## 🚀 Quick Start
 
 ```bash
+git clone https://github.com/amurlaniakea/graphnexus-core.git
+cd graphnexus-core
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-git clone <repo>
-python main.py --input data.csv --node-id name --attributes "stars,lang"
+python main.py --input examples/web_stack.csv --node-id repo_name --target co_contributor --attributes "stars,language"
 ```
+
 Then open `web/index.html` in your browser.
 
-## Universal Use Cases
+## 🌍 Universal Use Cases
 
-**1. Open-Source Web Stack Intelligence** — Map software ecosystems by extracting dependency relationships from package registries, clustering communities with Louvain, and identifying strategic open-source infrastructure nodes.
+1. **Open-Source Web Stack Intelligence** — Map software ecosystems, cluster communities with Louvain, and identify strategic infrastructure nodes.
+2. **Global Supply Chain Strangling** — Model logistics flows, detect chokepoints via community isolation, and expose sovereignty vulnerabilities.
+3. **Financial Anti-Fraud Operations** — Build transaction entity graphs, highlight circular flows, and isolate suspicious clusters using real-time filters.
 
-**2. Global Supply Chain Strangling** — Model semiconductor and logistics flows across geographies, detect chokepoints via community isolation, and expose sovereignty vulnerabilities through graph density analysis.
+## 🛠️ Development
 
-**3. Financial Anti-Fraud Operations** — Build transaction entity graphs, highlight circular flows with edge weights, and isolate suspicious clusters using the community filter to surface potential money-laundering networks.
+```bash
+pip install -e ".[dev]"
+pre-commit run --all-files
+pytest tests/ -v
+```
 
-License: AGPL-3.0-or-later.
+## 📄 License
+
+AGPL-3.0-or-later — see [LICENSE](LICENSE).
+
+*Author: Pedro Sordo Martínez — amurlaniakea@gmail.com*
