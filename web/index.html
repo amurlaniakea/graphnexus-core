@@ -48,6 +48,13 @@
   <button onclick="exportMetrics()">📥 Exportar Métricas</button>
   <button id="reset-cam">Reset Camera</button>
 </div>
+<div id="time-control-panel" style="position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(10,15,30,0.9); border:1px solid #1e293b; border-radius:8px; padding:16px 24px; min-width:420px; z-index:1000; color:#fff; font-family:'Courier New',monospace; box-shadow:0 4px 20px rgba(0,255,200,0.15); display:none;">
+  <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
+    <span style="font-size:11px; letter-spacing:1px; color:#00ffc8;">⏳ LÍNEA TEMPORAL</span>
+    <span id="time-display" style="font-size:11px; color:#e6e6fa; font-weight:bold;">Cargando fechas...</span>
+  </div>
+  <input type="range" id="time-slider" style="width:100%; cursor:pointer; accent-color:#00ffc8;" min="0" max="100" value="100" disabled />
+</div>
 <div id="node-analysis-panel" style="display:none; position:fixed; top:20px; right:20px; background:#0f0f17; border:1px solid #2a2a40; padding:20px; border-radius:8px; max-width:420px; z-index:1000; color:#e6e6fa; font-family:'Courier New',monospace; box-shadow:0 0 20px rgba(0,255,200,0.2);"></div>
 <script src="app.js?v=2.1"></script>
 </body>

@@ -168,6 +168,40 @@
     a.href = url; a.download = 'graphnexus_metrics.csv'; a.click();
   };
 
+  // Temporal control initialization (Fase 4 frontend)
+  const timePanel = document.getElementById('time-control-panel');
+  const timeSlider = document.getElementById('time-slider');
+  const timeDisplay = document.getElementById('time-display');
+
+  const metadata = payload.metadata || {};
+  const timeRange = metadata.time_range || null;
+
+  if (timeRange && Array.isArray(timeRange) && timeRange.length === 2) {
+    timePanel.style.display = 'block';
+    timeSlider.min = timeRange[0];
+    timeSlider.max = timeRange[1];
+    timeSlider.value = timeRange[1];
+    timeSlider.disabled = false;
+    const fmtDate = (unixTs) => new Date(unixTs * 1000).toLocaleDateString('es-ES', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+    timeDisplay.textContent = fmtDate(timeRange[1]);
+
+    timeSlider.addEventListener('input', (e) => {
+      const threshold = parseInt(e.target.value);
+      timeDisplay.textContent = fmtDate(threshold);
+      graphInstance
+        .nodeVisibility(node => (node.attributes?.timestamp || Infinity) <= threshold)
+        .linkVisibility(link => {
+          const s = payload.nodes.find(n => n.id === link.source);
+          const t = payload.nodes.find(n => n.id === link.target);
+          const sTs = s?.attributes?.timestamp || Infinity;
+          const tTs = t?.attributes?.timestamp || Infinity;
+          return sTs <= threshold && tTs <= threshold;
+        });
+    });
+  } else {
+    timePanel.style.display = 'none';
+  }
+
   document.getElementById('reset-cam').addEventListener('click', () => {
     if (graphInstance) {
       graphInstance.cameraPosition({ x: 0, y: 0, z: 250 }, { x: 0, y: 0, z: 0 }, 800);
