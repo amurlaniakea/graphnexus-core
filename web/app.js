@@ -50,8 +50,18 @@
   const graphInstance = ForceGraph3D()
     (document.getElementById('3d-graph'))
     .graphData({ nodes: payload.nodes, links: payload.links })
-    .nodeLabel(node => node.id)
-    .nodeColor(node => ['#00ffc8','#ff2a6a','#ffe600','#6a3cff'][node.group % 4] || '#fff')
+    .nodeLabel(node => {
+      const role = node.attributes?.role || 'Peripheral';
+      const bet = (node.attributes?.betweenness || 0).toFixed(4);
+      return `${node.id}\nRol: ${role}\nBetweenness: ${bet}`;
+    })
+    .nodeColor(node => {
+      const role = node.attributes?.role || 'Peripheral';
+      if (role === 'Global Broker') return '#ff2a6a';
+      if (role === 'Local Hub') return '#00ffc8';
+      if (role === 'Super-Spreader') return '#ffe600';
+      return '#6a3cff';
+    })
     .nodeVal(5)
     .cooldownTicks(150)
     .linkOpacity(0.3)

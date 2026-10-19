@@ -123,6 +123,27 @@ class UniversalGraphEngine:
                         else:
                             G.add_edge(center, node, weight=1.0)
 
+        # Structural centrality metrics (sampled for performance)
+        k_sample = min(500, len(G)) if len(G) > 0 else 1
+        betweenness_map = nx.betweenness_centrality(G, k=k_sample)
+        closeness_map = nx.closeness_centrality(G)
+
+        # Role classification heuristic
+        roles = {}
+        degrees = dict(G.degree())
+        for nid in G.nodes():
+            deg = degrees.get(nid, 0)
+            bet = betweenness_map.get(nid, 0.0)
+            close = closeness_map.get(nid, 0.0)
+            if bet > 0.05 and deg <= 3:
+                roles[nid] = "Global Broker"
+            elif deg >= 5 and bet < 0.02:
+                roles[nid] = "Local Hub"
+            elif close > 0.3:
+                roles[nid] = "Super-Spreader"
+            else:
+                roles[nid] = "Peripheral"
+
         # Degree centrality for web visualization
         centrality_map = nx.degree_centrality(G)
 
@@ -141,7 +162,13 @@ class UniversalGraphEngine:
             Node(
                 id=str(nid),
                 group=group_map.get(str(nid), -1),
-                attributes={**nodes.get(str(nid), {}), "centrality": float(centrality_map.get(str(nid), 0.0))},
+                attributes={
+                    **nodes.get(str(nid), {}),
+                    "centrality": float(centrality_map.get(str(nid), 0.0)),
+                    "betweenness": float(betweenness_map.get(str(nid), 0.0)),
+                    "closeness": float(closeness_map.get(str(nid), 0.0)),
+                    "role": roles.get(str(nid), "Peripheral"),
+                },
             )
             for nid in G.nodes()
         ]
