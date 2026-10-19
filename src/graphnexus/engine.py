@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
 from __future__ import annotations
+
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #
@@ -22,7 +23,6 @@ from __future__ import annotations
 """GraphNexus engine - local graph abstraction from tabular data."""
 
 import logging
-
 from pathlib import Path
 
 import networkx as nx
@@ -59,6 +59,7 @@ class UniversalGraphEngine:
         community_algo: str = "louvain",
     ):
         self.source_path = Path(source_path)
+        self.G = nx.Graph()
         self.node_col = node_col
         self.target_col = target_col
         self.attr_cols = attr_cols or []
@@ -71,9 +72,30 @@ class UniversalGraphEngine:
             return pd.read_json(path)
         return pd.read_csv(path)
 
+    def find_critical_path(self, source: str, target: str) -> dict:
+        if source not in self.G or target not in self.G:
+            return {"found": False, "error": "Node not found"}
+        try:
+            path = nx.shortest_path(self.G, source=source, target=target, weight="weight")
+            total_weight = sum(
+                self.G[path[i]][path[i + 1]].get("weight", 1.0)
+                for i in range(len(path) - 1)
+            )
+            edges = [(path[i], path[i + 1]) for i in range(len(path) - 1)]
+            return {
+                "found": True,
+                "path": path,
+                "edges": edges,
+                "length": len(path) - 1,
+                "total_weight": float(total_weight),
+            }
+        except nx.NetworkXNoPath:
+            return {"found": False, "error": "No path exists between nodes"}
+
     def build(self) -> GraphOutput:
         df = self.load_data()
-        G = nx.Graph()
+        self.G = nx.Graph()  # rebuild graph for pathfinding
+        G = self.G
 
         # Nodes
         nodes = {}

@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
 from __future__ import annotations
+
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Copyright (C) 2026 Pedro Sordo Martínez
 
@@ -19,6 +20,7 @@ def export_graph_to_web(
     output_dir: str = "web/data",
     theme: str | None = None,
     source_path: str | None = None,
+    critical_path: dict | None = None,
 ) -> str:
     out_path = Path(output_dir)
     out_path.mkdir(parents=True, exist_ok=True)
@@ -58,6 +60,8 @@ def export_graph_to_web(
             for e in graph_output.edges
         ],
     }
+    if critical_path is not None:
+        payload["critical_path"] = critical_path
     target = out_path / "graph.json"
     target.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
     return str(target)

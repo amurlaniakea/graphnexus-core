@@ -9,8 +9,8 @@ import argparse
 import sys
 from pathlib import Path
 
-import yaml
 import networkx as nx
+import yaml
 
 from graphnexus.engine import UniversalGraphEngine
 from graphnexus.pipeline import export_graph_to_web
@@ -32,6 +32,11 @@ def parse_args():
         choices=["louvain", "leiden"],
         default="louvain",
         help="Community detection algorithm: louvain (fast, default) or leiden (robust, requires leidenalg)"
+    )
+    parser.add_argument(
+        "--pathfinding",
+        default=None,
+        help="Find shortest path: 'NodeA,NodeZ'",
     )
     args = parser.parse_args()
     if args.config:
@@ -68,8 +73,21 @@ def main():
             community_algo=args.community_algo,
         )
         output = engine.build()
+        critical_path_result = None
+        if args.pathfinding:
+            source, target = [n.strip() for n in args.pathfinding.split(",")]
+            critical_path_result = engine.find_critical_path(source, target)
+            status = "FOUND" if critical_path_result["found"] else "NOT FOUND"
+            msg = critical_path_result.get("path", critical_path_result.get("error"))
+            print(f"Critical Path ({status}): {msg}")
         if args.export_format == "json":
-            file_path = export_graph_to_web(output, output_dir="web/data", theme=args.theme, source_path=args.input)
+            file_path = export_graph_to_web(
+            output,
+            output_dir="web/data",
+            theme=args.theme,
+            source_path=args.input,
+            critical_path=critical_path_result,
+        )
         else:
             G_export = nx.Graph()
             for n in output.nodes:

@@ -47,6 +47,12 @@
     select.appendChild(opt);
   });
 
+  const criticalPath = payload.critical_path || null;
+  const pathNodes = new Set(criticalPath?.path || []);
+  const pathEdges = new Set(
+    (criticalPath?.edges || []).map(e => `${e[0]}-${e[1]}`)
+  );
+
   const graphInstance = ForceGraph3D()
     (document.getElementById('3d-graph'))
     .graphData({ nodes: payload.nodes, links: payload.links })
@@ -57,15 +63,27 @@
     })
     .nodeColor(node => {
       const role = node.attributes?.role || 'Peripheral';
+      if (pathNodes.has(node.id)) return '#ffffff';
       if (role === 'Global Broker') return '#ff2a6a';
       if (role === 'Local Hub') return '#00ffc8';
       if (role === 'Super-Spreader') return '#ffe600';
       return '#6a3cff';
     })
-    .nodeVal(5)
+    .nodeVal(node => pathNodes.has(node.id) ? 15 : 5)
     .cooldownTicks(150)
+    .linkColor(link => {
+      const k = `${link.source}-${link.target}`;
+      const rev = `${link.target}-${link.source}`;
+      if (pathEdges.has(k) || pathEdges.has(rev)) return '#ffff00';
+      return 'rgba(255,255,255,0.15)';
+    })
+    .linkWidth(link => {
+      const k = `${link.source}-${link.target}`;
+      const rev = `${link.target}-${link.source}`;
+      if (pathEdges.has(k) || pathEdges.has(rev)) return 3.5;
+      return Math.min(1.5, (link.weight || 1) * 0.5);
+    })
     .linkOpacity(0.3)
-    .linkWidth(link => Math.min(1.5, (link.weight || 1) * 0.5));
 
   let currentThreshold = 0;
   let currentGroup = 'all';
