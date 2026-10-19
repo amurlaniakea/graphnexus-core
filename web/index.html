@@ -45,8 +45,10 @@
     <label for="node-search">Node Search</label>
     <input type="text" id="node-search" placeholder="Node ID..." />
   </div>
+  <button onclick="exportMetrics()">📥 Exportar Métricas</button>
   <button id="reset-cam">Reset Camera</button>
 </div>
+<div id="node-analysis-panel" style="display:none; position:fixed; top:20px; right:20px; background:#0f0f17; border:1px solid #2a2a40; padding:20px; border-radius:8px; max-width:420px; z-index:1000; color:#e6e6fa; font-family:'Courier New',monospace; box-shadow:0 0 20px rgba(0,255,200,0.2);"></div>
 <script src="app.js?v=2.1"></script>
 </body>
 </html>

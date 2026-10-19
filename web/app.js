@@ -136,6 +136,38 @@
     }
   });
 
+  graphInstance.onNodeClick(node => {
+    const panel = document.getElementById('node-analysis-panel');
+    const role = node.attributes?.role || 'Peripheral';
+    const bet = (node.attributes?.betweenness || 0).toFixed(4);
+    const close = (node.attributes?.closeness || 0).toFixed(4);
+    const deg = (node.attributes?.centrality || 0).toFixed(4);
+    panel.innerHTML = `
+      <h3 style="margin:0 0 12px 0; color:#00ffc8;">🔍 ${node.id}</h3>
+      <p><strong>Rol:</strong> <span style="color:#ffe600;">${role}</span></p>
+      <p><strong>Grupo:</strong> ${node.group}</p>
+      <hr style="border-color:#2a2a40; margin:10px 0;">
+      <h4 style="margin:0 0 8px 0; font-size:12px; color:#888;">📊 Métricas</h4>
+      <p style="font-size:12px; margin:2px 0;"><strong>Betweenness:</strong> ${bet}</p>
+      <p style="font-size:12px; margin:2px 0;"><strong>Closeness:</strong> ${close}</p>
+      <p style="font-size:12px; margin:2px 0;"><strong>Degree:</strong> ${deg}</p>
+      <p style="font-size:10px; color:#666; margin-top:4px;">Betweenness: puente / Closeness: alcance rápido</p>
+    `;
+    panel.style.display = 'block';
+  });
+
+  window.exportMetrics = () => {
+    const nodes = window.graphData.nodes;
+    let csv = 'id,role,group,betweenness,closeness,degree\n';
+    nodes.forEach(n => {
+      csv += `"${n.id}","${n.attributes?.role || 'Peripheral'}",${n.group},${(n.attributes?.betweenness || 0).toFixed(4)},${(n.attributes?.closeness || 0).toFixed(4)},${(n.attributes?.centrality || 0).toFixed(4)}\n`;
+    });
+    const blob = new Blob([csv], {type:'text/csv'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'graphnexus_metrics.csv'; a.click();
+  };
+
   document.getElementById('reset-cam').addEventListener('click', () => {
     if (graphInstance) {
       graphInstance.cameraPosition({ x: 0, y: 0, z: 250 }, { x: 0, y: 0, z: 0 }, 800);
