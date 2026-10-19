@@ -38,6 +38,11 @@ def parse_args():
         default=None,
         help="Find shortest path: 'NodeA,NodeZ'",
     )
+    parser.add_argument(
+        "--business-rule-col",
+        default=None,
+        help="Group rows by this column and connect members within each group (star topology).",
+    )
     args = parser.parse_args()
     if args.config:
         with open(args.config) as f:
@@ -52,6 +57,10 @@ def parse_args():
             args.attributes = cfg.get("attributes", "")
         if args.export_format == "json" and cfg.get("export_format"):
             args.export_format = cfg["export_format"]
+        if args.business_rule_col is None:
+            args.business_rule_col = cfg.get("business_rule_col")
+    if args.target and args.business_rule_col:
+        parser.error("--target and --business-rule-col are mutually exclusive")
     if not args.input or not args.node_id:
         parser.error("--input and --node-id are required (or set via --config)")
     return args
@@ -70,12 +79,17 @@ def main():
             node_col=args.node_id,
             target_col=args.target,
             attr_cols=attr_cols,
+            business_rule_col=args.business_rule_col,
             community_algo=args.community_algo,
         )
         output = engine.build()
         critical_path_result = None
         if args.pathfinding:
-            source, target = [n.strip() for n in args.pathfinding.split(",")]
+            parts = [n.strip() for n in args.pathfinding.split(",")]
+            if len(parts) != 2 or not all(parts):
+                sys.exit(1)
+                print("Error: --pathfinding requires exactly two node ids: 'NodeA,NodeZ'", file=sys.stderr)
+            source, target = parts
             critical_path_result = engine.find_critical_path(source, target)
             status = "FOUND" if critical_path_result["found"] else "NOT FOUND"
             msg = critical_path_result.get("path", critical_path_result.get("error"))
