@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-19T02:10:38.483173+00:00",
+    "generated_at": "2026-10-19T02:25:30.102144+00:00",
     "node_count": 15903,
     "edge_count": 4804,
     "filename": "protein.csv",
@@ -18,7 +18,7 @@
       "F8",
       "F9"
     ],
-    "theme": "Protein Network"
+    "theme": "Protein Network (archive 14 - genetics/proteins)"
   },
   "nodes": [
     {
@@ -366,7 +366,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 6.917803911703667e-06,
         "closeness": 0.0013181511954519884,
         "role": "Peripheral"
       }
@@ -386,7 +386,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 7.546695176404e-07,
+        "betweenness": 0.0,
         "closeness": 0.0003723464112425448,
         "role": "Local Hub"
       }
@@ -396,7 +396,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 6.288912647003333e-07,
+        "betweenness": 1.886673794101e-06,
         "closeness": 0.000334042692910003,
         "role": "Peripheral"
       }
@@ -646,7 +646,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.0018865551502955605,
-        "betweenness": 6.4146908999434e-06,
+        "betweenness": 1.8615181435129867e-05,
         "closeness": 0.0020736768806500793,
         "role": "Local Hub"
       }
@@ -856,7 +856,7 @@
       "group": 3164,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -906,7 +906,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 4.5280171058424e-06,
+        "betweenness": 1.0816929752845734e-05,
         "closeness": 0.0004999579377328521,
         "role": "Local Hub"
       }
@@ -1686,7 +1686,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.0005030813734121495,
-        "betweenness": 0.0,
+        "betweenness": 1.1320042764606e-06,
         "closeness": 0.00044019620173563076,
         "role": "Local Hub"
       }
@@ -1776,7 +1776,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.0013603320337064518,
         "role": "Peripheral"
       }
@@ -2206,7 +2206,7 @@
       "group": 3985,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 1.1320042764606e-06,
         "closeness": 0.00022458989884470955,
         "role": "Peripheral"
       }
@@ -2636,7 +2636,7 @@
       "group": 906,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 1.5093390352808e-06,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0003708941758064061,
         "role": "Peripheral"
       }
@@ -2926,7 +2926,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0009772500242144053,
         "role": "Local Hub"
       }
@@ -3246,7 +3246,7 @@
       "group": 906,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 1.7608955411609335e-06,
         "closeness": 0.0003563493061669392,
         "role": "Local Hub"
       }
@@ -3436,7 +3436,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 0.0,
+        "betweenness": 1.886673794101e-06,
         "closeness": 0.0005821370178054872,
         "role": "Local Hub"
       }
@@ -3626,7 +3626,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.00044670797986781456,
         "role": "Peripheral"
       }
@@ -3806,7 +3806,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 2.0124520470410667e-06,
         "closeness": 0.0004894845795361454,
         "role": "Peripheral"
       }
@@ -3816,7 +3816,7 @@
       "group": 2486,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00016170472716819088,
         "role": "Peripheral"
       }
@@ -3876,7 +3876,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.0124520470410667e-06,
+        "betweenness": 8.678699452864601e-06,
         "closeness": 0.0005206458523976598,
         "role": "Local Hub"
       }
@@ -3896,7 +3896,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.0013603320337064518,
         "role": "Local Hub"
       }
@@ -4146,7 +4146,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 8.049808188164267e-06,
+        "betweenness": 6.7920256587636e-06,
         "closeness": 0.0007501592414831163,
         "role": "Local Hub"
       }
@@ -4266,7 +4266,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 5.2826866234828e-06,
+        "betweenness": 1.2703603546946734e-05,
         "closeness": 0.0004631512183905562,
         "role": "Peripheral"
       }
@@ -4586,7 +4586,7 @@
       "group": 5644,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -5716,7 +5716,7 @@
       "group": 1897,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0003918229927536933,
         "role": "Local Hub"
       }
@@ -5726,7 +5726,7 @@
       "group": 10640,
       "attributes": {
         "centrality": 0.0005659665450886681,
-        "betweenness": 3.6475693352619334e-06,
+        "betweenness": 3.521791082321867e-06,
         "closeness": 0.0006139298116216061,
         "role": "Local Hub"
       }
@@ -5746,7 +5746,7 @@
       "group": 7775,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00019591149637684664,
         "role": "Peripheral"
       }
@@ -5986,7 +5986,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0005224306570049245,
         "role": "Local Hub"
       }
@@ -6126,7 +6126,7 @@
       "group": 612,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00016769379113738315,
         "role": "Peripheral"
       }
@@ -6156,7 +6156,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 1.0062260235205334e-06,
+        "betweenness": 0.0,
         "closeness": 0.0003930323229782417,
         "role": "Peripheral"
       }
@@ -6186,7 +6186,7 @@
       "group": 1897,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 1.0062260235205334e-06,
         "closeness": 0.0002996293473998831,
         "role": "Peripheral"
       }
@@ -6466,7 +6466,7 @@
       "group": 386,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -6736,7 +6736,7 @@
       "group": 7906,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00016769379113738315,
         "role": "Peripheral"
       }
@@ -6746,7 +6746,7 @@
       "group": 7775,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00021223745440825055,
         "role": "Local Hub"
       }
@@ -7116,7 +7116,7 @@
       "group": 2609,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00018865551502955603,
         "role": "Local Hub"
       }
@@ -7136,7 +7136,7 @@
       "group": 906,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 1.1320042764606e-06,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.0004226468515003232,
         "role": "Local Hub"
       }
@@ -7496,7 +7496,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 6.163134394063267e-06,
+        "betweenness": 5.7857996352430665e-06,
         "closeness": 0.0004167551341572869,
         "role": "Peripheral"
       }
@@ -8556,7 +8556,7 @@
       "group": 647,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 8.804477705804667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00023674417572336446,
         "role": "Local Hub"
       }
@@ -8656,7 +8656,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 0.0,
+        "betweenness": 4.1506823470222e-06,
         "closeness": 0.0004894845795361454,
         "role": "Local Hub"
       }
@@ -8766,7 +8766,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.6600213823030005e-06,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0004947858826803533,
         "role": "Peripheral"
       }
@@ -9166,7 +9166,7 @@
       "group": 10640,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 2.5206062713440215e-07,
         "closeness": 0.00047041375176200983,
         "role": "Local Hub"
       }
@@ -9616,7 +9616,7 @@
       "group": 2020,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00022009810086781538,
         "role": "Peripheral"
       }
@@ -9706,7 +9706,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 1.1320042764606e-06,
         "closeness": 0.0013389094819945392,
         "role": "Peripheral"
       }
@@ -9876,7 +9876,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006666e-06,
+        "betweenness": 8.552921199924534e-06,
         "closeness": 0.0004389165616143062,
         "role": "Peripheral"
       }
@@ -10026,7 +10026,7 @@
       "group": 1801,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020123254936485978,
         "role": "Local Hub"
       }
@@ -10166,7 +10166,7 @@
       "group": 5523,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00029265791434072156,
         "role": "Peripheral"
       }
@@ -10176,7 +10176,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0003812827251123659,
         "role": "Peripheral"
       }
@@ -10286,7 +10286,7 @@
       "group": 3492,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 6.288912647003333e-07,
         "closeness": 0.00018865551502955603,
         "role": "Peripheral"
       }
@@ -10446,7 +10446,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0009661449103028778,
         "role": "Peripheral"
       }
@@ -11256,7 +11256,7 @@
       "group": 2964,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 5.031130117602667e-07,
         "closeness": 0.00028298327254433405,
         "role": "Local Hub"
       }
@@ -11346,7 +11346,7 @@
       "group": 5080,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00018865551502955603,
         "role": "Peripheral"
       }
@@ -12296,7 +12296,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0005659665450886681,
         "role": "Local Hub"
       }
@@ -12676,7 +12676,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0004906104743876922,
         "role": "Peripheral"
       }
@@ -13256,7 +13256,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 2.6413433117414e-06,
+        "betweenness": 9.0560342116848e-06,
         "closeness": 0.0005762873938752723,
         "role": "Peripheral"
       }
@@ -13416,7 +13416,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 2.1382302999811335e-06,
         "closeness": 0.0004244749088165011,
         "role": "Peripheral"
       }
@@ -13516,7 +13516,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.0004244749088165011,
         "role": "Local Hub"
       }
@@ -13536,7 +13536,7 @@
       "group": 4251,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00022458989884470955,
         "role": "Peripheral"
       }
@@ -13726,7 +13726,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 7.546695176404e-07,
+        "betweenness": 0.0,
         "closeness": 0.0003493620648695482,
         "role": "Peripheral"
       }
@@ -14036,7 +14036,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.001298026749719897,
         "role": "Peripheral"
       }
@@ -14086,7 +14086,7 @@
       "group": 3401,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00018865551502955603,
         "role": "Peripheral"
       }
@@ -14536,7 +14536,7 @@
       "group": 7906,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00014373753526061413,
         "role": "Peripheral"
       }
@@ -15156,7 +15156,7 @@
       "group": 1156,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 3.780909407016032e-07,
         "closeness": 0.00025154068670607473,
         "role": "Peripheral"
       }
@@ -15196,7 +15196,7 @@
       "group": 5523,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 7.546695176404e-07,
+        "betweenness": 0.0,
         "closeness": 0.000317046073869115,
         "role": "Local Hub"
       }
@@ -15376,7 +15376,7 @@
       "group": 2486,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.0001741435523349748,
         "role": "Peripheral"
       }
@@ -15456,7 +15456,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006666e-06,
         "closeness": 0.0003734998075332625,
         "role": "Peripheral"
       }
@@ -15586,7 +15586,7 @@
       "group": 1185,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.00031442585838259337,
         "role": "Peripheral"
       }
@@ -16286,7 +16286,7 @@
       "group": 5523,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.000253636859095292,
         "role": "Local Hub"
       }
@@ -16996,7 +16996,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0004080737762035712,
         "role": "Peripheral"
       }
@@ -17576,7 +17576,7 @@
       "group": 2020,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00025678111767911795,
         "role": "Peripheral"
       }
@@ -17806,7 +17806,7 @@
       "group": 2688,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 8.804477705804667e-07,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0004471834430330217,
         "role": "Local Hub"
       }
@@ -17846,7 +17846,7 @@
       "group": 9042,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -18126,7 +18126,7 @@
       "group": 906,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00028847324784942694,
         "role": "Peripheral"
       }
@@ -18396,7 +18396,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 1.1320042764606e-06,
+        "betweenness": 0.0,
         "closeness": 0.0003869856718554996,
         "role": "Local Hub"
       }
@@ -18486,7 +18486,7 @@
       "group": 1405,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00018865551502955603,
         "role": "Local Hub"
       }
@@ -18846,7 +18846,7 @@
       "group": 1483,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00019651616148912086,
         "role": "Peripheral"
       }
@@ -19016,7 +19016,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 3.0186780705616e-06,
+        "betweenness": 1.5123637628064128e-06,
         "closeness": 0.0007222029964589009,
         "role": "Local Hub"
       }
@@ -19406,7 +19406,7 @@
       "group": 1483,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00019651616148912086,
         "role": "Local Hub"
       }
@@ -19576,7 +19576,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 1.7608955411609335e-06,
+        "betweenness": 0.0,
         "closeness": 0.0002947742422336813,
         "role": "Local Hub"
       }
@@ -20056,7 +20056,7 @@
       "group": 11933,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00016769379113738315,
         "role": "Peripheral"
       }
@@ -20466,7 +20466,7 @@
       "group": 1564,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00018865551502955603,
         "role": "Peripheral"
       }
@@ -20506,7 +20506,7 @@
       "group": 6874,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.0062260235205334e-06,
         "closeness": 0.00026831006581981304,
         "role": "Peripheral"
       }
@@ -20646,7 +20646,7 @@
       "group": 2964,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00018191781806421476,
         "role": "Peripheral"
       }
@@ -20796,7 +20796,7 @@
       "group": 7775,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00025468494528990064,
         "role": "Peripheral"
       }
@@ -20966,7 +20966,7 @@
       "group": 1604,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -21266,7 +21266,7 @@
       "group": 2720,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0001741435523349748,
         "role": "Peripheral"
       }
@@ -21296,7 +21296,7 @@
       "group": 1630,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00018865551502955603,
         "role": "Peripheral"
       }
@@ -21316,7 +21316,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.0005030813734121495,
-        "betweenness": 1.35840513175272e-05,
+        "betweenness": 1.0062260235205333e-05,
         "closeness": 0.0008875929956479621,
         "role": "Local Hub"
       }
@@ -21586,7 +21586,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 1.1320042764606e-06,
         "closeness": 0.00045478101564855826,
         "role": "Local Hub"
       }
@@ -21656,7 +21656,7 @@
       "group": 12028,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020123254936485978,
         "role": "Local Hub"
       }
@@ -21666,7 +21666,7 @@
       "group": 8898,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00025154068670607473,
         "role": "Peripheral"
       }
@@ -21726,7 +21726,7 @@
       "group": 1185,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 1.7608955411609335e-06,
         "closeness": 0.00021118154667487617,
         "role": "Peripheral"
       }
@@ -22206,7 +22206,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00043350628985515003,
         "role": "Peripheral"
       }
@@ -22836,7 +22836,7 @@
       "group": 1759,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00018865551502955603,
         "role": "Local Hub"
       }
@@ -22946,7 +22946,7 @@
       "group": 4155,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -22976,7 +22976,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.3835607823407334e-06,
         "closeness": 0.0003081373412149415,
         "role": "Peripheral"
       }
@@ -23626,7 +23626,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.0004069871784907276,
         "role": "Peripheral"
       }
@@ -24076,7 +24076,7 @@
       "group": 5523,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 1.2577825294006666e-06,
+        "betweenness": 0.0,
         "closeness": 0.00029265791434072156,
         "role": "Peripheral"
       }
@@ -24086,7 +24086,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0003734998075332625,
         "role": "Local Hub"
       }
@@ -24156,7 +24156,7 @@
       "group": 10640,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 1.2603031356720108e-07,
         "closeness": 0.00045277323607093446,
         "role": "Peripheral"
       }
@@ -24376,7 +24376,7 @@
       "group": 1881,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -24686,7 +24686,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.0062260235205334e-06,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0005902268143648885,
         "role": "Peripheral"
       }
@@ -25136,7 +25136,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 4.5280171058424e-06,
         "closeness": 0.00053267439537757,
         "role": "Local Hub"
       }
@@ -25596,7 +25596,7 @@
       "group": 1982,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00028012485564994687,
         "role": "Peripheral"
       }
@@ -25866,7 +25866,7 @@
       "group": 647,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 8.804477705804667e-07,
         "closeness": 0.00020123254936485978,
         "role": "Local Hub"
       }
@@ -25976,7 +25976,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.2640085529212e-06,
+        "betweenness": 8.552921199924534e-06,
         "closeness": 0.0005510485299099319,
         "role": "Local Hub"
       }
@@ -26126,7 +26126,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0003700669048904935,
         "role": "Peripheral"
       }
@@ -26426,7 +26426,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.5344946858688133e-05,
+        "betweenness": 1.09427080057858e-05,
         "closeness": 0.0008742457325555115,
         "role": "Peripheral"
       }
@@ -26436,7 +26436,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 8.804477705804667e-07,
+        "betweenness": 2.6413433117414e-06,
         "closeness": 0.0003994372941675167,
         "role": "Peripheral"
       }
@@ -26606,7 +26606,7 @@
       "group": 1982,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00020542489414329435,
         "role": "Peripheral"
       }
@@ -26836,7 +26836,7 @@
       "group": 3492,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00020580601639587928,
         "role": "Peripheral"
       }
@@ -27406,7 +27406,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.0005030813734121495,
-        "betweenness": 3.773347588202e-06,
+        "betweenness": 1.0816929752845734e-05,
         "closeness": 0.0005991559412512751,
         "role": "Local Hub"
       }
@@ -27886,7 +27886,7 @@
       "group": 2628,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00018865551502955603,
         "role": "Local Hub"
       }
@@ -28116,7 +28116,7 @@
       "group": 647,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 6.288912647003333e-07,
         "closeness": 0.00023674417572336446,
         "role": "Peripheral"
       }
@@ -28136,7 +28136,7 @@
       "group": 4919,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00028012485564994687,
         "role": "Peripheral"
       }
@@ -28436,7 +28436,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020788486504634272,
         "role": "Peripheral"
       }
@@ -28756,7 +28756,7 @@
       "group": 3298,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00025154068670607473,
         "role": "Peripheral"
       }
@@ -29086,7 +29086,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 7.4209169234639335e-06,
+        "betweenness": 6.4146908999434e-06,
         "closeness": 0.0006424015603860941,
         "role": "Peripheral"
       }
@@ -29436,7 +29436,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 1.5093390352808e-06,
+        "betweenness": 0.0,
         "closeness": 0.0003723464112425448,
         "role": "Local Hub"
       }
@@ -29566,7 +29566,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 6.4146908999434e-06,
         "closeness": 0.0005749501410424564,
         "role": "Peripheral"
       }
@@ -29696,7 +29696,7 @@
       "group": 612,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020123254936485978,
         "role": "Peripheral"
       }
@@ -30546,7 +30546,7 @@
       "group": 2964,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00023153176844536424,
         "role": "Peripheral"
       }
@@ -30926,7 +30926,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 6.288912647003333e-07,
+        "betweenness": 0.0,
         "closeness": 0.00031442585838259337,
         "role": "Peripheral"
       }
@@ -31156,7 +31156,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00044019620173563076,
-        "betweenness": 3.521791082321867e-06,
+        "betweenness": 2.6413433117414e-06,
         "closeness": 0.0007312873108797675,
         "role": "Local Hub"
       }
@@ -31646,7 +31646,7 @@
       "group": 8291,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -32556,7 +32556,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 1.0062260235205334e-06,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0005842948865823268,
         "role": "Local Hub"
       }
@@ -32596,7 +32596,7 @@
       "group": 5389,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00025154068670607473,
         "role": "Local Hub"
       }
@@ -32886,7 +32886,7 @@
       "group": 2720,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00022638661803546723,
         "role": "Peripheral"
       }
@@ -33096,7 +33096,7 @@
       "group": 1897,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.0002996293473998831,
         "role": "Local Hub"
       }
@@ -33326,7 +33326,7 @@
       "group": 8691,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020123254936485978,
         "role": "Peripheral"
       }
@@ -33566,7 +33566,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 1.1320042764606001e-05,
+        "betweenness": 6.540469152883467e-06,
         "closeness": 0.0007222029964589009,
         "role": "Local Hub"
       }
@@ -33606,7 +33606,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 6.288912647003334e-06,
         "closeness": 0.00040587983117021864,
         "role": "Peripheral"
       }
@@ -34736,7 +34736,7 @@
       "group": 5370,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00022146516981730492,
         "role": "Peripheral"
       }
@@ -34776,7 +34776,7 @@
       "group": 2688,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00028747507052122827,
         "role": "Peripheral"
       }
@@ -35176,7 +35176,7 @@
       "group": 2720,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020580601639587928,
         "role": "Peripheral"
       }
@@ -35436,7 +35436,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 1.0062260235205334e-06,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0006880158723661719,
         "role": "Peripheral"
       }
@@ -35726,7 +35726,7 @@
       "group": 10640,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 3.144456323501667e-06,
+        "betweenness": 5.031130117602667e-07,
         "closeness": 0.00047041375176200983,
         "role": "Peripheral"
       }
@@ -36276,7 +36276,7 @@
       "group": 1185,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 5.031130117602667e-07,
         "closeness": 0.0003290503169120163,
         "role": "Local Hub"
       }
@@ -36706,7 +36706,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 6.4146908999434e-06,
+        "betweenness": 5.911577888183133e-06,
         "closeness": 0.00047849663551392194,
         "role": "Peripheral"
       }
@@ -37096,7 +37096,7 @@
       "group": 2882,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -37526,7 +37526,7 @@
       "group": 4919,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0001812572595382009,
         "role": "Peripheral"
       }
@@ -37676,7 +37676,7 @@
       "group": 5523,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00023778455540183626,
         "role": "Peripheral"
       }
@@ -37706,7 +37706,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.3835607823407334e-06,
+        "betweenness": 7.546695176404e-06,
         "closeness": 0.00047780790251683965,
         "role": "Peripheral"
       }
@@ -38136,7 +38136,7 @@
       "group": 2964,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 1.0062260235205334e-06,
         "closeness": 0.00023153176844536424,
         "role": "Peripheral"
       }
@@ -38656,7 +38656,7 @@
       "group": 3985,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 6.288912647003333e-07,
         "closeness": 0.00028584168943872123,
         "role": "Peripheral"
       }
@@ -39276,7 +39276,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 2.5206062713440215e-07,
         "closeness": 0.0003043853687871829,
         "role": "Peripheral"
       }
@@ -39516,7 +39516,7 @@
       "group": 3077,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -39596,7 +39596,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 1.1320042764606e-06,
         "closeness": 0.0005135622353582358,
         "role": "Peripheral"
       }
@@ -39666,7 +39666,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 0.0,
+        "betweenness": 1.5123637628064128e-06,
         "closeness": 0.00041709198120254507,
         "role": "Local Hub"
       }
@@ -40046,7 +40046,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0003994372941675167,
         "role": "Peripheral"
       }
@@ -40676,7 +40676,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0009886133965889912,
         "role": "Peripheral"
       }
@@ -42186,7 +42186,7 @@
       "group": 3293,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00026202154865216117,
         "role": "Local Hub"
       }
@@ -42246,7 +42246,7 @@
       "group": 3298,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.00030958853748439967,
         "role": "Peripheral"
       }
@@ -42886,7 +42886,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 1.1320042764606001e-05,
+        "betweenness": 6.163134394063267e-06,
         "closeness": 0.0005962804227173489,
         "role": "Local Hub"
       }
@@ -43916,7 +43916,7 @@
       "group": 5370,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0002996293473998831,
         "role": "Local Hub"
       }
@@ -44116,7 +44116,7 @@
       "group": 1185,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 1.6351172882208666e-06,
         "closeness": 0.0002572575204948491,
         "role": "Peripheral"
       }
@@ -44566,7 +44566,7 @@
       "group": 3489,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -44606,7 +44606,7 @@
       "group": 3492,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00015092441202364484,
         "role": "Peripheral"
       }
@@ -44956,7 +44956,7 @@
       "group": 3510,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -44986,7 +44986,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 7.1693604175838e-06,
         "closeness": 0.0013389094819945392,
         "role": "Local Hub"
       }
@@ -45506,7 +45506,7 @@
       "group": 7422,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -45636,7 +45636,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 4.1506823470222e-06,
+        "betweenness": 1.05653732469656e-05,
         "closeness": 0.0005719215802853081,
         "role": "Local Hub"
       }
@@ -45866,7 +45866,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 6.0373561411232e-06,
+        "betweenness": 5.7857996352430665e-06,
         "closeness": 0.0003667971054570442,
         "role": "Peripheral"
       }
@@ -46016,7 +46016,7 @@
       "group": 12733,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -46506,7 +46506,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0003215719006185614,
         "role": "Local Hub"
       }
@@ -46716,7 +46716,7 @@
       "group": 3298,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00019165004701415217,
         "role": "Peripheral"
       }
@@ -46886,7 +46886,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.001298026749719897,
         "role": "Peripheral"
       }
@@ -49456,7 +49456,7 @@
       "group": 8276,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -49946,7 +49946,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.001298026749719897,
         "role": "Peripheral"
       }
@@ -50506,7 +50506,7 @@
       "group": 7775,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 6.288912647003333e-07,
+        "betweenness": 0.0,
         "closeness": 0.00028298327254433405,
         "role": "Peripheral"
       }
@@ -50656,7 +50656,7 @@
       "group": 3985,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 8.804477705804667e-07,
         "closeness": 0.00027341378989790725,
         "role": "Local Hub"
       }
@@ -50946,7 +50946,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 7.4209169234639335e-06,
+        "betweenness": 6.540469152883467e-06,
         "closeness": 0.0005563381934444164,
         "role": "Local Hub"
       }
@@ -51316,7 +51316,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00036295023364259937,
         "role": "Peripheral"
       }
@@ -51386,7 +51386,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.001298026749719897,
         "role": "Peripheral"
       }
@@ -52266,7 +52266,7 @@
       "group": 5389,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 5.031130117602667e-07,
         "closeness": 0.00026831006581981304,
         "role": "Peripheral"
       }
@@ -53256,7 +53256,7 @@
       "group": 3401,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 7.546695176404e-07,
+        "betweenness": 0.0,
         "closeness": 0.00024255709075228632,
         "role": "Peripheral"
       }
@@ -53836,7 +53836,7 @@
       "group": 4251,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.0001746810324347741,
         "role": "Peripheral"
       }
@@ -54786,7 +54786,7 @@
       "group": 4919,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00020542489414329435,
         "role": "Peripheral"
       }
@@ -55026,7 +55026,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 7.546695176404e-07,
+        "betweenness": 2.2640085529212e-06,
         "closeness": 0.00036470361641381964,
         "role": "Peripheral"
       }
@@ -55756,7 +55756,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.000371889894569757,
         "role": "Peripheral"
       }
@@ -56836,7 +56836,7 @@
       "group": 4486,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -58556,7 +58556,7 @@
       "group": 1982,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.00028012485564994687,
         "role": "Local Hub"
       }
@@ -58706,7 +58706,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0002566741701082395,
         "role": "Peripheral"
       }
@@ -60506,7 +60506,7 @@
       "group": 2486,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00022638661803546723,
         "role": "Peripheral"
       }
@@ -60716,7 +60716,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.00026202154865216117,
         "role": "Peripheral"
       }
@@ -61636,7 +61636,7 @@
       "group": 3401,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00022146516981730492,
         "role": "Peripheral"
       }
@@ -61816,7 +61816,7 @@
       "group": 1185,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 8.804477705804667e-07,
+        "betweenness": 1.3835607823407334e-06,
         "closeness": 0.0003824098277626136,
         "role": "Local Hub"
       }
@@ -62876,7 +62876,7 @@
       "group": 1185,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006666e-06,
+        "betweenness": 8.804477705804667e-07,
         "closeness": 0.0003824098277626136,
         "role": "Peripheral"
       }
@@ -63026,7 +63026,7 @@
       "group": 3985,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00025154068670607473,
         "role": "Peripheral"
       }
@@ -63176,7 +63176,7 @@
       "group": 3293,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 5.031130117602667e-07,
         "closeness": 0.00019651616148912086,
         "role": "Peripheral"
       }
@@ -63256,7 +63256,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-06,
         "closeness": 0.0004471834430330217,
         "role": "Peripheral"
       }
@@ -63396,7 +63396,7 @@
       "group": 3492,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00018865551502955603,
         "role": "Peripheral"
       }
@@ -63476,7 +63476,7 @@
       "group": 2964,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.00028298327254433405,
         "role": "Peripheral"
       }
@@ -63826,7 +63826,7 @@
       "group": 3298,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00022359172151651085,
         "role": "Peripheral"
       }
@@ -63866,7 +63866,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00026202154865216117,
         "role": "Peripheral"
       }
@@ -65796,7 +65796,7 @@
       "group": 5227,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 5.041212542688043e-07,
         "closeness": 0.00026202154865216117,
         "role": "Peripheral"
       }
@@ -66176,7 +66176,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0009772500242144053,
         "role": "Peripheral"
       }
@@ -67516,7 +67516,7 @@
       "group": 9673,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -67526,7 +67526,7 @@
       "group": 5370,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00022146516981730492,
         "role": "Peripheral"
       }
@@ -67726,7 +67726,7 @@
       "group": 5389,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.00025154068670607473,
         "role": "Local Hub"
       }
@@ -68056,7 +68056,7 @@
       "group": 5227,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00019651616148912086,
         "role": "Peripheral"
       }
@@ -68156,7 +68156,7 @@
       "group": 1801,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00016769379113738315,
         "role": "Peripheral"
       }
@@ -69796,7 +69796,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0003292896262334069,
         "role": "Peripheral"
       }
@@ -70026,7 +70026,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.0003068847503969946,
         "role": "Peripheral"
       }
@@ -70586,7 +70586,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.000426139516302056,
         "role": "Peripheral"
       }
@@ -71156,7 +71156,7 @@
       "group": 3401,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00015435451229690948,
         "role": "Peripheral"
       }
@@ -72486,7 +72486,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0002566741701082395,
         "role": "Peripheral"
       }
@@ -73886,7 +73886,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 2.767121564681467e-06,
+        "betweenness": 8.930255958744733e-06,
         "closeness": 0.000589794129669224,
         "role": "Peripheral"
       }
@@ -74146,7 +74146,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 7.546695176404e-07,
+        "betweenness": 0.0,
         "closeness": 0.0003542826573324996,
         "role": "Peripheral"
       }
@@ -74556,7 +74556,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 7.546695176404e-07,
         "closeness": 0.0004163432055824685,
         "role": "Peripheral"
       }
@@ -74726,7 +74726,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.001298026749719897,
         "role": "Peripheral"
       }
@@ -75696,7 +75696,7 @@
       "group": 5370,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00022146516981730492,
         "role": "Peripheral"
       }
@@ -75856,7 +75856,7 @@
       "group": 3164,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -77206,7 +77206,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 0.0,
+        "betweenness": 3.521791082321867e-06,
         "closeness": 0.00036961080495586486,
         "role": "Local Hub"
       }
@@ -78676,7 +78676,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.144456323501667e-06,
         "closeness": 0.0003812827251123659,
         "role": "Peripheral"
       }
@@ -79176,7 +79176,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00024186604490968722,
         "role": "Peripheral"
       }
@@ -79556,7 +79556,7 @@
       "group": 4299,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -81866,7 +81866,7 @@
       "group": 165,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -82496,7 +82496,7 @@
       "group": 6874,
       "attributes": {
         "centrality": 0.00037731103005911207,
-        "betweenness": 0.0,
+        "betweenness": 1.6351172882208666e-06,
         "closeness": 0.00040246509872971957,
         "role": "Local Hub"
       }
@@ -85136,7 +85136,7 @@
       "group": 6874,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00026831006581981304,
         "role": "Peripheral"
       }
@@ -86796,7 +86796,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0007694185711009344,
         "role": "Peripheral"
       }
@@ -87466,7 +87466,7 @@
       "group": 7906,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00014373753526061413,
         "role": "Peripheral"
       }
@@ -87806,7 +87806,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0009772500242144053,
         "role": "Peripheral"
       }
@@ -89466,7 +89466,7 @@
       "group": 5389,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 8.804477705804667e-07,
         "closeness": 0.00019165004701415217,
         "role": "Peripheral"
       }
@@ -89846,7 +89846,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.0005842948865823268,
         "role": "Peripheral"
       }
@@ -90056,7 +90056,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 2.5155650588013334e-07,
+        "betweenness": 0.0,
         "closeness": 0.0003184059325393351,
         "role": "Peripheral"
       }
@@ -90646,7 +90646,7 @@
       "group": 12760,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00014149163627216702,
         "role": "Peripheral"
       }
@@ -91316,7 +91316,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.0003521569613885046,
         "role": "Peripheral"
       }
@@ -92166,7 +92166,7 @@
       "group": 5370,
       "attributes": {
         "centrality": 0.0003144258583825934,
-        "betweenness": 8.804477705804667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0002996293473998831,
         "role": "Local Hub"
       }
@@ -92416,7 +92416,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 0.0,
+        "betweenness": 1.6351172882208666e-06,
         "closeness": 0.00020542489414329435,
         "role": "Peripheral"
       }
@@ -92546,7 +92546,7 @@
       "group": 3985,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00016995992345005047,
         "role": "Peripheral"
       }
@@ -92776,7 +92776,7 @@
       "group": 906,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006666e-06,
+        "betweenness": 8.804477705804667e-07,
         "closeness": 0.00040386254698919775,
         "role": "Peripheral"
       }
@@ -93106,7 +93106,7 @@
       "group": 3985,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 2.5155650588013334e-07,
         "closeness": 0.00020961723892172891,
         "role": "Peripheral"
       }
@@ -93166,7 +93166,7 @@
       "group": 12028,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00016769379113738315,
         "role": "Peripheral"
       }
@@ -93646,7 +93646,7 @@
       "group": 5006,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00033538758227476625,
         "role": "Peripheral"
       }
@@ -95606,7 +95606,7 @@
       "group": 906,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 0.0,
+        "betweenness": 5.031130117602667e-07,
         "closeness": 0.0003188388528862087,
         "role": "Peripheral"
       }
@@ -95676,7 +95676,7 @@
       "group": 4022,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -95886,7 +95886,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 4.276460599962267e-06,
+        "betweenness": 1.0439594994025533e-05,
         "closeness": 0.0005354159475011395,
         "role": "Peripheral"
       }
@@ -98886,7 +98886,7 @@
       "group": 3401,
       "attributes": {
         "centrality": 0.00018865551502955603,
-        "betweenness": 1.0062260235205334e-06,
+        "betweenness": 0.0,
         "closeness": 0.0002037479562319205,
         "role": "Peripheral"
       }
@@ -103996,7 +103996,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 6.288912647003333e-07,
+        "betweenness": 0.0,
         "closeness": 0.0003105440576618206,
         "role": "Peripheral"
       }
@@ -105686,7 +105686,7 @@
       "group": 5058,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.0002764183370396425,
         "role": "Peripheral"
       }
@@ -106076,7 +106076,7 @@
       "group": 8691,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 3.773347588202e-07,
+        "betweenness": 0.0,
         "closeness": 0.00016769379113738315,
         "role": "Peripheral"
       }
@@ -111406,7 +111406,7 @@
       "group": 2282,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00028298327254433405,
         "role": "Peripheral"
       }
@@ -111516,7 +111516,7 @@
       "group": 3401,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.031130117602667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00024255709075228632,
         "role": "Peripheral"
       }
@@ -113676,7 +113676,7 @@
       "group": 9352,
       "attributes": {
         "centrality": 0.00025154068670607473,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00012577034335303736,
         "role": "Peripheral"
       }
@@ -120716,7 +120716,7 @@
       "group": 11933,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 0.0,
         "closeness": 0.00014373753526061413,
         "role": "Peripheral"
       }
@@ -122256,7 +122256,7 @@
       "group": 1536,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.2577825294006667e-07,
         "closeness": 0.00037731103005911207,
         "role": "Peripheral"
       }
@@ -123306,7 +123306,7 @@
       "group": 5260,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.001298026749719897,
         "role": "Peripheral"
       }
@@ -131786,7 +131786,7 @@
       "group": 664,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 5.6600213823030005e-06,
+        "betweenness": 5.534243129362934e-06,
         "closeness": 0.0004947858826803533,
         "role": "Peripheral"
       }
@@ -134356,7 +134356,7 @@
       "group": 1771,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 0.0,
+        "betweenness": 1.5093390352808e-06,
         "closeness": 0.00025154068670607473,
         "role": "Peripheral"
       }
@@ -134606,7 +134606,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.00028064553382029986,
         "role": "Peripheral"
       }
@@ -136616,7 +136616,7 @@
       "group": 4348,
       "attributes": {
         "centrality": 0.00012577034335303736,
-        "betweenness": 1.2577825294006667e-07,
+        "betweenness": 3.773347588202e-07,
         "closeness": 0.000334042692910003,
         "role": "Peripheral"
       }
@@ -183073,5 +183073,9 @@
       "target": "20.976",
       "weight": 1.0
     }
-  ]
+  ],
+  "critical_path": {
+    "found": false,
+    "error": "No path exists between nodes"
+  }
 }
