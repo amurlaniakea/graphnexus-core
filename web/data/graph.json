@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-19T01:17:00.074341+00:00",
+    "generated_at": "2026-10-19T01:18:21.015635+00:00",
     "node_count": 36,
     "edge_count": 644,
     "filename": "global_ai_jobs_2026.csv",
@@ -45,7 +45,7 @@
       "Record_Created",
       "Data_Source"
     ],
-    "theme": "Fase 2.1 final"
+    "theme": "AI Jobs Market - Critical Path"
   },
   "nodes": [
     {
