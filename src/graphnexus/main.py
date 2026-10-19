@@ -39,6 +39,11 @@ def parse_args():
         help="Find shortest path: 'NodeA,NodeZ'",
     )
     parser.add_argument(
+        "--time-col",
+        default=None,
+        help="Column with timestamps (ISO / YYYY-MM-DD / Unix) for temporal filtering.",
+    )
+    parser.add_argument(
         "--business-rule-col",
         default=None,
         help="Group rows by this column and connect members within each group (star topology).",
@@ -59,6 +64,8 @@ def parse_args():
             args.export_format = cfg["export_format"]
         if args.business_rule_col is None:
             args.business_rule_col = cfg.get("business_rule_col")
+        if args.time_col is None:
+            args.time_col = cfg.get("time_col")
     if args.target and args.business_rule_col:
         parser.error("--target and --business-rule-col are mutually exclusive")
     if not args.input or not args.node_id:
@@ -80,6 +87,7 @@ def main():
             target_col=args.target,
             attr_cols=attr_cols,
             business_rule_col=args.business_rule_col,
+            time_col=args.time_col,
             community_algo=args.community_algo,
         )
         output = engine.build()

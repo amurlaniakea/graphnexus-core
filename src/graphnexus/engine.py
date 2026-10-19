@@ -56,6 +56,7 @@ class UniversalGraphEngine:
         target_col: str | None = None,
         attr_cols: list[str] | None = None,
         business_rule_col: str | None = None,
+        time_col: str | None = None,
         community_algo: str = "louvain",
     ):
         self.source_path = Path(source_path)
@@ -64,6 +65,7 @@ class UniversalGraphEngine:
         self.target_col = target_col
         self.attr_cols = attr_cols or []
         self.business_rule_col = business_rule_col
+        self.time_col = time_col
         self.community_algo = community_algo
 
     def load_data(self) -> pd.DataFrame:
@@ -144,6 +146,15 @@ class UniversalGraphEngine:
                             G[center][node]["weight"] += 1.0
                         else:
                             G.add_edge(center, node, weight=1.0)
+
+        # Temporal parsing (Unix timestamp for frontend)
+        time_range = None
+        if self.time_col and self.time_col in df.columns:
+            df['_ts_raw'] = pd.to_datetime(df[self.time_col], errors='coerce')
+            df['_unix_time'] = df['_ts_raw'].astype('int64') // 10**9
+            valid = df['_unix_time'].notna()
+            if valid.any():
+                time_range = [int(df.loc[valid, '_unix_time'].min()), int(df.loc[valid, '_unix_time'].max())]
 
         # Structural centrality metrics (sampled for performance)
         k_sample = min(500, len(G)) if len(G) > 0 else 1

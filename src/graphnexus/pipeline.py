@@ -22,6 +22,7 @@ def export_graph_to_web(
     source_path: str | None = None,
     critical_path: dict | None = None,
 ) -> str:
+    time_range = None  # inicializar para evitar UnboundLocalError
     out_path = Path(output_dir)
     out_path.mkdir(parents=True, exist_ok=True)
     metadata = {
@@ -49,6 +50,13 @@ def export_graph_to_web(
         metadata["filename"] = None
     if theme:
         metadata["theme"] = theme
+    if time_range is not None:
+        metadata["time_range"] = time_range
+    time_range = None
+    # Intentar extraer rango temporal de los nodos que tengan timestamp
+    ts_vals = [n.attributes.get("timestamp") for n in graph_output.nodes if n.attributes.get("timestamp") is not None]
+    if ts_vals:
+        time_range = [min(ts_vals), max(ts_vals)]
     payload = {
         "metadata": metadata,
         "nodes": [
