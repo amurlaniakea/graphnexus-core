@@ -12,7 +12,10 @@ Agnostic framework that transforms any tabular dataset (CSV/JSON) into a formal 
 - **Agnostic Ingestion**: Accepts any CSV or JSON file. You define the node, target, and attribute columns.
 - **Strict Validation**: Powered by Pydantic to ensure data integrity between Python and the frontend.
 - **Community Detection**: Automatic Louvain clustering to identify hidden groups and ecosystems.
-- **Interactive 3D Visualization**: Zero-config WebGL dashboard (`3d-force-graph`) with real-time filtering.
+- **Interactive 3D Visualization**: Zero-config WebGL dashboard (`3d-force-graph`) with real-time filtering, role-based coloring, and critical path highlighting.
+- **Structural Intelligence**: Automatic classification of Global Brokers, Local Hubs, Super-Spreaders, and Peripheral nodes via Betweenness/Closeness/Closeness centrality.
+- **Pathfinding Engine**: Shortest-path tracing (`--pathfinding`) for tracing critical routes between entities.
+- **Metrics Export**: Download node-level metrics (CSV) from the visual dashboard.
 - **Local-First & Secure**: No external API calls. All processing happens on your machine.
 
 ## 🚀 Quick Start
@@ -25,7 +28,8 @@ pip install graphnexus-core
 # Run the CLI tool directly
 graphnexus --input examples/web_stack.csv --node-id repo_name --target co_contributor --attributes "stars,language"
 
-# Then open `web/index.html` in your browser
+# Then open `python3 -m http.server 8080 --directory web` and navigate to `localhost:8080`
+# User docs: `docs/USER_GUIDE.md` explains roles, centrality metrics, and visual interpretation
 ```
 
 ### Option 2: Install from Source
