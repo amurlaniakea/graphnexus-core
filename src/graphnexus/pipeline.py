@@ -52,7 +52,6 @@ def export_graph_to_web(
         metadata["theme"] = theme
     if time_range is not None:
         metadata["time_range"] = time_range
-    time_range = None
     # Intentar extraer rango temporal de los nodos que tengan timestamp
     ts_vals = [n.attributes.get("timestamp") for n in graph_output.nodes if n.attributes.get("timestamp") is not None]
     if ts_vals:

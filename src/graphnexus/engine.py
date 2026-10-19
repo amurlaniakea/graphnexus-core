@@ -190,25 +190,43 @@ class UniversalGraphEngine:
             for nid in comm:
                 group_map[str(nid)] = idx
 
+        # Timestamp temporal injection (Fase 4 backend)
+        time_range = None
+        if self.time_col and self.time_col in df.columns:
+            df['_ts_raw'] = pd.to_datetime(df[self.time_col], errors='coerce')
+            df['_unix_time'] = df['_ts_raw'].astype('int64') // 10**9
+            valid = df['_unix_time'].notna()
+            if valid.any():
+                time_range = [int(df.loc[valid, '_unix_time'].min()), int(df.loc[valid, '_unix_time'].max())]
+
         # Build output
-        out_nodes = [
-            Node(
+        out_nodes = []
+        for nid in G.nodes():
+            node_attrs = {**nodes.get(str(nid), {})}
+            if self.time_col and self.time_col in df.columns and '_unix_time' in df.columns:
+                nid_str = str(nid)
+                matches = df[df[self.node_col].astype(str) == nid_str]
+                if not matches.empty:
+                    ts_series = matches.iloc[:1]['_unix_time']
+                    ts_val = ts_series.iloc[0] if len(ts_series) > 0 else float('nan')
+                    if not pd.isna(ts_val):
+                        node_attrs['timestamp'] = int(ts_val)
+            out_nodes.append(Node(
                 id=str(nid),
                 group=group_map.get(str(nid), -1),
                 attributes={
-                    **nodes.get(str(nid), {}),
-                    "centrality": float(centrality_map.get(str(nid), 0.0)),
-                    "betweenness": float(betweenness_map.get(str(nid), 0.0)),
-                    "closeness": float(closeness_map.get(str(nid), 0.0)),
-                    "role": roles.get(str(nid), "Peripheral"),
+                    **node_attrs,
+                    'centrality': float(centrality_map.get(str(nid), 0.0)),
+                    'betweenness': float(betweenness_map.get(str(nid), 0.0)),
+                    'closeness': float(closeness_map.get(str(nid), 0.0)),
+                    'role': roles.get(str(nid), 'Peripheral'),
                 },
-            )
-            for nid in G.nodes()
-        ]
+            ))
         out_edges = [
-            Edge(source=str(u), target=str(v), weight=float(G[u][v].get("weight", 1.0)))
+            Edge(source=str(u), target=str(v), weight=float(G[u][v].get('weight', 1.0)))
             for u, v in G.edges()
         ]
+
         return GraphOutput(nodes=out_nodes, edges=out_edges)
 
     def export(self, G: nx.Graph, output_path: str, fmt: str = "json") -> str:
