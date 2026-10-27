@@ -1,0 +1,27 @@
+name: Publicar en PyPI
+on:
+  release:
+    types: [published]
+jobs:
+  deploy:
+    name: Compilar y Distribuir Paquete
+    runs-on: ubuntu-latest
+    environment: pypi
+    steps:
+      - name: Clonar código fuente seguro
+        uses: actions/checkout@v4
+      - name: Configurar entorno de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar dependencias de compilación
+        run: |
+          python -m pip install --upgrade pip
+          pip install build twine
+      - name: Compilar los archivos distribuidos (Wheels y Tarball)
+        run: python -m build
+      - name: Publicar paquete en PyPI con token aislado
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.APITOKENDEPYPI }}
+        run: twine upload dist/*
